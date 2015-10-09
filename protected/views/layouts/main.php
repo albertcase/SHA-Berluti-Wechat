@@ -12,9 +12,8 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="Keywords" content="">
 	<meta name="Description" content="...">
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/UD/reset.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/UD/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/css/style.css" />
 </head>
 <body>
 	<?php echo $content; ?>

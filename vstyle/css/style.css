@@ -1,0 +1,105 @@
+
+
+body{
+	width: 100%;
+	position: relative;
+	background:#030d1c;
+	height: 100%;
+}
+
+header,article,footer{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+article{
+	height: 100%;
+	overflow: auto;
+}
+
+.logo{
+	width: 42%;
+	display: inline-block;
+	margin: 2.6em 0;
+}
+
+.container{
+	width: 90%;
+	display: inline-block;
+	color: #fff;
+	text-align: left;
+	padding: 0 0 6.7em 0;
+}
+
+.info,.info ul,.info li{
+	width: 100%;
+	display: inline-block;
+}
+
+.info{
+	padding: 0 0 1em 0;
+}
+
+.info h1{
+	font-size: 2em;
+	padding: 0 0 6px 0;
+}
+
+.info li{
+	padding: 2px 0 0 0;
+	line-height: 18px;
+}
+
+.info li span,.info li p{
+	float: left;
+	display: inline-block;
+}
+
+.info li span{
+	padding: 0 3px 0 0;
+	font-weight: bold;
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url("/vstyle/imgs/footer_bg.jpg") repeat-x;
+}
+
+footer .con{
+	width: 90%;
+	text-align: left;
+	position: absolute;
+	left: 5%;
+	top: 36%;
+	z-index: 2;
+}
+
+footer .con em{
+	width: 50%;
+	float: left;
+	display: inline-block;
+	color: #fff;
+}
+
+footer .con a{
+	width: 50%;
+	float: right;
+	display: inline-block;
+	color: #fff;
+	text-align: right;
+}
+
+footer .con a img{
+	width: 10%;
+	display: inline-block;
+	margin: 0 6px 0 0;
+	vertical-align: middle;
+}
+
+.opacity{
+	opacity: 0;
+}
+

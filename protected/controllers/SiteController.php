@@ -29,11 +29,12 @@ class SiteController extends Controller
 		$this->render('history');
 	}
 
-	public function actionStore($id)
+	public function actionStore()   //actionStore($id)
 	{
-		$sql = "select * from same_store where id = ".intval($id);
-		$store = Yii::app()->db->createCommand($sql)->queryRow();
-		$this->render('store', array('store' => $store));
+		//$sql = "select * from same_store where id = ".intval($id);
+		//$store = Yii::app()->db->createCommand($sql)->queryRow();
+		//$this->render('store', array('store' => $store));
+		$this->render('store');
 	}
 
 	/**
