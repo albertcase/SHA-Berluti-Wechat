@@ -5,38 +5,16 @@
 	</a>
 </header>
 <section class="container">
-	<div class="info">
-		<h1><?php echo $store['name']?></h1>
-		<ul>
-			<li>
-				<span>营业时间</span>
-				<p><?php echo $store['open']?></p>
-			</li>
-			<li>
-				<span>
-					地址
-				</span>
-				<p>
-					<?php echo $store['address']?>
-				</p>
-			</li>
-			<li>
-				<span>
-					联系方式 
-				</span>
-				<p>
-					<a href="javascript:;" id="tel"> 
-						<?php echo $store['telphone']?>
-					</a>
-				</p>
-			</li>
-			
-		</ul>
-	</div>
-	
+
 	<a href="javascript:;">
-		<img src="<?php echo $store['mapUrl']?>" width="100%" />
+		<img src="/vstyle/imgs/guide.jpg" width="100%" />
 	</a>
+
+	<div class="guideInfo">
+		按"+"按钮，推送您的地址信息<br />
+		即可获得您附近的Berluti专卖店位置
+	</div>
+
 </section>
 </article>
 <!-- <footer>
