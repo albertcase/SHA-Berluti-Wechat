@@ -26,7 +26,9 @@
 				</span>
 				<p>
 					<a href="javascript:;" id="tel"> 
+						<u>
 						<?php echo $store['telphone']?>
+						</u>
 					</a>
 				</p>
 			</li>
