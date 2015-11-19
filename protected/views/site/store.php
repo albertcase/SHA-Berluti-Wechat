@@ -36,6 +36,17 @@
 		</ul>
 	</div>
 	
+	<div class="b_type">
+		<img src="/vstyle/imgs/b_type_head.jpg" width="100%" />
+		
+		<img src="/vstyle/imgs/b_type_1.jpg" width="100%" />
+		<img src="/vstyle/imgs/b_type_2.jpg" width="100%" />
+		<img src="/vstyle/imgs/b_type_3.jpg" width="100%" />
+		<img src="/vstyle/imgs/b_type_4.jpg" width="100%" />
+
+		<img src="/vstyle/imgs/b_type_footer.jpg" width="100%" />
+	</div>
+
 	<a href="javascript:;">
 		<img src="<?php echo $store['mapUrl']?>" width="100%" />
 	</a>
