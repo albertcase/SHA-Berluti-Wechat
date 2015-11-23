@@ -35,7 +35,6 @@
 			
 		</ul>
 	</div>
-	<?php echo $store['offer'];exit;?>
 	<div class="b_type">
 		<img src="/vstyle/imgs/b_type_head.jpg" width="100%" />
 		<?php if (strpos($store['offer'], '配饰') >= 0) {?>
