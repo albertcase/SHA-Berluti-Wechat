@@ -132,6 +132,45 @@ footer .con a img{
 	margin: 16px 0;
 }
 
+.b_type_overview{
+	width: 80%;
+	display: inline-block;
+	margin: 16px 0;
+}
+
+.b_type_overview ul, .b_type_overview li{
+	width: 100%;
+}
+
+.b_type_overview li{
+	display: inline-block;
+}
+
+.b_type_overview li a{
+	width: 100%;
+	padding: 8px 0;
+	color: #1a1b1b;
+	font-size: 14px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

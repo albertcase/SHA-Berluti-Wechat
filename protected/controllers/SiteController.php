@@ -33,6 +33,10 @@ class SiteController extends Controller
 		$this->render('guide');
 	}
 
+	public function actionList(){
+		$this->render('list');
+	}
+
 	public function actionStore($id)   //actionStore($id)
 	{
 		$sql = "select * from same_store where id = ".intval($id);
