@@ -34,7 +34,9 @@ class SiteController extends Controller
 	}
 
 	public function actionList(){
-		$this->render('list');
+		$sql = "select * from same_store";
+		$storeList = Yii::app()->db->createCommand($sql)->queryAll();
+		$this->render('list', array('storeList' => $storeList));
 	}
 
 	public function actionStore($id)   //actionStore($id)
