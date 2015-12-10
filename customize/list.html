@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/PxLoader.js"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 
     <script type="text/javascript" src="js/swiper.min.js"></script>
@@ -28,6 +29,8 @@
 
 </head>
 <body>
+<div class="loading"></div>
+
 <div class="coupon">
 	<div class="slideTips">
 		<span>
@@ -46,7 +49,7 @@
 	<img src="img/backArr.png" />
 </a> -->
 
-<div class="swiperpage">
+<div class="swiperpage" id="dreambox">
 
 	<div class="swiperpage_con">
 		<!-- Swiper -->
@@ -241,10 +244,12 @@
 </div>
 
 <script type="text/javascript" src="js/main.js"></script>  
-
+<script type="text/javascript" src="js/loading.js"></script>  
 
 <!-- Initialize Swiper -->
 <script type="text/javascript">
+	loading(LoadingImg);
+	
     var swiper = new Swiper('#listSwiper', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
