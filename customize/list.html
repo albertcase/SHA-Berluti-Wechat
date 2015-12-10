@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Berluti</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<!--禁用手机号码链接(for iPhone)-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui" />
+	<!--自适应设备宽度-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--控制全屏时顶部状态栏的外，默认白色-->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="Keywords" content="">
+	<meta name="Description" content="...">
+
+   
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/PxLoader.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="http://player.youku.com/jsapi"></script>
+
+
+</head>
+<body>
+<div class="loading"></div>
+
+<div class="coupon">
+	<div class="slideTips">
+		<span>
+			<img src="img/hands.png" width="100%" />
+		</span>
+		<img src="img/tmTips.png" />
+	</div>
+
+	<div class="fresh_tips"><button id="freshBtn">刷新</button><label>已刮开 <span id="drawPercent">0%</span> 区域。</label></div>
+	<div id="lotteryContainer"></div>
+	<img src="img/shoeTree.png" width="100%" class="opacity0" />
+</div>
+
+
+<!-- <a href="start.html" class="backArr">
+	<img src="img/backArr.png" />
+</a> -->
+
+<div class="swiperpage" id="dreambox">
+
+	<div class="swiperpage_con">
+		<!-- Swiper -->
+	    <div class="swiper-container" id="listSwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<img src="img/p1.png" width="90%" />
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<img src="img/p2.png" width="90%" />
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide stop-swiping">
+	            	<div class="infocon">
+	            		<img src="img/p3.png" width="90%" />
+	            		<div class="smear">
+	            			<img src="img/shoeTree.png" />
+	            		</div>
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<img src="img/p4.png" width="90%" />
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<div class="video">
+	            			<div id="mod_player"></div>
+
+	            			<div class="poster">
+								<span></span>
+								<img src="img/poster.jpg" width="100%" />
+							</div>
+							<img src="img/poster.jpg" width="100%" class="opacity0" />
+	            		</div>
+	            		<img src="img/p5.png" width="90%" />
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<img src="img/p6.png" width="90%" />
+	            	</div>
+	            	<a href="javascript:;" class="arr">
+				        <img src="img/arr.png" width="100%" />
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="infocon">
+	            		<img src="img/p7.png" width="100%" />
+	            		<div class="products">
+
+	            			<!-- Swiper -->
+						    <div class="swiper-container" id="proSwiper">
+						        <div class="swiper-wrapper">
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro2_draw.png" class="draw" />
+						            			<img src="img/pro/pro1.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>B9款式</h2>
+							            		<p>
+							            			“靴匠型”5孔眼双鞋翼及翼纹鞋头牛津鞋，采用传统    Goodyear缝制技术。皮料为烟草色Venezia小牛皮，   搭配橄榄色衬里及相配的山毛榉木鞋楦。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro2_draw.png" class="draw" />
+						            			<img src="img/pro/pro2.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>B9 b 款式</h2>
+							            		<p>
+							            			此款鞋履是B9款式的变奏，最明显的区别在于其鞋头装饰由翼纹鞋头改成横饰装饰，使其更加适合在正式的场合穿着。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro3_draw.png" class="draw" />
+						            			<img src="img/pro/pro3.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>B3款式</h2>
+							            		<p>
+							            			“优雅型”2片式德比鞋，采用传统Goodyear缝制技术。有上/下缚鞋带两种选择，鞋底为皮质。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro4_draw.png" class="draw" />
+						            			<img src="img/pro/pro4.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>Constance 1 款式</h2>
+							            		<p>
+							            			“Constance”风格5孔眼两片式平滑鞋翼牛津鞋，灵感源自巴莫尔牛津鞋。鞋头及鞋面由咖啡色皮革制成，配以Saint-Emillion酒红色鞋跟及鞋底。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro5_draw.png" class="draw" />
+						            			<img src="img/pro/pro5.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>Constance 2 款式</h2>
+							            		<p>
+							            			“Constance”5孔眼两片式平滑鞋翼牛津鞋，皮料有蓝黑色Venezia小牛皮及鳄鱼皮两种选择，搭配波尔多酒红色衬里及相配的山毛榉木鞋楦。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro6_draw.png" class="draw" />
+						            			<img src="img/pro/pro5.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>B7款式</h2>
+							            		<p>
+							            			单件皮革5孔眼牛津鞋，灵感源自Alessandro鞋履。采用方形鞋头设计和传统Goodyear缝制技术。由蓝黑色Venezia小牛皮制成，搭配Saint-Emillion酒红色鞋底。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						            <div class="swiper-slide">
+						            	<dl class="proInfo">
+						            		<dt>
+						            			<img src="img/pro/pro7_draw.png" class="draw" />
+						            			<img src="img/pro/pro7.png" class="p" width="100%" />
+						            		</dt>
+						            		<dd>
+												<h2>B8款式</h2>
+							            		<p>
+							            			以”Dandy”为灵感的两片式拉链连拉链覆盖短靴，采用传统Goodyear缝制技术和马蹄形鞋跟设计。
+							            		</p>
+						            		</dd>
+						            	</dl>
+						            </div>
+						        </div>
+						        <!-- Add Pagination -->
+						        <div class="swiper-pagination"></div>
+						    </div>
+
+	            		</div>
+	            		<a href="contact.html" class="startBtn">
+				            <img src="img/startBtn.png" width="100%" />
+				        </a>
+	            	</div>
+	            </div>
+	            
+	            
+	        </div> 
+
+	    </div>
+    </div>
+
+    
+    <img src="img/insideBg.jpg" width="100%" />
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>  
+<script type="text/javascript" src="js/loading.js"></script>  
+
+<!-- Initialize Swiper -->
+<script type="text/javascript">
+	loading(LoadingImg);
+	
+    var swiper = new Swiper('#listSwiper', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical',
+        iOSEdgeSwipeDetection : true,
+        noSwiping : true,
+		noSwipingClass : 'stop-swiping',
+        onSlideChangeEnd: function(swiper){
+        	if(swiper.activeIndex==2){
+		    	$(".coupon").css({"z-index": 6});
+		    	smearFun();
+		    }else{
+		    	$(".coupon").css({"z-index": "-1"});
+		    }
+
+		    if(swiper.activeIndex!=4){
+		    	pauseVideo();
+		    }
+
+		    if(swiper.activeIndex==6){
+		    	ani();
+		    }else{
+		    	$("#proSwiper .swiper-slide-active .draw").css({"opacity": 1});
+		    	$("#proSwiper .swiper-slide-active .p").removeAttr("style");
+		    }
+
+	    }
+    });
+
+
+
+    var proSwiper = new Swiper('#proSwiper', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'horizontal',
+        onSlideChangeEnd: function(swiper){
+		    ani();
+	    }
+    });
+
+
+    $(".slideTips").bind("touchstart", function (event) {
+    	$(this).hide();
+    })
+
+ 
+</script>
+
+<script type="text/javascript" src="js/lottery.js"></script>  
+
+<script type="text/javascript" src="js/public.js"></script>
+
+<!-- 横屏代码 -->
+<div id="orientLayer" class="mod-orient-layer">
+    <div class="mod-orient-layer__content">
+        <i class="icon mod-orient-layer__icon-orient"></i>
+        <div class="mod-orient-layer__desc">为了更好的体验，请使用竖屏浏览</div>
+    </div>
+</div>
+
+
+</body>
+</html>

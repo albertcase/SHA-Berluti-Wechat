@@ -1,0 +1,584 @@
+html, body{
+	font-family:Tahoma,Arial,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+	background: #fff;
+	font-size: 12px;
+	width: 100%;
+	position: relative;
+	font-size: 62.5%;
+}
+
+.opacity0{
+	opacity:0;
+} 
+
+.page{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	position: relative;
+	text-align: center;
+}
+
+.con{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	text-align: center;
+}
+
+.bg{
+	width: 100%;
+}
+
+.logo{
+	width: 46%;
+	display: inline-block;
+	margin: 9% 0 0 0;
+}
+
+.logo_black{
+	width: 38%;
+	display: inline-block;
+	margin: 0% 0 0 0;
+}
+
+.orderBtn{
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 7%;
+	margin: 0 0 0 -25%;
+}
+
+.startBtn{
+	width: 40%;
+	position: absolute;
+	left: 50%;
+	bottom: 7%;
+	margin: 0 0 0 -20%;
+}
+
+
+
+/* start */
+
+.shose{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	text-align: left;
+}
+
+.shose img{
+	width: 90%;
+}
+
+.slogan{
+	width: 100%;
+	display: inline-block;
+	margin: 42% 0 0 0;
+}
+
+.slogan img{
+	width: 100%;
+}
+
+
+
+/* list */
+.backArr{
+	width: 10%;
+	position: absolute;
+	left: 3%;
+	top: 3%;
+	z-index: 10;
+	text-align: center;
+}
+
+.backArr img{
+	width: 38%;
+	display: inline-block;
+}
+
+.swiperpage{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.video{
+  width: 80%;
+  /*height: 40%;*/
+  background: blue;
+  position: absolute;
+  left: 10%;
+  top: 11%;
+  z-index: 2;
+}
+
+#mod_player{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.poster{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  /*display: none;*/
+}
+
+.poster span{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: url("../img/play.png") center no-repeat;
+  background-size: 18% auto;
+}
+
+
+.products{
+	width: 100%;
+	position: relative;
+}
+
+
+/* contact */
+.contact_con{
+	width: 100%;
+	display: inline-block;
+	margin: 6% 0 0 0;
+}
+
+.contact_img{
+	width: 50%;
+	display: inline-block;
+}
+
+.contact_name,.contact_tel{
+	margin: 15% 0;
+	display: inline-block;
+}
+
+
+
+
+/*-- Swiper's CSS --*/
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: none;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.infocon{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	left: 0;
+	top: 10%;
+	vertical-align: top;
+}
+
+.proInfo,.proInfo dt{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+/*.proInfo dt{
+	padding: 10% 0;
+}*/
+
+.proInfo dd{
+	width: 80%;
+	display: inline-block;
+}
+
+.proInfo dd h2{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.proInfo dd p{
+	font-size: 1.3rem;
+	padding: 4% 0;
+	text-align: left;
+	line-height: 2rem;
+}
+
+.proInfo dt img.p{
+	opacity: 0;
+}
+
+.draw{
+	width: 100%;
+	/*background: #fff;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	opacity: 0;
+}
+
+.swiper-slide-active .draw{
+	opacity: 1;
+}
+
+.swiper-container-horizontal>.swiper-pagination{
+	bottom:none;
+	top: 53%;
+}
+
+.swiper-pagination-bullet{
+	opacity: 1;
+	background: #c8c8c8;
+}
+
+.swiper-pagination-bullet-active{
+	background: #313131;
+}
+
+.swiperpage_con{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.coupon{
+	width: 69%;
+	position: absolute;
+	left: 16%;
+	top: 40%;
+	overflow: hidden;
+	/*z-index: 6;*/
+	z-index: -1;
+}
+
+.slideTips{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+}
+
+.slideTips span{
+	width: 28%;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	margin: 0 0 0 -15%;
+}
+
+.slideTips img{
+	width: 50%;
+	display: inline-block;
+	margin: 27% 0 0 0;
+}
+
+.fresh_tips{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: -2em;
+	z-index: 2;
+	opacity: 0.3;
+	/*display: none;*/
+}
+
+#lotteryContainer{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 6;
+}
+
+.smear{
+	width: 100%;
+	display: inline-block;
+	margin: 9% 0 0 0;
+	opacity: 0;
+}
+
+.smear img{
+	width: 57%;
+	display: inline-block;
+}
+
+
+
+/* 6plus */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+
+}
+
+/* 6 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 410px) and (orientation: portrait) {
+
+}
+
+/* 5s */
+
+@media handheld and (min-height:490px),screen and (max-height:510px) {
+
+}
+
+/* 4s */
+
+@media handheld and (min-height:400px),screen and (max-height:420px) {
+	.bg{
+		width: auto;
+		height: 127%;
+	}
+
+	.page{
+		overflow: hidden;
+	}
+
+	.shose{
+		top: -10%;
+	}
+
+	.shose img{
+		width: 80%;
+	}
+
+
+	.slogan{
+		width: 100%;
+		display: inline-block;
+		margin: 10% 0 0 0;
+	}
+
+	.slogan img{
+		width: 100%;
+	}
+
+	.infocon{
+		width: 100%;
+		height: 94%;
+		position: absolute;
+		left: 0;
+		top: 6%;
+		vertical-align: top;
+	}
+
+	.contact_img{
+		width: 42%;
+		display: inline-block;
+	}
+
+	.contact_name,.contact_tel{
+		margin: 15% 0;
+		display: inline-block;
+	}
+
+	.smear{
+		margin: 7% 0 0 0;
+	}
+
+	.proInfo dt{
+		width: 80%;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination{
+		top: 49%;
+	}
+
+	.video{
+		top: 14%;
+	}
+
+
+}
+
+
+
+
+
+
+/* arr */
+
+.arr{
+	width: 6%;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	bottom: 2%;
+	margin: 0 0 0 -3%;
+	z-index: 2; 
+}
+
+.stop-swiping .arr{
+	display: none;
+}
+
+.arr {
+	-webkit-animation: bouncingBox 2s linear infinite;
+	-moz-animation: bouncingBox 2s linear infinite;
+	-ms-animation: bouncingBox 2s linear infinite;
+	-o-animation: bouncingBox 2s linear infinite;
+	animation: bouncingBox 2s linear infinite;
+}
+
+@-webkit-keyframes bouncingBox {
+	0% {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 0;
+	}
+
+	25% {
+		-webkit-transform: translateY(-38%);
+		-moz-transform: translateY(-38%);
+		-ms-transform: translateY(-38%);
+		-o-transform: translateY(-38%);
+		transform: translateY(-38%);
+		opacity: 1;
+	}
+
+	75% {
+		-webkit-transform: translateY(38%);
+		-moz-transform: translateY(38%);
+		-ms-transform: translateY(38%);
+		-o-transform: translateY(38%);
+		transform: translateY(38%);
+		opacity: 0.6;
+	}
+
+	100% {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+.slideTips span{
+	-webkit-animation: handsAni 2s linear infinite;
+	-moz-animation: handsAni 2s linear infinite;
+	-ms-animation: handsAni 2s linear infinite;
+	-o-animation: handsAni 2s linear infinite;
+	animation: handsAni 2s linear infinite;
+}
+
+
+
+@-webkit-keyframes handsAni {
+	0% {
+		-webkit-transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		-ms-transform: translate(0, 0);
+		-o-transform: translate(0, 0);
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+
+	25% {
+		-webkit-transform: translate(-40%, 9%);
+		-moz-transform: translate(-40%, 9%);
+		-ms-transform: translate(-40%, 9%);
+		-o-transform: translate(-40%, 9%);
+		transform: translate(-40%, 9%);
+		opacity:1;
+	}
+
+	75% {
+		-webkit-transform: translate(40%, 22%);
+		-moz-transform: translate(40%, 22%);
+		-ms-transform: translate(40%, 22%);
+		-o-transform: translate(40%, 22%);
+		transform: translate(40%, 22%);
+		opacity:1;
+	}
+
+	100% {
+		-webkit-transform: translate(-40%, 38%);
+		-moz-transform: translate(-40%, 38%);
+		-ms-transform: translate(-40%, 38%);
+		-o-transform: translate(-40%, 38%);
+		transform: translate(-40%, 38%);
+		opacity:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+#dreambox{
+	opacity: 0;
+}
+
+.loading{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	background: rgba(255,255,255,0.8) url("../img/loading.gif") center no-repeat;
+}
+
+
