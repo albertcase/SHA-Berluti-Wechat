@@ -82,6 +82,19 @@ html, body{
 
 
 /* list */
+.backArr{
+	width: 10%;
+	position: absolute;
+	left: 3%;
+	top: 3%;
+	z-index: 10;
+	text-align: center;
+}
+
+.backArr img{
+	width: 38%;
+	display: inline-block;
+}
 
 .swiperpage{
 	width: 100%;
@@ -630,5 +643,26 @@ html, body{
 }
 
 
+
+
+
+
+
+
+
+
+#dreambox{
+	opacity: 0;
+}
+
+.loading{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	background: rgba(255,255,255,0.8) url("../img/loading.gif") center no-repeat;
+}
 
 
