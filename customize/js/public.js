@@ -27,7 +27,7 @@ var jssdkPushData = {
     "url": wechatUrl
 };
 
-//ajaxfun("POST", "/Request.php?model=jssdk", jssdkPushData, "json", jssdkCallback);
+ajaxfun("POST", "/Request.php?model=jssdk", jssdkPushData, "json", jssdkCallback);
 
 function jssdkCallback(data){
     if(data.result == "success"){
@@ -42,16 +42,19 @@ function jssdkCallback(data){
 
 
 var shareData = {
-        title: '登临“臻品之墙”，分享你与沛纳海的 故事！',
-        desc: '我的照片刚刚登上了沛纳海的“臻品之墙” 期待你的参与哦。',
+        title: 'berluti',
+        desc: 'berluti 定制',
         link: window.location.host,
         imgUrl: 'http://' + window.location.host + '/imgs/share.jpg'
 };
 
 function wechatShare(appid_val, timestamp_val, nonceStr_val, signature_val){
-
+    alert(appid_val);
+    alert(timestamp_val);
+    alert(nonceStr_val);
+    alert(signature_val);
   wx.config({
-      debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+      debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
       appId: appid_val, // 必填，公众号的唯一标识
       timestamp: timestamp_val, // 必填，生成签名的时间戳
       nonceStr: nonceStr_val, // 必填，生成签名的随机串
