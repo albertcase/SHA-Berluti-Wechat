@@ -53,6 +53,15 @@ html, body{
 	margin: 0 0 0 -25%;
 }
 
+.startBtn{
+	width: 42%;
+	position: absolute;
+	left: 50%;
+	bottom: 7%;
+	margin: 0 0 0 -21%;
+}
+
+
 
 /* start */
 
