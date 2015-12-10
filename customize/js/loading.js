@@ -77,11 +77,11 @@ function loading(allAmg){
 			$(this).attr("src",$(this).attr("sourcesrc"));
 		})
 		$(".loading").hide();
-		
+
 	} , function (p){
 		$("#dreambox").stop().animate({"opacity": p});
 		//$("#loading span").html("<i>"+p+"%</i>");
-		console.log(p);
+		//console.log(p);
 	});
 }
 
