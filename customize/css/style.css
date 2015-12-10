@@ -72,7 +72,7 @@ html, body{
 .slogan{
 	width: 100%;
 	display: inline-block;
-	margin: 50% 0 0 0;
+	margin: 42% 0 0 0;
 }
 
 .slogan img{
@@ -110,7 +110,7 @@ html, body{
   background: blue;
   position: absolute;
   left: 10%;
-  top: 14%;
+  top: 11%;
   z-index: 2;
 }
 
@@ -421,6 +421,10 @@ html, body{
 		top: 46%;
 	}
 
+	.video{
+		top: 14%;
+	}
+
 
 }
 
@@ -441,6 +445,10 @@ html, body{
 	z-index: 2; 
 }
 
+.stop-swiping .arr{
+	display: none;
+}
+
 .arr {
 	-webkit-animation: bouncingBox 2s linear infinite;
 	-moz-animation: bouncingBox 2s linear infinite;
@@ -455,23 +463,26 @@ html, body{
 		-moz-transform: translateY(0);
 		-ms-transform: translateY(0);
 		-o-transform: translateY(0);
-		transform: translateY(0)
+		transform: translateY(0);
+		opacity: 0;
 	}
 
 	25% {
-		-webkit-transform: translateY(-20%);
-		-moz-transform: translateY(-20%);
-		-ms-transform: translateY(-20%);
-		-o-transform: translateY(-20%);
-		transform: translateY(-20%)
+		-webkit-transform: translateY(-38%);
+		-moz-transform: translateY(-38%);
+		-ms-transform: translateY(-38%);
+		-o-transform: translateY(-38%);
+		transform: translateY(-38%);
+		opacity: 1;
 	}
 
 	75% {
-		-webkit-transform: translateY(20%);
-		-moz-transform: translateY(20%);
-		-ms-transform: translateY(20%);
-		-o-transform: translateY(20%);
-		transform: translateY(20%)
+		-webkit-transform: translateY(38%);
+		-moz-transform: translateY(38%);
+		-ms-transform: translateY(38%);
+		-o-transform: translateY(38%);
+		transform: translateY(38%);
+		opacity: 0.6;
 	}
 
 	100% {
@@ -479,114 +490,10 @@ html, body{
 		-moz-transform: translateY(0);
 		-ms-transform: translateY(0);
 		-o-transform: translateY(0);
-		transform: translateY(0)
+		transform: translateY(0);
+		opacity: 0;
 	}
 }
-
-@-moz-keyframes bouncingBox {
-	0% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-
-	25% {
-		-webkit-transform: translateY(-20%);
-		-moz-transform: translateY(-20%);
-		-ms-transform: translateY(-20%);
-		-o-transform: translateY(-20%);
-		transform: translateY(-20%)
-	}
-
-	75% {
-		-webkit-transform: translateY(20%);
-		-moz-transform: translateY(20%);
-		-ms-transform: translateY(20%);
-		-o-transform: translateY(20%);
-		transform: translateY(20%)
-	}
-
-	100% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-}
-
-@-ms-keyframes bouncingBox {
-	0% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-
-	25% {
-		-webkit-transform: translateY(-20%);
-		-moz-transform: translateY(-20%);
-		-ms-transform: translateY(-20%);
-		-o-transform: translateY(-20%);
-		transform: translateY(-20%)
-	}
-
-	75% {
-		-webkit-transform: translateY(20%);
-		-moz-transform: translateY(20%);
-		-ms-transform: translateY(20%);
-		-o-transform: translateY(20%);
-		transform: translateY(20%)
-	}
-
-	100% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-}
-
-@keyframes bouncingBox {
-	0% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-
-	25% {
-		-webkit-transform: translateY(-20%);
-		-moz-transform: translateY(-20%);
-		-ms-transform: translateY(-20%);
-		-o-transform: translateY(-20%);
-		transform: translateY(-20%)
-	}
-
-	75% {
-		-webkit-transform: translateY(20%);
-		-moz-transform: translateY(20%);
-		-ms-transform: translateY(20%);
-		-o-transform: translateY(20%);
-		transform: translateY(20%)
-	}
-
-	100% {
-		-webkit-transform: translateY(0);
-		-moz-transform: translateY(0);
-		-ms-transform: translateY(0);
-		-o-transform: translateY(0);
-		transform: translateY(0)
-	}
-}
-
-
-
 
 
 

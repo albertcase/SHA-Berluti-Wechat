@@ -64,7 +64,7 @@ Lottery.prototype = {
         this.maskCtx.beginPath();
         
         if (this.drawPercentCallback) {
-            if(this.getTransparentPercent(this.maskCtx, this.width, this.height) >= 56){
+            if(this.getTransparentPercent(this.maskCtx, this.width, this.height) >= 38){
 
                 var radgrad = this.maskCtx.createRadialGradient(x, y, 0, x, y, 300);
                 radgrad.addColorStop(0, 'rgba(0,0,0,1)');
