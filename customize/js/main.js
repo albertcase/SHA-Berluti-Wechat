@@ -38,10 +38,10 @@ $(".poster").click(function(){
 function ani(){
 
     $("#proSwiper .draw").stop().animate({"opacity": 1});
-    $("#proSwiper .swiper-slide-active .draw").stop().delay(600).animate({"opacity": 0});
+    $("#proSwiper .swiper-slide-active .draw").stop().animate({"opacity": 0});
 
     $("#proSwiper .p").removeAttr("style");
-    $("#proSwiper .swiper-slide-active .p").stop().delay(600).animate({"opacity": 1}, 1200);
+    $("#proSwiper .swiper-slide-active .p").stop().animate({"opacity": 1}, 1200);
  
 }
 
