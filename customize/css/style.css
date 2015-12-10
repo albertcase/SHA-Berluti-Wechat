@@ -54,11 +54,11 @@ html, body{
 }
 
 .startBtn{
-	width: 42%;
+	width: 40%;
 	position: absolute;
 	left: 50%;
 	bottom: 7%;
-	margin: 0 0 0 -21%;
+	margin: 0 0 0 -20%;
 }
 
 
@@ -427,7 +427,7 @@ html, body{
 	}
 
 	.swiper-container-horizontal>.swiper-pagination{
-		top: 50%;
+		top: 49%;
 	}
 
 	.video{
@@ -445,12 +445,12 @@ html, body{
 /* arr */
 
 .arr{
-	width: 8%;
+	width: 6%;
 	display: inline-block;
 	position: absolute;
 	left: 50%;
 	bottom: 2%;
-	margin: 0 0 0 -4%;
+	margin: 0 0 0 -3%;
 	z-index: 2; 
 }
 
