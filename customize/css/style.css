@@ -400,6 +400,14 @@ html, body{
 		margin: 7% 0 0 0;
 	}
 
+	.proInfo dt{
+		width: 80%;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination{
+		top: 46%;
+	}
+
 
 }
 

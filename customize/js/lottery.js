@@ -64,7 +64,7 @@ Lottery.prototype = {
         this.maskCtx.beginPath();
         
         if (this.drawPercentCallback) {
-            if(this.getTransparentPercent(this.maskCtx, this.width, this.height) >= 38){
+            if(this.getTransparentPercent(this.maskCtx, this.width, this.height) >= 56){
 
                 var radgrad = this.maskCtx.createRadialGradient(x, y, 0, x, y, 300);
                 radgrad.addColorStop(0, 'rgba(0,0,0,1)');
@@ -224,26 +224,36 @@ Lottery.prototype = {
 function smearFun(){
     var couponWidth = parseInt($(".coupon").css("width"));
     var couponHeight = parseInt($(".coupon").css("height"));
+    var maskImg = new Image();
+        maskImg.src = "img/mask.jpg";
+        maskImg.onload = function(){
 
-    var lottery = new Lottery('lotteryContainer', '../img/mask.jpg', 'image', couponWidth, couponHeight, drawPercent);
-    //lottery.init('../imgs/coupon-3.png', 'image');
-    
-    document.getElementById('freshBtn').onclick = function() {
-        drawPercentNode.innerHTML = '0%';
-        lottery.init(getRandomStr(), 'image');
-    }
-    
-    var drawPercentNode = document.getElementById('drawPercent');
+            var lottery = new Lottery('lotteryContainer', 'img/mask.jpg', 'image', couponWidth, couponHeight, drawPercent);
+            //lottery.init('../imgs/coupon-3.png', 'image');
+            
+            document.getElementById('freshBtn').onclick = function() {
+                drawPercentNode.innerHTML = '0%';
+                lottery.init(getRandomStr(), 'image');
+            }
+            
+            var drawPercentNode = document.getElementById('drawPercent');
 
-    function drawPercent(percent) {
-        drawPercentNode.innerHTML = percent + '%';
-        if(percent >= 2){
-            $(".smear").css({"opacity": 1}, 300);
+            function drawPercent(percent) {
+                drawPercentNode.innerHTML = percent + '%';
+                if(percent >= 2){
+                    $(".smear").css({"opacity": 1}, 300);
+                }
+            }
+
+            drawPercentNode.innerHTML = '0%';
+            lottery.init(getRandomStr(), 'image');
+
         }
-    }
 
-    drawPercentNode.innerHTML = '0%';
-    lottery.init(getRandomStr(), 'image');
+
+    
+
+    
 }
 
 
@@ -256,7 +266,7 @@ function smearFun(){
 
 function getRandomStr() {
     //num = GetRandomNum(1,2); 
-    var possiblecouponUrl = "../img/space.png";
+    var possiblecouponUrl = "img/space.png";
     return possiblecouponUrl;
 }
 
