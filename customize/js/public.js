@@ -27,14 +27,10 @@ var jssdkPushData = {
     "url": wechatUrl
 };
 
-ajaxfun("POST", "/weixin/jssdk", jssdkPushData, "json", jssdkCallback);
+ajaxfun("GET", "/weixin/jssdk", jssdkPushData, "json", jssdkCallback);
 
 function jssdkCallback(data){
-    if(data.result == "success"){
-        wechatShare(data.appid, data.time, data.noncestr, data.sign);
-    }else{
-        //console.log(data.msg);
-    }
+    wechatShare(data.appid, data.time, data.noncestr, data.sign);
 } 
 
 
