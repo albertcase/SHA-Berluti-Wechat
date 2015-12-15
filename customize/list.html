@@ -259,7 +259,6 @@
         direction: 'vertical',
         iOSEdgeSwipeDetection : true,
         noSwiping : true,
-        loop: true,
 		noSwipingClass : 'stop-swiping',
         onSlideChangeEnd: function(swiper){
         	if(swiper.activeIndex==2){
@@ -289,6 +288,7 @@
         pagination: '.swiper-pagination',
         paginationClickable: true,
         direction: 'horizontal',
+        loop: true,
         onSlideChangeEnd: function(swiper){
 		    ani();
 	    }
