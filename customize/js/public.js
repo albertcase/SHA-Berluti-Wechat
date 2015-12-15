@@ -1,3 +1,7 @@
+document.querySelector('body').addEventListener('touchstart', function (ev) {
+    event.preventDefault();
+});
+
 /* 微信分享 */
 
 function ajaxfun(ajaxType, ajaxUrl, ajaxData, ajaxDataType, ajaxCallback){
