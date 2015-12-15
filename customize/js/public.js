@@ -44,8 +44,8 @@ function jssdkCallback(data){
 
 
 var shareData = {
-        title: 'berluti',
-        desc: 'berluti 定制',
+        title: '体验Berluti至臻鞋履定制服务，感受优雅绅士风范。',
+        desc: 'Berluti定制鞋履精选珍贵皮料，历经250多项工序才得以成型，Berluti至尊体验待你开启',
         link: window.location.host,
         imgUrl: 'http://' + window.location.host + '/imgs/share.jpg'
 };
