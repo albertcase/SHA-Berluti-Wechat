@@ -74,6 +74,6 @@
 var telElement = document.getElementById("tel");
 var telU_Element = telElement.getElementsByTagName("u")[0];
 var tel = telU_Element.innerHTML.replace(/\s/ig,'');
-telElement.setAttribute("href","tel:" + tel);
+telElement.setAttribute("href","tel:" + tel.replace(/\s/g, ""));
 
 </script>
