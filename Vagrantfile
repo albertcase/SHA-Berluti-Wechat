@@ -7,8 +7,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.hostname = "Berluti-Wechat"
 
-  config.vm.network :forwarded_port, guest: 80, host: 9052
-  config.vm.network :forwarded_port, guest: 3306, host: 33052
+  config.vm.network :forwarded_port, guest: 80, host: 9108
+  config.vm.network :forwarded_port, guest: 3306, host: 33108
 
   config.ssh.username = "vagrant"
   config.ssh.password = "vagrant"
