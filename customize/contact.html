@@ -83,7 +83,10 @@
 	touch.on(target, 'swipeup', function(ev){
 		window.location.href="index.html";
 	});
-	
+
+	$(document).bind("touchmove",function (event) {
+	    event.preventDefault();
+	})
 </script>
 
 
