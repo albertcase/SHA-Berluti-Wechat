@@ -1,5 +1,5 @@
 
-$(".stop-swiping").bind("touchstart",function (event) {
+$(".stop-swiping").bind("touchmove",function (event) {
     event.preventDefault();
 })
 
