@@ -9,15 +9,16 @@
 	
 	<div class="b_type_overview">
 		<img src="/vstyle/imgs/overview_title.png" width="100%" />
-		
+		<?php foreach ($storeList as $key => $value) { ?>
+		<h2><?php echo $key;?></h2>
 		<ul>
-			<?php for ($i = 0; $i < count($storeList); $i++) { ?>
+			<?php for ($i = 0; $i < count($storeList[$key]); $i++) { ?>
 			<li>
-				<a href="/site/store?id=<?php echo $storeList[$i]['id']?>"><?php echo $storeList[$i]['name']?></a>
+				<a href="/site/store?id=<?php echo $storeList[$key][$i]['id']?>"><?php echo $storeList[$key][$i]['name']?></a>
 			</li>
 			<?php } ?>
 		</ul>
-		
+		<?php } ?>
 	</div>
 
 </section>

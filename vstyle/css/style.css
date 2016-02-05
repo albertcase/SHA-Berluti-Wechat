@@ -16,6 +16,11 @@ header,article,footer{
 article{
 	height: 100%;
 	overflow: auto;
+
+	-ms-overflow-scrolling: touch; 
+    -moz-overflow-scrolling: touch; 
+    -webkit-overflow-scrolling: touch; 
+    -o-overflow-scrolling: touch; 
 }
 
 .logo{
@@ -136,6 +141,14 @@ footer .con a img{
 	width: 60%;
 	display: inline-block;
 	margin: 16px 0;
+}
+
+.b_type_overview h2{
+	font-size: 22px;
+	width: 100%;
+	display: inline-block;
+	padding: 22px 0 9px 0;
+	font-weight: bold;
 }
 
 .b_type_overview ul, .b_type_overview li{

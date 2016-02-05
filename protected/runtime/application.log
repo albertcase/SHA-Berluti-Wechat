@@ -8810,3 +8810,85 @@ Stack trace:
 REQUEST_URI=/weixin/jssdk
 HTTP_REFERER=http://192.168.8.102:9108/customize/index.html
 ---
+2015/12/23 17:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:24:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 17:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2015/12/23 19:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "customize/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('customize/js/ma...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/customize/js/maps/swiper.min.js.map
+---
+2016/01/21 15:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'berluti.same_store' doesn't exist. The SQL statement executed was: select * from same_store.
+in /vagrant/protected/controllers/SiteController.php (38)
+in /vagrant/index.php (19)
+2016/01/21 15:39:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'berluti.same_store' doesn't exist. The SQL statement executed was: select * from same_store' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/controllers/SiteController.php(38): CDbCommand->queryAll()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionList()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('list')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/list')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/list
+---

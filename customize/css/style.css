@@ -219,9 +219,9 @@ html, body{
 .colorgif{
 	position: absolute;
     left: 50%;
-    top: 23%;
-    width: 50%;
-    margin: 0 0 0 -25%;
+    top: 22%;
+    width: 55%;
+    margin: 0 0 0 -27.5%;
 }
 
 
@@ -317,7 +317,7 @@ html, body{
 	width: 28%;
 	position: absolute;
 	left: 50%;
-	top: 20%;
+	top: 22%;
 	margin: 0 0 0 -15%;
 }
 
@@ -441,6 +441,15 @@ html, body{
 
 	.video{
 		top: 14%;
+	}
+
+
+	.colorgif{
+		position: absolute;
+	    left: 50%;
+	    top: 28%;
+	    width: 50%;
+	    margin: 0 0 0 -25%;
 	}
 
 

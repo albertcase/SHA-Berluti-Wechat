@@ -199,7 +199,7 @@
 						            <div class="swiper-slide">
 						            	<dl class="proInfo">
 						            		<dt>
-						            			<img src="img/pro/pro6_draw.png" class="draw" />
+						            			<!-- <img src="img/pro/pro6_draw.png" class="draw" /> -->
 						            			<img src="img/pro/pro5.png" class="p" width="100%" />
 						            		</dt>
 						            		<dd>
@@ -213,7 +213,7 @@
 						            <div class="swiper-slide">
 						            	<dl class="proInfo">
 						            		<dt>
-						            			<img src="img/pro/pro7_draw.png" class="draw" />
+						            			<!-- <img src="img/pro/pro7_draw.png" class="draw" /> -->
 						            			<img src="img/pro/pro7.png" class="p" width="100%" />
 						            		</dt>
 						            		<dd>
@@ -254,7 +254,6 @@
 	loading(LoadingImg);
 	
     var swiper = new Swiper('#listSwiper', {
-        pagination: '.swiper-pagination',
         paginationClickable: true,
         direction: 'vertical',
         iOSEdgeSwipeDetection : true,
@@ -296,7 +295,7 @@
 
 
     $(".slideTips").bind("touchstart", function (event) {
-    	$(this).hide();
+    	$(this).fadeOut();
     	event.preventDefault();
     })
 
