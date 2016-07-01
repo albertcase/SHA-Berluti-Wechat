@@ -82,7 +82,7 @@
 	</div>
 
 	<!-- vote -->
-	<div class="pageCon" id="vote" style="display: inline-block;">
+	<div class="pageCon" id="vote">
 
 		<div class="voteSwiperCon">
 			<!-- Swiper -->
@@ -115,8 +115,62 @@
 	</div>
 
 	<!-- video -->
-	<div class="pageCon" id="video">
+	<div class="pageCon" id="video" style="display: inline-block;">
 		
+		<div class="videoListArea">
+
+			<!-- Swiper -->
+		    <div class="swiper-container" id="videoSwiper">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<img src="/vstyle/shoe/img/place.png" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<img src="/vstyle/shoe/img/place.png" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<img src="/vstyle/shoe/img/place.png" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<img src="/vstyle/shoe/img/place.png" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<img src="/vstyle/shoe/img/place.png" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		        </div>
+
+		        <!-- Add Arrows -->
+		        <div class="swiper-button-next"></div>
+		        <div class="swiper-button-prev"></div>
+		    </div>
+
+		</div>
+
 	</div>
 
 	<!-- personal -->
@@ -152,6 +206,13 @@ $(function(){
         paginationClickable: true,
         spaceBetween: 2
     });
+
+    var swiperVideo = new Swiper('#videoSwiper', {
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+
 });
 </script>
 
