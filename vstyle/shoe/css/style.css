@@ -264,7 +264,7 @@
 /* pageCon */
 .voteSwiperCon{
 	width: 100%;
-	margin: 2% 0 0 0;
+	margin: 10% 0 0 0;
 	display: inline-block;
 }
 
@@ -278,13 +278,9 @@
 }
 
 #voteSwiper .swiper-slide.hover span{
-	color:#c1a95e;
+	color: #c1a95e;
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
 	background-size: 12% auto;
 }
-
-
-
-
 
 
