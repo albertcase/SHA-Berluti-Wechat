@@ -7,6 +7,8 @@ class ShoeController extends Controller
 	 * when an action is not explicitly requested by users.
 	 */
 
+	public $layout='//layouts/shoe';
+
 	public function actionIndex()
 	{
 		$this->render('index');
