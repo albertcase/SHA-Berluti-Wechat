@@ -2,7 +2,7 @@
 <div class="section">
 	
 	<!-- 默认页面 -->
-	<div class="pageCon" id="form" style="display: inline-block;">
+	<div class="pageCon" id="form">
 		<div class="formCon">
 			
 			<div class="formText">
@@ -30,15 +30,81 @@
 			</ul>
 
 		</div>
+
+		<div class="section_foot">
+			<span class="btn">
+				<a href="javascript:" class="submitBtn"></a>
+				<img src="/vstyle/shoe/img/submit_btn.png" width="100%">
+			</span>
+		</div>
+	</div>
+
+	<!-- 投票结果页面 -->
+	<div class="pageCon" id="voteResult" style="display: inline-block;">
+		<div class="formCon">
+			
+			<div class="formText">
+				<h2>再次感谢您的参与！</h2>
+				
+				<h3>投票结果</h3>
+			</div>
+
+			<div class="voteResult_con">
+				<div class="voteList">
+					<ul>
+						<li>
+							<div class="con">
+								<a href="javascript:;">
+									<img src="/vstyle/shoe/img/avater.png" width="100%">
+								</a>
+								<em>25%</em>
+							</div>
+							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+						</li>
+						<li>
+							<div class="con">
+								<a href="javascript:;">
+									<img src="/vstyle/shoe/img/avater.png" width="100%">
+								</a>
+								<em>45%</em>
+							</div>
+							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+						</li>
+						<li>
+							<div class="con">
+								<a href="javascript:;">
+									<img src="/vstyle/shoe/img/avater.png" width="100%">
+								</a>
+								<em>30%</em>
+							</div>
+							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+						</li>
+					</ul>
+
+					<div class="listline">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<div class="section_foot">
+			<p>
+				这么好玩的游戏，快点叫上朋友一起来参加吧！
+			</p>
+			<span class="btn">
+				<a href="javascript:" class="shareBtn"></a>
+				<img src="/vstyle/shoe/img/shareBtn.png" width="100%">
+			</span>
+		</div>
+
 	</div>
 
 
-	<div class="section_foot">
-		<span class="btn">
-			<a href="javascript:" class="submitBtn"></a>
-			<img src="/vstyle/shoe/img/submit_btn.png" width="100%">
-		</span>
-	</div>
+	
 
 </div>
 
