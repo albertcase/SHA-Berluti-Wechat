@@ -163,6 +163,12 @@ var pfun = {
         // function jssdkCallback(data){
         //     wechatShare(data.appid, data.time, data.noncestr, data.sign);
         // }  
+    },
+    isPhoneNum: function(v){
+        return /^0|^((\+?86 )|(\(\+86 \)))?(13[0-9]|15[012356789]|18[012356789]|14[57])[0-9]{8}$/.test(v);
+    },
+    isEmailNum: function(v){
+        return /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(v);
     }
 
 }

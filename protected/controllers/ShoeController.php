@@ -14,4 +14,9 @@ class ShoeController extends Controller
 		$this->render('index');
 	}
 
+	public function actionForm()
+	{
+		$this->render('form');
+	}
+
 }

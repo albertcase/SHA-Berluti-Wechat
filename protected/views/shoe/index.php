@@ -115,7 +115,7 @@
 	</div>
 
 	<!-- video -->
-	<div class="pageCon" id="video" style="display: inline-block;">
+	<div class="pageCon" id="video">
 		
 		<div class="videoListArea">
 
@@ -125,6 +125,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
+								<a href="javascript:;" class="playIcon"></a>
 								<img src="/vstyle/shoe/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
@@ -133,6 +134,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
+								<a href="javascript:;" class="playIcon"></a>
 								<img src="/vstyle/shoe/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
@@ -141,6 +143,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
+								<a href="javascript:;" class="playIcon"></a>
 								<img src="/vstyle/shoe/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
@@ -149,6 +152,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
+								<a href="javascript:;" class="playIcon"></a>
 								<img src="/vstyle/shoe/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
@@ -157,6 +161,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
+								<a href="javascript:;" class="playIcon"></a>
 								<img src="/vstyle/shoe/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
@@ -175,12 +180,107 @@
 
 	<!-- personal -->
 	<div class="pageCon" id="personal">
-		
+		<div class="personalCon ycenter">
+			<ul>
+				<li class="nopadding">
+					<div class="personalInfo">
+						<img src="/vstyle/shoe/img/p.jpg" width="100%">
+						<div class="pInfo ycenter">
+							<p>
+							   企业家<br>
+							   <strong>陈默</strong>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
+				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li>
+				<!-- <li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
+				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li>
+				<li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
+				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li> -->
+			</ul>
+		</div>
 	</div>
 
 	<!-- proShoe -->
-	<div class="pageCon" id="proShoe">
-		
+	<div class="pageCon" id="proShoe" style="display: inline-block;">
+		<div class="proShoeArea">
+			<!-- Swiper -->
+		    <div class="swiper-container" id="proShoeSwiper">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<div class="proInfo">
+									<p><strong>颜色:</strong> 蓝色</p>
+									<p><strong>材质:</strong>  Venezia皮革</p>
+									<p><strong>价格:</strong>  ¥15,000</p>
+								</div>
+								<img src="/vstyle/shoe/img/xz.jpg" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<div class="proInfo">
+									<p><strong>颜色:</strong> 蓝色</p>
+									<p><strong>材质:</strong>  Venezia皮革</p>
+									<p><strong>价格:</strong>  ¥15,000</p>
+								</div>
+								<img src="/vstyle/shoe/img/xz.jpg" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<div class="proInfo">
+									<p><strong>颜色:</strong> 蓝色</p>
+									<p><strong>材质:</strong>  Venezia皮革</p>
+									<p><strong>价格:</strong>  ¥15,000</p>
+								</div>
+								<img src="/vstyle/shoe/img/xz.jpg" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<div class="proInfo">
+									<p><strong>颜色:</strong> 蓝色</p>
+									<p><strong>材质:</strong>  Venezia皮革</p>
+									<p><strong>价格:</strong>  ¥15,000</p>
+								</div>
+								<img src="/vstyle/shoe/img/xz.jpg" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<div class="proInfo">
+									<p><strong>颜色:</strong> 蓝色</p>
+									<p><strong>材质:</strong>  Venezia皮革</p>
+									<p><strong>价格:</strong>  ¥15,000</p>
+								</div>
+								<img src="/vstyle/shoe/img/xz.jpg" width="100%">
+							</div>
+							<img src="/vstyle/shoe/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+		        </div>
+
+		        <!-- Add Arrows -->
+		        <div class="swiper-button-next"></div>
+		        <div class="swiper-button-prev"></div>
+		    </div>
+		</div>
 	</div>
 
 
@@ -212,6 +312,16 @@ $(function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     });
+
+    var swiperProShoe = new Swiper('#proShoeSwiper', {
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+
+    if($(".personalCon li").length > 3){
+    	$(".personalCon").removeClass("ycenter");
+    };
 
 });
 </script>
