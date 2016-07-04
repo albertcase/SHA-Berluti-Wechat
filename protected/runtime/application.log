@@ -11532,7 +11532,155 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
 ---
+<<<<<<< Updated upstream
 2016/07/04 11:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
+2016/07/04 11:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:22:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:28:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:45:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:45:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:46:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/shoe/js/maps/swiper.min.js.map
+---
+2016/07/04 11:47:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/shoe/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> Stashed changes
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/shoe/js/...')
 #1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
