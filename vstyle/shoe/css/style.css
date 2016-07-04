@@ -15,6 +15,7 @@
 	left: 0;
 	top: 0;
 	z-index: 6;
+	font-size: 1.2rem;
 }
 
 #head{
@@ -218,7 +219,9 @@
 
 .pageCon{
 	width: 100%;
-	margin: 5% 0;
+	height: 64%;
+	overflow: auto;
+	margin: 4% 0;
 	display: none;
 }
 
@@ -231,7 +234,18 @@
 
 .section_foot .btn{
 	margin: 12px 0 0 0;
+	position: relative;
 	display: inline-block;
+}
+
+.btn a{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	z-index: 2;
+	margin: 0 0 0 -25%;
 }
 
 .rulelink{
@@ -282,6 +296,173 @@
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
 	background-size: 12% auto;
 }
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background: url("../img/swiperArr_r.png") center no-repeat;
+	background-size: 60% auto;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background: url("../img/swiperArr_l.png") center no-repeat;
+	background-size: 60% auto;
+}
+
+.playIcon{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../img/play.png") center 56% no-repeat;
+	background-size: 27% auto;
+	z-index: 6;
+}
+
+
+/* personal */
+.personalCon{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.personalCon ul{
+	width: 72%;
+	display: inline-block;
+}
+
+.personalCon li{
+	width: 100%;
+	border-radius: 3px;
+	background: #ffffff;
+	padding: 20px 0;
+	box-shadow: 1px 2px 2px #666;
+	display: inline-block;
+	margin: 0 0 16px 0;
+	font-size: 1.2rem;
+}
+
+.personalCon li.nopadding{
+	padding: 0;
+}
+
+.personalInfo{
+	width: 100%;
+	position: relative;
+	text-align: left;
+	display: inline-block;
+}
+
+.personalInfo img{
+	width: 50%;
+	display: inline-block;
+}
+
+.pInfo{
+	width: 44%;
+	height: 100%;
+	position: absolute;
+	right: 3%;
+	top: 0;
+}
+
+.pInfo p{
+	width: 100%;
+	line-height: 1.3rem;
+	text-align: left;
+}
+
+.proInfo{
+	width: 90%;
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	bottom: 9%;
+}
+
+.proInfo p{
+	padding: 2px 0;
+	width: 100%;
+	display: inline-block;
+}
+
+/* form */
+#form{
+	text-align: center;
+}
+
+.formCon{
+	width: 80%;
+	display: inline-block;
+}
+
+.formText h2{
+	font-size: 1.8rem;
+	padding: 0 0 10px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.formText p{
+	font-size: 1.2rem;
+	padding: 6px 0;
+	line-height: 1.6rem;
+	width: 100%;
+	display: inline-block;
+}
+
+.formul, .formul li{
+	width: 100%;
+	display: inline-block;
+}
+
+.formul{
+	margin: 16px 0 0 0;
+}
+
+.formul li{
+	background: #fff;
+	margin: 16px 0;
+	text-align: left;
+}
+
+.formul li span{
+	width: 20%;
+	height: 38px;
+	line-height: 38px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+.formul li input{
+	width: 75%;
+	margin: 0 0 0 2%;
+	height: 38px;
+	line-height: 38px;
+	display: inline-block;
+}
+
+
+
+.alertNode{
+	width: 100%;
+	padding: 16px 0;
+	background: rgba(0, 0, 0, .9);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	font-size: 14px;
+	color: #c1a95e;
+	text-align: center;
+	/*letter-spacing: 0.1em;*/
+}
+
+
+
+
 
 
 
