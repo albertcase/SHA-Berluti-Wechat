@@ -329,7 +329,7 @@ $(function(){
 
 
 	<!--  
-    <script src="http://imgcache.gtimg.cn/tencentvideo_v1/tvp/js/tvp.player_v2.js"></script> -->
+	<script src="http://imgcache.gtimg.cn/tencentvideo_v1/tvp/js/tvp.player_v2.js"></script> -->
 
 
 
