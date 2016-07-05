@@ -22,28 +22,28 @@
     <!-- 分享链接 -->
     <meta name="wxm:link" content="http://wximg.qq.com/wxp/moment/Vy5RRaaAl/html/index.html">
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/shoe/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/shoe/css/swiper.min.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/shoe/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/css/style.css" />
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/shoe/js/jquery.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/jquery.js"></script>
 	
 	<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/shoe/js/public.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/public.js"></script>
 </head>
 <body>
 
 	<div id="dreambox">
 		<div id="head" class="ycenter">
 			<a href="javascript:;" class="logo">
-				<img src="/vstyle/shoe/img/logo.png" width="100%">
+				<img src="/vstyle/fasttrack/img/logo.png" width="100%">
 			</a>
 		</div>
 		<div id="container">
 			<?php echo $content; ?>
 		</div>	
 	</div>
-	<img src="/vstyle/shoe/img/bg.png" width="100%" class="opacity0">
+	<img src="/vstyle/fasttrack/img/bg.png" width="100%" class="opacity0">
 
 </body>
 </html>
