@@ -2,7 +2,7 @@
 <div class="section">
 	
 	<!-- 默认页面 -->
-	<div class="pageCon" id="form">
+	<div class="pageCon pageSection" id="form" style="display: inline-block;">
 		<div class="formCon">
 			
 			<div class="formText">
@@ -34,13 +34,13 @@
 		<div class="section_foot">
 			<span class="btn">
 				<a href="javascript:" class="submitBtn"></a>
-				<img src="/vstyle/shoe/img/submit_btn.png" width="100%">
+				<img src="/vstyle/fasttrack/img/submit_btn.png" width="100%">
 			</span>
 		</div>
 	</div>
 
 	<!-- 投票结果页面 -->
-	<div class="pageCon" id="voteResult" style="display: inline-block;">
+	<div class="pageCon pageSection" id="voteResult">
 		<div class="formCon">
 			
 			<div class="formText">
@@ -55,29 +55,29 @@
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/shoe/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
 								<em>25%</em>
 							</div>
-							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/shoe/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
 								<em>45%</em>
 							</div>
-							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/shoe/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
 								<em>30%</em>
 							</div>
-							<img src="/vstyle/shoe/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
 					</ul>
 
@@ -97,7 +97,7 @@
 			</p>
 			<span class="btn">
 				<a href="javascript:" class="shareBtn"></a>
-				<img src="/vstyle/shoe/img/shareBtn.png" width="100%">
+				<img src="/vstyle/fasttrack/img/shareBtn.png" width="100%">
 			</span>
 		</div>
 
@@ -107,6 +107,7 @@
 	
 
 </div>
+
 
 <script type="text/javascript">
 	$(".submitBtn").on("click", function(){
@@ -128,6 +129,16 @@
 		}
 	})
 </script>
+
+
+
+
+
+
+
+
+
+
 
 
 

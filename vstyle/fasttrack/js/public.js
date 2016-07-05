@@ -124,7 +124,7 @@ var pfun = {
               width: videoWidth + 'px',
               height: videoHeight + 'px',
               video: video,
-              pic: "/img/poster.jpg",
+              pic: "/vstyle/fasttrack/img/poster.jpg",
               modId: "vplay", //mod_player是刚刚在页面添加的div容器 autoplay:true
                 oninited: function () {
                     //播放器在视频载入完毕触发
