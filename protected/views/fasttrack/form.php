@@ -110,6 +110,11 @@
 
 
 <script type="text/javascript">
+	function changePage(snode, cnode){
+		$("."+snode).hide();
+		$("#"+cnode).show();
+	}
+
 	$(".submitBtn").on("click", function(){
 		var fname = $("input[name='name']").val(),
 			ftel = $("input[name='tel']").val(),
@@ -125,7 +130,7 @@
 			pfun.formErrorTips("邮件地址输入有误！");
 			$(this).removeClass("disable");
 		}else{
-			console.log(8989);
+			changePage("pageSection", "voteResult");
 		}
 	})
 </script>
