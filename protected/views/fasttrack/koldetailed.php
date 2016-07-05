@@ -89,10 +89,11 @@
 
 <script>
 	$(function(){
-		
+		var _id = "<?php echo $id ?>";
 		var swiper = new Swiper('#kolSwiper', {
 			nextButton: '.swiper-button-next',
         	prevButton: '.swiper-button-prev',
+        	initialSlide : _id
 		});
 
 	});

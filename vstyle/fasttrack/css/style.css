@@ -372,10 +372,20 @@
 	display: inline-block;
 	margin: 0 0 16px 0;
 	font-size: 1.2rem;
+	position: relative;
 }
 
 .personalCon li.nopadding{
 	padding: 0;
+}
+
+.personalCon li a{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 6;
 }
 
 .personalInfo{

@@ -24,7 +24,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
-								<a href="javascript:;" class="playIcon"></a>
+								<a href="/fasttrack/videoDetailed/id" class="playIcon"></a>
 								<img src="/vstyle/fasttrack/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
@@ -33,7 +33,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
-								<a href="javascript:;" class="playIcon"></a>
+								<a href="/fasttrack/videoDetailed/id/1" class="playIcon"></a>
 								<img src="/vstyle/fasttrack/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
@@ -42,7 +42,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
-								<a href="javascript:;" class="playIcon"></a>
+								<a href="/fasttrack/videoDetailed/id/2" class="playIcon"></a>
 								<img src="/vstyle/fasttrack/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
@@ -51,7 +51,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
-								<a href="javascript:;" class="playIcon"></a>
+								<a href="/fasttrack/videoDetailed/id/3" class="playIcon"></a>
 								<img src="/vstyle/fasttrack/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
@@ -60,7 +60,7 @@
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
-								<a href="javascript:;" class="playIcon"></a>
+								<a href="/fasttrack/videoDetailed/id/4" class="playIcon"></a>
 								<img src="/vstyle/fasttrack/img/place.png" width="100%">
 							</div>
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">

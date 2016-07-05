@@ -14,6 +14,7 @@
 		<div class="personalCon ycenter">
 			<ul>
 				<li class="nopadding">
+					<a href="/fasttrack/koldetailed/id"></a>
 					<div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/p.jpg" width="100%">
 						<div class="pInfo ycenter">
@@ -24,12 +25,14 @@
 						</div>
 					</div>
 				</li>
-				<li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
-				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li>
-				<!-- <li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
-				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li>
-				<li>他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭</li>
-				<li>他玉树临风 <strong>8月5日</strong> 帅气登场</li> -->
+				<li>
+					<a href="/fasttrack/koldetailed/id/1"></a>
+					他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭
+				</li>
+				<li>
+					<a href="/fasttrack/koldetailed/id/2"></a>
+					他玉树临风 <strong>8月5日</strong> 帅气登场
+				</li>
 			</ul>
 		</div>
 	</div>

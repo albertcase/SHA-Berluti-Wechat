@@ -27,6 +27,7 @@
 <script>
 	$(function(){
 		
+		var _id = "<?php echo $id ?>";
 		pfun.txVideoFun();
 
 	});

@@ -39,19 +39,21 @@ class FasttrackController extends Controller
 		$this->render('pro');
 	}
 
-	public function actionVideoDetailed()
+	public function actionVideodetailed($id = '0')
 	{
-		$this->render('videodetailed');
+		$this->render('videodetailed',  array('id' => $id));
 	}
 
-	public function actionKolDetailed()
+	public function actionKoldetailed($id = '0')
 	{
-		$this->render('Koldetailed');
+		$this->render('koldetailed',  array('id' => $id));
 	}
 
-	public function actionProDetailed()
+	public function actionProdetailed($id = '0')
 	{
-		$this->render('prodetailed');
+		$this->render('prodetailed',  array('id' => $id));
 	}
+
+
 
 }

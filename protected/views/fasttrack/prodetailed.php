@@ -95,7 +95,8 @@
 	$(function(){
 		
 		var thumbsliWidth = parseInt($(".thumbsList").css("width")) / 4,
-			thumbsliLen;
+			thumbsliLen,
+			_id = "<?php echo $id ?>";
 
 		var galleryTop = new Swiper('.gallery-top', {
 	        nextButton: '.swiper-button-next',
@@ -103,6 +104,7 @@
 	        slidesPerView: '1',
 	        pagination: '.thumbsList ul',
 	        paginationClickable: true,
+	        initialSlide : _id,
 	        paginationBulletRender: function (index, className) {
 	            return '<li class="' + className + '" style="width: '+thumbsliWidth+'px;"><img src="/vstyle/fasttrack/img/proplace.jpg" width="100%"></li>';
 	        },
