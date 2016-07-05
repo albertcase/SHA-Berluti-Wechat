@@ -491,6 +491,12 @@
 	display: inline-block;
 }
 
+#form .section_foot{
+	bottom: 8%;
+}
+
+
+
 /* voteResult */
 #voteResult .formText h3{
 	width: 100%;
