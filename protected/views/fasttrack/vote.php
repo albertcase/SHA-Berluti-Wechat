@@ -39,7 +39,11 @@
 						<span>文艺青年</span>
 		            </div>
 		        </div>
+
+		        <span class="arrWhite"></span>
 		    </div>
+
+
 	    </div>
 
 	</div>
