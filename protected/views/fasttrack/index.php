@@ -1,10 +1,5 @@
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/PxLoader.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
-<style type="text/css">
-	.logo{
-		opacity: 0;
-	}
-</style>
 <div class="loading ycenter">
 	<div class="loadCon">
 		<img src="/vstyle/fasttrack/img/shoe_loading.png" width="100%">

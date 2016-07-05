@@ -20,8 +20,7 @@ var mfun = {
 	        })
 
 	        $(".loading").fadeOut("100", function(){
-	        	$(".logo").stop().animate({"opacity": 1});
-	        	$("#mainer").stop().animate({"opacity": 1}, 1000);
+	        	$("#mainer").css({"opacity": 1});
 	        });
 	        
 	        loadCallback();
