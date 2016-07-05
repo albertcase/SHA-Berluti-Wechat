@@ -79,7 +79,7 @@
 	<div class="pageCon" id="index">
 		<div class="videoModel">
 			<div class="con ycenter">
-				<img src="" sourcesrc="/vstyle/fasttrack/img/place.png" width="100%">
+				<img src="" sourcesrc="/vstyle/fasttrack/img/place.jpg" width="100%">
 			</div>
 			<img src="" sourcesrc="/vstyle/fasttrack/img/v_bg.png" width="100%">
 		</div>
@@ -104,9 +104,11 @@ $(function(){
 	var baseUrl = "/vstyle/fasttrack/img/";
 	//声明资源文件列表
 	var fileList = [
+		baseUrl + 'avater.png', 
 		baseUrl + 'bg.png', 
 		baseUrl + 'm.jpg', 
 		baseUrl + 'd_arr.png', 
+		baseUrl + 'downArr.png', 
 		baseUrl + 'close.png', 
 		baseUrl + 'line.png', 
 		baseUrl + 'earnBtn.png', 
@@ -127,6 +129,16 @@ $(function(){
 		baseUrl + 'vote_hover.png',
 		baseUrl + 'vote.png',
 		baseUrl + 'r.png',
+		baseUrl + 'p.jpg',
+		baseUrl + 'place.jpg',
+		baseUrl + 'play.png',
+		baseUrl + 'poster.jpg',
+		baseUrl + 'proplace.jpg',
+		baseUrl + 'shareBtn.png',
+		baseUrl + 'submit_btn.png',
+		baseUrl + 'swiperArr_l.png',
+		baseUrl + 'swiperArr_r.png',
+		baseUrl + 'xz.jpg',
 		baseUrl + 'mystyle_btn.png'
 
 	];

@@ -5310,3 +5310,123 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
 ---
+2016/07/05 14:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 14:45:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 14:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 14:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:13:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/07/05 15:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
