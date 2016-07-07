@@ -4,7 +4,7 @@ var shareArr = {
     "_desc_friend": "以舞蹈演绎#ImPerfect#， 展现你与众不同的魅力！",    // 分享好友的描述
     "_link": window.location.href,    //分享的连接
     "_imgUrl": "http://" + window.location.host + "/vstyle/fasttrack/img/share.jpg",   //分享的图片
-    "_url": encodeURIComponent(window.location.href.split("#")[0]) //.replace('http%3A%2F%2F','')
+    "_url": window.location.href.split("#")[0]//encodeURIComponent(window.location.href.split("#")[0]) //.replace('http%3A%2F%2F','')
 }
 
 var pfun = {
