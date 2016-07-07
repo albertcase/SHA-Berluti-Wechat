@@ -8,6 +8,12 @@ var shareArr = {
 }
 
 var pfun = {
+    init: function(){
+        var self = this;
+        self.ajaxfun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", function(data){
+            self.wechatShare(data.appid, data.time, data.noncestr, data.sign);
+        });
+    },
     loadFn: function(arr , fn , fn2){
         var loader = new PxLoader();
             for( var i = 0 ; i < arr.length; i ++)
@@ -185,5 +191,5 @@ var pfun = {
 
 
 
-
+pfun.init();
 

@@ -9,8 +9,6 @@ var mfun = {
 		$(".close").on("click", function(){
 			$(".rulePup").hide("100");
 		})
-
-		self.wechatShare();
     },
     loadingFnDoing: function(allAmg, loadCallback){
     	pfun.loadFn(allAmg , function (){
@@ -29,12 +27,6 @@ var mfun = {
 	    	$(".loadingProgress").stop().animate({"width": p+"%"});
 	        //console.log(p);
 	    });
-    },
-    wechatShare: function(){
-    	pfun.ajaxfun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", this.jssdkCallback);
-    },
-    jssdkCallback: function(){
-    	pfun.wechatShare(data.appid, data.time, data.noncestr, data.sign);
     }
 }
 
