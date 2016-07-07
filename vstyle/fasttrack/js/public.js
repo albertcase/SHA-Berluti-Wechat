@@ -10,7 +10,7 @@ var shareArr = {
 var pfun = {
     init: function(){
         var self = this;
-        self.ajaxfun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", function(data){
+        self.ajaxFun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", function(data){
             self.wechatShare(data.appid, data.time, data.noncestr, data.sign);
         });
     },
