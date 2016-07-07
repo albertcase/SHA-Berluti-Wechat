@@ -12,15 +12,6 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="Keywords" content="">
 	<meta name="Description" content="...">
-	
-	<meta name="wxm:timeline_title" content="与高圆圆一起转动Possession">
-    <meta name="wxm:appmessage_title" content="与高圆圆一起转动Possession">
-    <meta name="wxm:appmessage_desc" content="转动，世界由你掌握">
-
-    <!-- 分享缩略图，必须为绝对路径 -->
-    <meta name="wxm:img_url" content="http://wximg.qq.com/wxp/moment/Vy5RRaaAl/img/share.jpg">
-    <!-- 分享链接 -->
-    <meta name="wxm:link" content="http://wximg.qq.com/wxp/moment/Vy5RRaaAl/html/index.html">
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/css/swiper.min.css" />
