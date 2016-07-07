@@ -10,7 +10,7 @@ var mfun = {
 			$(".rulePup").hide("100");
 		})
 
-		
+		self.wechatShare();
     },
     loadingFnDoing: function(allAmg, loadCallback){
     	pfun.loadFn(allAmg , function (){
