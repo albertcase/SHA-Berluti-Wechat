@@ -31,7 +31,7 @@ var mfun = {
 	    });
     },
     wechatShare: function(){
-    	pfun.ajaxfun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", jssdkCallback);
+    	pfun.ajaxfun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", this.jssdkCallback);
     },
     jssdkCallback: function(){
     	pfun.wechatShare(data.appid, data.time, data.noncestr, data.sign);
