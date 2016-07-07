@@ -92,13 +92,7 @@
 		</div>
 		
 		<div class="section_foot">
-			<p>
-				这么好玩的游戏，快点叫上朋友一起来参加吧！
-			</p>
-			<span class="btn">
-				<a href="javascript:" class="shareBtn"></a>
-				<img src="/vstyle/fasttrack/img/shareBtn.png" width="100%">
-			</span>
+			<img src="/vstyle/fasttrack/img/shareTips.png" width="100%">
 		</div>
 
 	</div>

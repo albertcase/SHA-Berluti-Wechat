@@ -238,7 +238,7 @@
 	width: 100%;
 	position: absolute;
 	left: 0;
-	bottom: 6%;
+	bottom: 8%;
 }
 
 .section_foot .btn{
@@ -646,6 +646,11 @@
 	width: 100%;
 	font-size: 1.2rem;
 }
+
+#voteResult .section_foot{
+	bottom: 15%;
+}
+
 
 
 /* info */
