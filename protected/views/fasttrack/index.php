@@ -101,7 +101,6 @@ $(function(){
 	var fileList = [
 		baseUrl + 'avater.png', 
 		baseUrl + 'bg.png', 
-		baseUrl + 'm.jpg', 
 		baseUrl + 'd_arr.png', 
 		baseUrl + 'downArr.png', 
 		baseUrl + 'close.png', 
@@ -128,12 +127,10 @@ $(function(){
 		baseUrl + 'place.jpg',
 		baseUrl + 'play.png',
 		baseUrl + 'poster.jpg',
-		baseUrl + 'proplace.jpg',
 		baseUrl + 'shareBtn.png',
 		baseUrl + 'submit_btn.png',
 		baseUrl + 'swiperArr_l.png',
 		baseUrl + 'swiperArr_r.png',
-		baseUrl + 'xz.jpg',
 		baseUrl + 'mystyle_btn.png'
 
 	];

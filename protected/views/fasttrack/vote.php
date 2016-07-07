@@ -19,23 +19,23 @@
 		    <div class="swiper-container" id="voteSwiper">
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide hover">
-						<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>花样美男</span>
 		            </div>
 		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
 		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
 		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
 		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
 		        </div>
