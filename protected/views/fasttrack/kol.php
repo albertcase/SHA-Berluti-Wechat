@@ -14,7 +14,7 @@
 		<div class="personalCon ycenter">
 			<ul>
 				<li class="nopadding">
-					<a href="/fasttrack/koldetailed/id"></a>
+					<a href="/fasttrack/koldetailed"></a>
 					<div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/p.jpg" width="100%">
 						<div class="pInfo ycenter">

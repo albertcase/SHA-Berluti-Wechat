@@ -126,14 +126,14 @@ var pfun = {
             });
         }); //end of wx.ready
     },
-    txVideoFun: function(){
+    txVideoFun: function(vCodeNum){
 
         var video,
             videoWidth = parseInt($(".videoArea").css("width"), 10),
             videoHeight = parseInt($(".videoArea").css("height"), 10);
 
             video = new tvp.VideoInfo(); 
-            video.setVid("x0308hpn9ev");
+            video.setVid(vCodeNum);
             player = new tvp.Player(); 
             player.create({
               width: videoWidth + 'px',

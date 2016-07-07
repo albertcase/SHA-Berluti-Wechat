@@ -18,68 +18,31 @@
 
 		<div class="proBox">
 			<div class="con">
-
-				<!-- Swiper -->
-			    <div class="swiper-container gallery-top">
-			        <div class="swiper-wrapper">
-			           <div class="swiper-slide">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
-							<dl>
-								<dt>
-									<img src="/vstyle/fasttrack/img/proplace.jpg" width="100%">
-								</dt>
-								<dd>
-									<h2>
-										<em>运动鞋</em>
-										PLAYTIME
-									</h2>
-									<div class="proDetailed">
-										<p>
-											<strong>2016年/夏系列</strong>
-											离开去年六月在Musee Picasso 花园举办的时装
-											秀之后，这款Venezia皮革运动鞋没有采取
-											做旧，而采用了涂抹装饰。相信我们，这样做
-											让它大不相同。
-										</p>
-									</div>
-								</dd>
-							</dl>
-			           </div>
-			            <div class="swiper-slide">
-							<dl>
-								<dt>
-									<img src="/vstyle/fasttrack/img/proplace.jpg" width="100%">
-								</dt>
-								<dd>
-									<h2>
-										<em>运动鞋</em>
-										PLAYTIME
-									</h2>
-									<div class="proDetailed">
-										<p>
-											<strong>2016年/夏系列</strong>
-											离开去年六月在Musee Picasso 花园举办的时装
-											秀之后，这款Venezia皮革运动鞋没有采取
-											做旧，而采用了涂抹装饰。相信我们，这样做
-											让它大不相同。
-										</p>
-									</div>
-								</dd>
-							</dl>
-			            </div>
-			            <div class="swiper-slide">3</div>
-			            <div class="swiper-slide">4</div>
-			            <div class="swiper-slide">5</div>
-			        </div>
-			        <!-- Add Arrows -->
-			        <div class="swiper-button-next swiper-button-white"></div>
-			        <div class="swiper-button-prev swiper-button-white"></div>
-			    </div>
 				
 				<div class="thumbsList">
 					<ul>
-						
+						<li class="hover"><img src="/vstyle/fasttrack/img/pro/s0.jpg" width="100%"></li>
+						<li><img src="/vstyle/fasttrack/img/pro/s1.jpg" width="100%"></li>
+						<li><img src="/vstyle/fasttrack/img/pro/s2.jpg" width="100%"></li>
 					</ul>
+				</div>
+
+				<div class="proInfoArea">
+
+					<!-- Swiper -->
+				    <div class="swiper-container gallery-top">
+				        <div class="swiper-wrapper" id="proGallery">
+				           
+				        </div>
+				        <!-- Add Arrows -->
+				        <div class="swiper-button-next swiper-button-white"></div>
+				        <div class="swiper-button-prev swiper-button-white"></div>
+				    </div>
+
+					<dl class="proDetails">
+						
+					</dl>
+
 				</div>
 
 		    </div>
@@ -93,27 +56,78 @@
 
 <script>
 	$(function(){
-		
-		var thumbsliWidth = parseInt($(".thumbsList").css("width")) / 4,
-			thumbsliLen,
-			_id = "<?php echo $id ?>";
-
-		var galleryTop = new Swiper('.gallery-top', {
-	        nextButton: '.swiper-button-next',
-	        prevButton: '.swiper-button-prev',
-	        slidesPerView: '1',
-	        pagination: '.thumbsList ul',
-	        paginationClickable: true,
-	        initialSlide : _id,
-	        paginationBulletRender: function (index, className) {
-	            return '<li class="' + className + '" style="width: '+thumbsliWidth+'px;"><img src="/vstyle/fasttrack/img/proplace.jpg" width="100%"></li>';
-	        },
-	        onInit: function(swiper){
-	        	$(".thumbsList ul").css({"width": thumbsliWidth * $(".thumbsList li").length});
+		var proData = [
+			{
+				"size": 1,
+				"type": "运动鞋",
+				"name": "PLAYTIME",
+				"style": "2016年/夏系列",
+				"description": "离开去年六月在Musee Picasso 花园举办的时装秀之后，这款Venezia皮革运动鞋没有采取做旧，而采用了涂抹装饰。相信我们，这样做让它大不相同。"
+			},
+			{
+				"size": 2,
+				"type": "运动鞋",
+				"name": "VU-TAUPE",
+				"style": "2016年/夏系列",
+				"description": "离开去年六月在Musee Picasso 花园举办的时装秀之后，这款Venezia皮革运动鞋没有采取做旧，而采用了涂抹装饰。相信我们，这样做让它大不相同。"
+			},
+			{
+				"size": 1,
+				"type": "运动鞋",
+				"name": "VU-M",
+				"style": "2016年/夏系列",
+				"description": "离开去年六月在Musee Picasso 花园举办的时装秀之后，这款Venezia皮革运动鞋没有采取做旧，而采用了涂抹装饰。相信我们，这样做让它大不相同。"
 			}
-	    });
-	   
-    
+		]
+
+		//console.log(proData);
+
+		
+		var thumbsliWidth = parseInt($(".thumbsList").css("width")) / 3,
+			thumbsliLen,
+			_id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>";
+
+		var gallerySwiper = new Swiper('.gallery-top', {
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        paginationClickable: true
+			});
+	
+		function proDataFun(pNum){
+			var proGalleryHTML, proDetailsHTML;
+		    $.map(proData, function(v, k){
+		    	if(k == pNum){
+		    		proGalleryHTML = "",
+		    		proDetailsHTML = "";
+			    	for(var i=0; i<=v.size; i++){
+			    		proGalleryHTML += '<div class="swiper-slide"><img src="/vstyle/fasttrack/img/pro/p'+pNum+'/photo-'+i+'.jpg" width="100%"></div>'
+			    	}
+			    	
+			    	proDetailsHTML = '<dt><img src="/vstyle/fasttrack/img/pro/p'+pNum+'/bpic.jpg" width="100%"></dt><dd><h2><em>'+v.type+'</em>'+v.name+'</h2><div class="proDetailed"><p><strong>'+v.style+'</strong>'+v.description+'</p></div></dd>';
+		    	}
+		    	
+		    })
+		   $("#proGallery").html(proGalleryHTML);
+		   $(".proDetails").html(proDetailsHTML);
+
+		   gallerySwiper.update();
+		   $(".swiper-button-white").removeClass("swiper-button-disabled");
+		   $(".swiper-button-prev").addClass("swiper-button-disabled");
+		}
+
+		proDataFun(_id);
+
+		$(".thumbsList li").click(function(){
+			if($(this).hasClass("hover")) return false;
+			var cindex = $(this).index();
+			$(".thumbsList li").removeClass("hover");
+			$(this).addClass("hover");
+			$("#proGallery").removeAttr("style");
+
+			proDataFun(cindex);
+		})
+		
+
 	});
 </script>
 

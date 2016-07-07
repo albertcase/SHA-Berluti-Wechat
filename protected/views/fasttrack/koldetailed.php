@@ -89,7 +89,8 @@
 
 <script>
 	$(function(){
-		var _id = "<?php echo $id ?>";
+		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>";
+		console.log(_id);
 		var swiper = new Swiper('#kolSwiper', {
 			nextButton: '.swiper-button-next',
         	prevButton: '.swiper-button-prev',

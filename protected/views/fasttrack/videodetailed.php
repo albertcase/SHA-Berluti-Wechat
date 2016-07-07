@@ -27,8 +27,9 @@
 <script>
 	$(function(){
 		
-		var _id = "<?php echo $id ?>";
-		pfun.txVideoFun();
+		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
+			vArr = ["s0311orkbpr", "x0308hpn9ev"];
+		pfun.txVideoFun(vArr[_id]);
 
 	});
 </script>

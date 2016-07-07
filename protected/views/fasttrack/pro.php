@@ -21,14 +21,14 @@
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide">
 						<div class="videoModel">
-							<a href="/fasttrack/prodetailed/id/0">
+							<a href="/fasttrack/prodetailed">
 								<div class="con ycenter">
 										<div class="proInfo">
 											<p><strong>颜色:</strong> 蓝色</p>
 											<p><strong>材质:</strong>  Venezia皮革</p>
 											<p><strong>价格:</strong>  ¥15,000</p>
 										</div>
-										<img src="/vstyle/fasttrack/img/xz.jpg" width="100%">
+										<img src="/vstyle/fasttrack/img/pro/p1/bpic.jpg" width="100%">
 								</div>
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 							</a>
@@ -43,7 +43,7 @@
 											<p><strong>材质:</strong>  Venezia皮革</p>
 											<p><strong>价格:</strong>  ¥15,000</p>
 										</div>
-										<img src="/vstyle/fasttrack/img/xz.jpg" width="100%">
+										<img src="/vstyle/fasttrack/img/pro/p2/bpic.jpg" width="100%">
 								</div>
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 							</a>
@@ -58,37 +58,7 @@
 											<p><strong>材质:</strong>  Venezia皮革</p>
 											<p><strong>价格:</strong>  ¥15,000</p>
 										</div>
-										<img src="/vstyle/fasttrack/img/xz.jpg" width="100%">
-								</div>
-								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-							</a>
-						</div>
-		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<a href="/fasttrack/prodetailed/id/3">
-								<div class="con ycenter">
-										<div class="proInfo">
-											<p><strong>颜色:</strong> 蓝色</p>
-											<p><strong>材质:</strong>  Venezia皮革</p>
-											<p><strong>价格:</strong>  ¥15,000</p>
-										</div>
-										<img src="/vstyle/fasttrack/img/xz.jpg" width="100%">
-								</div>
-								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-							</a>
-						</div>
-		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<a href="/fasttrack/prodetailed/id/4">
-								<div class="con ycenter">
-										<div class="proInfo">
-											<p><strong>颜色:</strong> 蓝色</p>
-											<p><strong>材质:</strong>  Venezia皮革</p>
-											<p><strong>价格:</strong>  ¥15,000</p>
-										</div>
-										<img src="/vstyle/fasttrack/img/xz.jpg" width="100%">
+										<img src="/vstyle/fasttrack/img/pro/p3/bpic.jpg" width="100%">
 								</div>
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 							</a>
