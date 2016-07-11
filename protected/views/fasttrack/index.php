@@ -125,6 +125,7 @@ $(function(){
 		baseUrl + 'r.png',
 		baseUrl + 'p.jpg',
 		baseUrl + 'place.jpg',
+		baseUrl + 'share.jpg',
 		baseUrl + 'play.png',
 		baseUrl + 'poster.jpg',
 		baseUrl + 'shareBtn.png',
