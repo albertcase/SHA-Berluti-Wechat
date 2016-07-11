@@ -31,7 +31,7 @@ class FasttrackController extends Controller
 
 	public function actionKol()
 	{
-		$this->render('Kol');
+		$this->render('kol');
 	}
 
 	public function actionPro()
