@@ -94,6 +94,9 @@
 			});
 	
 		function proDataFun(pNum){
+			$(".thumbsList li").removeClass("hover");
+			$(".thumbsList li").eq(pNum).addClass("hover");
+
 			var proGalleryHTML, proDetailsHTML;
 		    $.map(proData, function(v, k){
 		    	if(k == pNum){
@@ -120,10 +123,7 @@
 		$(".thumbsList li").click(function(){
 			if($(this).hasClass("hover")) return false;
 			var cindex = $(this).index();
-			$(".thumbsList li").removeClass("hover");
-			$(this).addClass("hover");
 			$("#proGallery").removeAttr("style");
-
 			proDataFun(cindex);
 		})
 		
