@@ -65,7 +65,7 @@
 				"description": "离开去年六月在Musee Picasso 花园举办的时装秀之后，这款Venezia皮革运动鞋没有采取做旧，而采用了涂抹装饰。相信我们，这样做让它大不相同。"
 			},
 			{
-				"size": 2,
+				"size": 1,
 				"type": "运动鞋",
 				"name": "VU-TAUPE",
 				"style": "2016年/夏系列",
