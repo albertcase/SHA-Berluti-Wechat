@@ -115,7 +115,7 @@
 		   $(".swiper-button-prev").addClass("swiper-button-disabled");
 		}
 
-		//proDataFun(_id);
+		proDataFun(_id);
 
 		$(".thumbsList li").click(function(){
 			if($(this).hasClass("hover")) return false;
@@ -127,7 +127,6 @@
 			proDataFun(cindex);
 		})
 		
-		$(".thumbsList li").eq(_id).click();
 
 	});
 </script>
