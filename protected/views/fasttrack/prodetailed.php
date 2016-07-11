@@ -127,7 +127,7 @@
 			proDataFun(cindex);
 		})
 		
-		$(".thumbsList li").eq(_id).on("click");
+		$(".thumbsList li").eq(_id).click();
 
 	});
 </script>
