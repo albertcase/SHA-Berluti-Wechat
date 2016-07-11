@@ -25,8 +25,8 @@
 								<div class="con ycenter">
 										<div class="proInfo">
 											<p><strong>颜色:</strong> 蓝色</p>
-											<p><strong>材质:</strong>  Venezia皮革</p>
-											<p><strong>价格:</strong>  ¥15,000</p>
+											<p><strong>材质:</strong> 植鞣小牛皮</p>
+											<p><strong>价格:</strong> ¥7900.00</p>
 										</div>
 										<img src="/vstyle/fasttrack/img/pro/p0/bpic.jpg" width="100%">
 								</div>
@@ -39,9 +39,9 @@
 							<a href="/fasttrack/prodetailed/id/1">
 								<div class="con ycenter">
 										<div class="proInfo">
-											<p><strong>颜色:</strong> 蓝色</p>
-											<p><strong>材质:</strong>  Venezia皮革</p>
-											<p><strong>价格:</strong>  ¥15,000</p>
+											<p><strong>颜色:</strong> 黑色</p>
+											<p><strong>材质:</strong> 釉面小牛皮</p>
+											<p><strong>价格:</strong> ¥15,000</p>
 										</div>
 										<img src="/vstyle/fasttrack/img/pro/p1/bpic.jpg" width="100%">
 								</div>
@@ -54,9 +54,9 @@
 							<a href="/fasttrack/prodetailed/id/2">
 								<div class="con ycenter">
 										<div class="proInfo">
-											<p><strong>颜色:</strong> 蓝色</p>
-											<p><strong>材质:</strong>  Venezia皮革</p>
-											<p><strong>价格:</strong>  ¥15,000</p>
+											<p><strong>颜色:</strong> 黄色</p>
+											<p><strong>材质:</strong> 植鞣小牛皮</p>
+											<p><strong>价格:</strong> ¥7900.00</p>
 										</div>
 										<img src="/vstyle/fasttrack/img/pro/p2/bpic.jpg" width="100%">
 								</div>
