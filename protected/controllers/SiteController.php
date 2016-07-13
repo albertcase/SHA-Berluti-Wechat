@@ -9,6 +9,11 @@ class SiteController extends Controller
 
 	public function actionIndex()
 	{
+		if(!isset($_SESSION['weixin_info_id'])){
+			Header("Location:/weixin/oauth?callback=/");
+			exit;
+		}
+		echo $_SESSION['openid'];exit;
 		$this->render('index');
 	}
 
