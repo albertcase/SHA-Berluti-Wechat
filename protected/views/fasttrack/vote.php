@@ -18,15 +18,15 @@
 			<!-- Swiper -->
 		    <div class="swiper-container" id="voteSwiper">
 		        <div class="swiper-wrapper">
-		            <div class="swiper-slide" data-model="M1">
+		            <div class="swiper-slide" data-model="1">
 						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>花样美男</span>
 		            </div>
-		            <div class="swiper-slide" data-model="M2">
+		            <div class="swiper-slide" data-model="2">
 						<img src="/vstyle/fasttrack/img/pro/v1.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
-		            <div class="swiper-slide" data-model="M3">
+		            <div class="swiper-slide" data-model="3">
 						<img src="/vstyle/fasttrack/img/pro/v2.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
@@ -74,11 +74,13 @@ $(function(){
 			    "id": voteId
 			}
 
-			pfun.ajaxFun("POST", "/api/ballot", jssdkPushData, "json", function(data){
-				if(data.code){
+			pfun.ajaxFun("GET", "/api/ballot", jssdkPushData, "json", function(data){
+
+				pfun.formErrorTips(data.msg);
+				if(data.code == 1){
 					location.href = "/fasttrack/form";
 				}
-				pfun.formErrorTips(data.msg);
+				
 			});
     	}else{
     		pfun.formErrorTips("请选择你喜欢的模特并且为他投票<br>赢取你的 BERLUTI FAST TRACK 专属鞋履");

@@ -72,7 +72,7 @@
 				pfun.ajaxFun("POST", "/api/submit", jssdkPushData, "json", function(data){
 
 					pfun.formErrorTips(data.msg);
-					if(data.code){
+					if(data.code == 1){
 						location.href = "/fasttrack/list";
 					}
 					
