@@ -71,7 +71,7 @@ class ApiController extends Controller
 	    }
 	    $ballotObj = new Ballot();
 	    $ballotObj->setInfo($_SESSION['weixin_base_id'], $name, $mobile, $email);
-	    print json_encode(array('code' => 1, 'msg' => '投票成功'));
+	    print json_encode(array('code' => 1, 'msg' => '提交成功'));
 	    Yii::app()->end();
 	}
 
