@@ -14,7 +14,7 @@ class Ballot{
 
 	public function check($uid, $pid, $week)
     {
-    	$sql = "SELECT `id` FROM `same_ballot` WHERE uid = :uid, pid = :pid, week = :week";
+    	$sql = "SELECT `id` FROM `same_ballot` WHERE uid = :uid and pid = :pid and week = :week";
 		$command=$this->_db->createCommand($sql);
 		$command->bindParam(":uid", $uid, PDO::PARAM_STR);
 		$command->bindParam(":pid", $pid, PDO::PARAM_STR);
