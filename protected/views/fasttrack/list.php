@@ -72,11 +72,13 @@
 
 		pfun.ajaxFun("POST", "/api/getballot", jssdkPushData, "json", function(data){
 
-			console.log(data);
+			$.map(data.msg, function(v, k){
+				console.log(v);
+				console.log(k);
+			});
 
 		});
 </script>
-
 
 
 
