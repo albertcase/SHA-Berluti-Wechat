@@ -77,7 +77,9 @@
 				pfun.formErrorTips(data.msg);
 			}
 			$.map(data.msg, function(v, k){
-				voteNum.push(parseFloat(v)).sort(function(a,b){return a-b;});
+				voteNum.push(parseFloat(v));
+				console.log(voteNum);
+				voteNum.sort(function(a,b){return a-b;});
 			});
 
 			$.map(voteNum, function(v, k){
