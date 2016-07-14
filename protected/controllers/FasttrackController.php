@@ -11,12 +11,22 @@ class FasttrackController extends Controller
 
 	public function actionIndex()
 	{
+		if(!isset($_SESSION['weixin_base_id'])){
+			Header("Location:/weixin/oauth2?callback=/fasttrack");
+			exit;
+		}
 		$this->render('index');
 	}
 
 	public function actionForm()
 	{
-		$this->render('form');
+		if(!isset($_SESSION['weixin_base_id'])){
+			Header("Location:/weixin/oauth2?callback=/fasttrack/form");
+			exit;
+		}
+		$ballotObj = new Ballot();
+	    $info = $ballotObj->getInfo($_SESSION['weixin_base_id']);
+		$this->render('form', array('info' => $info));
 	}
 
 	public function actionVote()

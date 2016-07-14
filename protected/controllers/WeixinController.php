@@ -135,10 +135,8 @@ class WeixinController extends Controller
 			if(!isset($ins['id'])){
 				$info=file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=".$_SESSION['access_token']."&openid=".$_SESSION['openid']."&lang=zh_CN");
 				$info=json_decode($info,true);
-				$sql="insert into same_weixin_info set openid='".$_SESSION['openid']."',nickname=:nickname,sex='".$info['sex']."',province='".$info['province']."',city='".$info['city']."',country='".$info['country']."',headimgurl='".$info['headimgurl']."'";
-				$command = Yii::app()->db->createCommand($sql);
-				$command ->bindParam(":nickname",json_encode(array("name"=>$info['nickname'])), PDO::PARAM_STR);
-				$command->execute();
+				$sql="insert into same_weixin_info set openid='".$_SESSION['openid']."',nickname='".$info['nickname']."',sex='".$info['sex']."',province='".$info['province']."',city='".$info['city']."',country='".$info['country']."',headimgurl='".$info['headimgurl']."'";
+				Yii::app()->db->createCommand($sql)->execute();
 				$_SESSION['weixin_info_id']=Yii::app()->db->lastInsertID;
 			}else{
 				$_SESSION['weixin_info_id']=$ins['id'];
@@ -158,6 +156,15 @@ class WeixinController extends Controller
 		$rs=$wechatObj->getOauthAccessToken($code);
 		if(isset($rs['openid'])){
 			$_SESSION['openid']=$rs['openid'];	
+			$sql="select id from same_weixin_openid where openid='".$_SESSION['openid']."'";
+			$ins=Yii::app()->db->createCommand($sql)->select()->queryScalar();
+			if(!$ins){	
+				$sql="insert into same_weixin_openid set openid='".$_SESSION['openid']."'";
+				Yii::app()->db->createCommand($sql)->execute();
+				$_SESSION['weixin_base_id']=Yii::app()->db->lastInsertID;
+			}else{
+				$_SESSION['weixin_base_id']=$ins;
+			}
 			Header('Location:'.$_SESSION['callback_url']);
 			Yii::app()->end();
 		}
