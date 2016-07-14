@@ -20,7 +20,7 @@
 								<a href="javascript:;">
 									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
-								<em>25%</em>
+								<em>-%</em>
 							</div>
 							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
@@ -29,7 +29,7 @@
 								<a href="javascript:;">
 									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
-								<em>45%</em>
+								<em>-%</em>
 							</div>
 							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
@@ -38,7 +38,7 @@
 								<a href="javascript:;">
 									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
 								</a>
-								<em>30%</em>
+								<em>-%</em>
 							</div>
 							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
 						</li>
@@ -68,16 +68,25 @@
 <script type="text/javascript">
 	var jssdkPushData = {
 			"week": weekId,
-		}
+		},
+		voteNum = [];
 
 		pfun.ajaxFun("POST", "/api/getballot", jssdkPushData, "json", function(data){
 
+			if(data.code != 1){
+				pfun.formErrorTips(data.msg);
+			}
 			$.map(data.msg, function(v, k){
-				console.log(v);
-				console.log(k);
+				voteNum.push(parseFloat(v)).sort(function(a,b){return a-b;});
+			});
+
+			$.map(voteNum, function(v, k){
+				$(".voteList li").eq(k).find("em").html(v+"%");
 			});
 
 		});
+
+
 </script>
 
 
