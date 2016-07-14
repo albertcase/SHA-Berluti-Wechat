@@ -156,6 +156,15 @@ class WeixinController extends Controller
 		$rs=$wechatObj->getOauthAccessToken($code);
 		if(isset($rs['openid'])){
 			$_SESSION['openid']=$rs['openid'];	
+			$sql="select id from same_weixin_openid where openid='".$_SESSION['openid']."'";
+			$ins=Yii::app()->db->createCommand($sql)->select()->queryScalar();
+			if(!$ins){	
+				$sql="insert into same_weixin_openid set openid='".$_SESSION['openid']."'";
+				Yii::app()->db->createCommand($sql)->execute();
+				$_SESSION['weixin_base_id']=Yii::app()->db->lastInsertID;
+			}else{
+				$_SESSION['weixin_base_id']=$ins;
+			}
 			Header('Location:'.$_SESSION['callback_url']);
 			Yii::app()->end();
 		}
