@@ -74,7 +74,7 @@ $(function(){
 			    "id": voteId
 			}
 
-			pfun.ajaxFun("GET", "/api/ballot", jssdkPushData, "json", function(data){
+			pfun.ajaxFun("POST", "/api/ballot", jssdkPushData, "json", function(data){
 
 				pfun.formErrorTips(data.msg);
 				if(data.code == 1){
