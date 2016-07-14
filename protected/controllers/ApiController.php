@@ -9,9 +9,8 @@ class ApiController extends Controller
 
 	public function actionIndex()
 	{
-		$ballotObj = new Ballot();
-	    $list = $ballotObj->getballot(1);
-	    print json_encode(array('code' => 1, 'msg' => $list));
+		$_SESSION['weixin_base_id'] = 1;
+	    
 	    Yii::app()->end();
 	}
 
