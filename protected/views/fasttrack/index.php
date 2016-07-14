@@ -15,16 +15,16 @@
 	</a>
 	<div class="ruleCon">
 		<h2>条款与细则</h2>
-		<p>本次活动“Fasttrack”（“活动”）由Berluti（“主办方”）主办。通过参与该活动，即代表您（“参加者”）同意并接受以下条款与细则的约束：</p>
+		<p>本次活动“Fasttrack”（“活动”）由Berluti（“主办方”）主办。通过参与该活动，即代表您（“参与者”）同意并接受以下条款与细则的约束：</p>
 		<img src="" sourcesrc="/vstyle/fasttrack/img/line.png" class="line">
 		<h3>一般规则</h3>
-		<p>活动时间：2016年7月25日至2016年8月14日23:59:00（北京时间）</p>
+		<p>活动时间：2016年8月1日至2016年8月21日23:59:00（北京时间）</p>
 		<p>
 			参与办法：<br>
 			1)	本活动将分3阶段进行：<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;	阶段1：2016年7月25日至2016年7月31日<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;	阶段2：2016年8月1日至2016年8月7日<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;	阶段3：2016年8月8日至2016年8月14日<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;	阶段1：2016年8月1日至2016年8月7日<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;	阶段2：2016年8月8日至2016年8月14日<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;	阶段3：2016年8月15日至2016年8月21日<br>
 			2)	参与者须于每个特定的阶段内参与该阶段投票，投票选出最喜爱造型，并填写正确的个人信息，以此取得获奖资格。若因资料虚假引起任何争议，主办方有权取消其参与资格。
 		</p>
 		<p>
@@ -47,13 +47,14 @@
 		<p>每位获奖者可获得主办方送出的Berluti Fast Track鞋履一双。主办方保留奖项内容最终决定权，并不另作通知。</p>
 		<p>鞋履款式、颜色由主办方决定，不得异议或更换。</p>
 		<p>鞋履尺码一经确定后不予更换。</p>
-		<p>办方将根据活动参与者提供的个人信息，在一个月内通过邮递服务的形式寄送相应奖品。</p>
+		<p>主办方将根据活动参与者提供的个人信息，在一个月内通过邮递服务的形式寄送相应奖品</p>
 		<p>若奖品在运输过程中有任何损耗，或因邮寄信息的不准确而导致奖品无法被邮寄，主办方将不再给予任何奖金、实物或奖品的兑换或补偿。</p>
 		<p>所有奖品不可兑换成现金或替换成其它任何形式的物品。</p>
 		<img src="" sourcesrc="/vstyle/fasttrack/img/line.png" class="line">
+		<h3>隐私保障和个人资料</h3>
 		<p class="ruleCopyright">
 			本次活动所收集到的个人信息将会由主办方严格保密，<br>
-			并只作本次活动及日后Berluti推广用途。<br>
+			并只作为本次活动及日后推广用途。<br>
 			本活动最终解释权归Berluti所有。
 		</p>
 	</div>
@@ -74,7 +75,7 @@
 	<div class="pageCon" id="index">
 		<div class="videoModel">
 			<div class="con ycenter">
-				<img src="" sourcesrc="/vstyle/fasttrack/img/place.jpg" width="100%">
+				<img src="" sourcesrc="/vstyle/fasttrack/img/kv-1.jpg" width="100%">
 			</div>
 			<img src="" sourcesrc="/vstyle/fasttrack/img/v_bg.png" width="100%">
 		</div>

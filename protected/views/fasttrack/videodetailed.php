@@ -28,8 +28,9 @@
 	$(function(){
 		
 		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
-			vArr = ["s0311orkbpr", "x0308hpn9ev"];
-		pfun.txVideoFun(vArr[_id]);
+			vArr = ["s0311orkbpr", "x0308hpn9ev"],
+			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/kol_poster_0.jpg"];
+		pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
 
 	});
 </script>

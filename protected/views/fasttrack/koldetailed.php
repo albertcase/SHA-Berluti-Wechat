@@ -30,7 +30,20 @@
 						</div>
 
 						<div class="con">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
+							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
+							<center>拍摄花絮</center>
+							<div class="videoArea">
+								<div id="vplay"></div>
+								<img src="/vstyle/fasttrack/img/poster.jpg" class="opacity0" width="100%">
+							</div>
+						</div>
+						<span class="arr"></span>
+					</div>
+	            </div>
+	            <div class="swiper-slide">
+					<div class="kolBox">
+						<div class="con">
+							<div id="vplay2"></div>
 							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
 						</div>
 						<span class="arr"></span>
@@ -39,34 +52,6 @@
 	            <div class="swiper-slide">
 					<div class="kolBox">
 						<div class="con">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
-							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
-						</div>
-						<span class="arr"></span>
-					</div>
-	            </div>
-	            <div class="swiper-slide">
-					<div class="kolBox">
-						<div class="con">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
-							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
-						</div>
-						<span class="arr"></span>
-					</div>
-	            </div>
-	            <div class="swiper-slide">
-					<div class="kolBox">
-						<div class="con">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
-							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
-						</div>
-						<span class="arr"></span>
-					</div>
-	            </div>
-	            <div class="swiper-slide">
-					<div class="kolBox">
-						<div class="con">
-							<img src="/vstyle/fasttrack/img/m.jpg" width="100%">
 							<p>陈默，毕业于中国政法大学国际经济法专业，大学主修法律，辅修计算机，现任美力三生科技有限公司(iLife3)市场传播与公关副总裁。他曾是奥美公司晋升最快的中国籍员工，其学识不下于刘同，犀利不输于马丁。因参加大型求职类综艺节目《职来职往》而被观众所熟知，还是北京音乐广播台的每周五《男左女右》节目主持人。</p>
 						</div>
 						<span class="arr"></span>
@@ -89,13 +74,23 @@
 
 <script>
 	$(function(){
-		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>";
-		console.log(_id);
+		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
+			vArr = ["s0311orkbpr", "x0308hpn9ev"],
+			vposter = ["/vstyle/fasttrack/img/kol_poster_0.jpg", "/vstyle/fasttrack/img/poster.jpg"];
+
+		//console.log(_id);
 		var swiper = new Swiper('#kolSwiper', {
 			nextButton: '.swiper-button-next',
         	prevButton: '.swiper-button-prev',
-        	initialSlide : _id
+        	initialSlide : _id,
+        	onSlideChangeEnd: function(swiper){
+        		$("#vplay video")[0].pause();
+        		$("#vplay2 video")[0].pause();
+        	}
 		});
+
+		pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+		pfun.txVideoFun(vArr[_id], vposter[_id], "vplay2");
 
 	});
 </script>
