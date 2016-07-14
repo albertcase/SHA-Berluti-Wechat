@@ -56,7 +56,7 @@ $(function(){
         slidesPerView: 2,
         paginationClickable: true,
         spaceBetween: 3
-    }),voteId;
+    }),voteId,isform = "<?php echo $info ?>";
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
 		$("#voteSwiper .swiper-slide").removeClass("hover");
@@ -78,7 +78,11 @@ $(function(){
 
 				pfun.formErrorTips(data.msg);
 				if(data.code == 1){
-					location.href = "/fasttrack/form";
+					if(isform){
+						location.href = "/fasttrack/form";
+					}else{
+						location.href = "/fasttrack/list";
+					}
 				}
 				
 			});

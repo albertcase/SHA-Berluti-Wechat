@@ -20,18 +20,18 @@ class FasttrackController extends Controller
 
 	public function actionForm()
 	{
+		$this->render('form');
+	}
+
+	public function actionVote()
+	{
 		if(!isset($_SESSION['weixin_base_id'])){
 			Header("Location:/weixin/oauth2?callback=/fasttrack/form");
 			exit;
 		}
 		$ballotObj = new Ballot();
 	    $info = $ballotObj->getInfo($_SESSION['weixin_base_id']);
-		$this->render('form', array('info' => $info));
-	}
-
-	public function actionVote()
-	{
-		$this->render('vote');
+		$this->render('vote', array('info' => $info));
 	}
 
 	public function actionVideo()
@@ -62,6 +62,11 @@ class FasttrackController extends Controller
 	public function actionProdetailed($id = '0')
 	{
 		$this->render('prodetailed',  array('id' => $id));
+	}
+
+	public function actionList()
+	{
+		$this->render('list');
 	}
 
 
