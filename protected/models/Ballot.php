@@ -44,10 +44,14 @@ class Ballot{
 		$command->bindParam(":week", $week, PDO::PARAM_STR);
 		$rs = $command->select()->queryAll();
 		$list = array('1' => 0, '2' => 0, '3' => 0);
+		$per = array('1' => 0, '2' => 0, '3' => 0);
 		for ($i = 0; $i < count($rs); $i++) {
 			$list[$rs[$i]['pid']] = $rs[$i]['num'];
 		}
-		return $list;
+		for ($i = 1; $i <= 3; $i++) {
+			$per[$i] = round($list[$i]/($list[1] + $list[2] + $list[3]) * 100, 2) . "%";
+		}
+		return $per;
     }
 
     public function setInfo($uid, $name, $mobile, $email)
