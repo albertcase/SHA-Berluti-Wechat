@@ -19,19 +19,19 @@
 						<img src="/vstyle/fasttrack/img/p.jpg" width="100%">
 						<div class="pInfo ycenter">
 							<p>
-							   企业家<br>
-							   <strong>陈默</strong>
+							   赛车手<br>
+							   <strong>董荷斌</strong>
 							</p>
 						</div>
 					</div>
 				</li>
 				<li>
 					<a href="/fasttrack/koldetailed/id/1"></a>
-					他英俊潇洒 <strong>7月29日</strong> 鲜肉来袭
+					<i>他才貌双全 <strong>8月8日</strong> 霸道登场</i>
 				</li>
 				<li>
 					<a href="/fasttrack/koldetailed/id/2"></a>
-					他玉树临风 <strong>8月5日</strong> 帅气登场
+					<i>他英俊潇洒 <strong>8月15日</strong> 鲜肉来袭</i>
 				</li>
 			</ul>
 		</div>

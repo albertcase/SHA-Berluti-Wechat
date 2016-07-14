@@ -18,24 +18,16 @@
 			<!-- Swiper -->
 		    <div class="swiper-container" id="voteSwiper">
 		        <div class="swiper-wrapper">
-		            <div class="swiper-slide hover">
+		            <div class="swiper-slide" data-model="1">
 						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
 						<span>花样美男</span>
 		            </div>
-		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
+		            <div class="swiper-slide" data-model="2">
+						<img src="/vstyle/fasttrack/img/pro/v1.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
-		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
-						<span>文艺青年</span>
-		            </div>
-		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
-						<span>文艺青年</span>
-		            </div>
-		            <div class="swiper-slide">
-						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
+		            <div class="swiper-slide" data-model="3">
+						<img src="/vstyle/fasttrack/img/pro/v2.jpg" width="100%">
 						<span>文艺青年</span>
 		            </div>
 		        </div>
@@ -49,8 +41,8 @@
 	</div>
 
 	<div class="section_foot vote_foot">
-		<span class="btn">
-			<a href="/fasttrack/form"></a>
+		<span class="btn voteBtn">
+			<a href="javascript:;"></a>
 			<img src="/vstyle/fasttrack/img/mystyle_btn.png" width="100%">
 		</span>
 	</div>
@@ -61,15 +53,41 @@
 $(function(){
 
 	var swiper = new Swiper('#voteSwiper', {
-        slidesPerView: 3,
+        slidesPerView: 2,
         paginationClickable: true,
-        spaceBetween: 2
-    });
+        spaceBetween: 3
+    }),voteId;
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
 		$("#voteSwiper .swiper-slide").removeClass("hover");
 		$(this).addClass("hover");
+
+		voteId = $(this).attr("data-model");
 	})
+
+
+    $(".voteBtn a").on("click", function(){
+
+    	if(voteId){
+    		var jssdkPushData = {
+	    		"week": weekId,
+			    "id": voteId
+			}
+
+			pfun.ajaxFun("GET", "/api/ballot", jssdkPushData, "json", function(data){
+
+				pfun.formErrorTips(data.msg);
+				if(data.code == 1){
+					location.href = "/fasttrack/form";
+				}
+				
+			});
+    	}else{
+    		pfun.formErrorTips("请选择你喜欢的模特并且为他投票<br>赢取你的 BERLUTI FAST TRACK 专属鞋履");
+    	}
+    	
+    })
+
     
 });
 </script>

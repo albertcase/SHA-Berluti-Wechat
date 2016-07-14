@@ -7,6 +7,8 @@ var shareArr = {
     "_url": window.location.href.split("#")[0]//encodeURIComponent(window.location.href.split("#")[0]) //.replace('http%3A%2F%2F','')
 }
 
+var weekId = "V1";
+
 var pfun = {
     init: function(){
         var self = this;
@@ -126,21 +128,21 @@ var pfun = {
             });
         }); //end of wx.ready
     },
-    txVideoFun: function(vCodeNum){
+    txVideoFun: function(_vCodeNum, _vposter, _vid){
 
         var video,
             videoWidth = parseInt($(".videoArea").css("width"), 10),
             videoHeight = parseInt($(".videoArea").css("height"), 10);
 
             video = new tvp.VideoInfo(); 
-            video.setVid(vCodeNum);
+            video.setVid(_vCodeNum);
             player = new tvp.Player(); 
             player.create({
               width: videoWidth + 'px',
               height: videoHeight + 'px',
               video: video,
-              pic: "/vstyle/fasttrack/img/poster.jpg",
-              modId: "vplay", //mod_player是刚刚在页面添加的div容器 autoplay:true
+              pic: _vposter,
+              modId: _vid, //mod_player是刚刚在页面添加的div容器 autoplay:true
                 oninited: function () {
                     //播放器在视频载入完毕触发
                 },
@@ -158,8 +160,11 @@ var pfun = {
                 },
                 onfullscreen: function (isfull) {
                     //onfullscreen(isfull) 播放器触发全屏/非全屏时，参数isfull表示当前是否是全屏
+                },
+                onended: function(){
                 }
             });
+
 
     },
     ajaxFun: function(ajaxType, ajaxUrl, ajaxData, ajaxDataType, ajaxCallback){
