@@ -20,7 +20,10 @@ class FasttrackController extends Controller
 
 	public function actionForm()
 	{
-
+		if(!isset($_SESSION['weixin_base_id'])){
+			Header("Location:/weixin/oauth2?callback=/fasttrack/form");
+			exit;
+		}
 		$ballotObj = new Ballot();
 	    $info = $ballotObj->getInfo($_SESSION['weixin_base_id']);
 		$this->render('form', array('info' => $info));
