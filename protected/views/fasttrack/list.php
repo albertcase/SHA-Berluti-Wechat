@@ -72,7 +72,8 @@
 
 		pfun.ajaxFun("POST", "/api/getballot", jssdkPushData, "json", function(data){
 
-			
+			console.log(data);
+
 		});
 </script>
 

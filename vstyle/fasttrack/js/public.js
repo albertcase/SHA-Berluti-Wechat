@@ -7,7 +7,7 @@ var shareArr = {
     "_url": window.location.href.split("#")[0]//encodeURIComponent(window.location.href.split("#")[0]) //.replace('http%3A%2F%2F','')
 }
 
-var weekId = "V1";
+var weekId = "1";
 
 var pfun = {
     init: function(){
