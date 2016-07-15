@@ -7,11 +7,12 @@ class FasttrackController extends Controller
 	 * when an action is not explicitly requested by users.
 	 */
 
+
 	public $layout='//layouts/fasttrack';
 
 	public function actionIndex()
 	{
-		if(!isset($_SESSION['weixin_base_id'])){
+		if(!isset($_SESSION['weixin_base_id'])){ // /api/index
 			Header("Location:/weixin/oauth2?callback=/fasttrack");
 			exit;
 		}

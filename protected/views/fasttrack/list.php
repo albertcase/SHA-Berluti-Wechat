@@ -82,6 +82,9 @@
 				voteNum.sort(function(a,b){return a-b;});
 			});
 
+			$(".voteList li").eq(0).find("em").html(voteNum[1]+"%");
+			$(".voteList li").eq(1).find("em").html(voteNum[3]+"%");
+			$(".voteList li").eq(2).find("em").html(voteNum[2]+"%");
 			$.map(voteNum, function(v, k){
 				$(".voteList li").eq(k).find("em").html(v+"%");
 			});
