@@ -82,6 +82,8 @@
 
 			voteNum.sort(function(a,b){return (a._ratio < b._ratio) ? 1 : -1});
 
+			console.log(voteNum);
+
 			$(".voteList li").eq(0).find("em").html(voteNum[1]+"%");
 			$(".voteList li").eq(1).find("em").html(voteNum[2]+"%");
 			$(".voteList li").eq(2).find("em").html(voteNum[0]+"%");
