@@ -18,29 +18,29 @@
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.jpg" width="100%">
 								</a>
 								<em>-%</em>
 							</div>
-							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.jpg" class="opacity0" width="100%">
 						</li>
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.jpg" width="100%">
 								</a>
 								<em>-%</em>
 							</div>
-							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.jpg" class="opacity0" width="100%">
 						</li>
 						<li>
 							<div class="con">
 								<a href="javascript:;">
-									<img src="/vstyle/fasttrack/img/avater.png" width="100%">
+									<img src="/vstyle/fasttrack/img/avater.jpg" width="100%">
 								</a>
 								<em>-%</em>
 							</div>
-							<img src="/vstyle/fasttrack/img/avater.png" class="opacity0" width="100%">
+							<img src="/vstyle/fasttrack/img/avater.jpg" class="opacity0" width="100%">
 						</li>
 					</ul>
 
@@ -77,24 +77,23 @@
 				pfun.formErrorTips(data.msg);
 			}
 			$.map(data.msg, function(v, k){
-				voteNum.push(parseFloat(v));
-				console.log(voteNum);
-				voteNum.sort(function(a,b){return a-b;});
+				voteNum.push({"_id": k, "_ratio":parseFloat(v)});
 			});
+
+			voteNum.sort(function(a,b){return (a._ratio < b._ratio) ? 1 : -1});
 
 			$(".voteList li").eq(0).find("em").html(voteNum[1]+"%");
 			$(".voteList li").eq(1).find("em").html(voteNum[2]+"%");
 			$(".voteList li").eq(2).find("em").html(voteNum[0]+"%");
 
+			$(".voteList li").eq(0).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[1]._id+".jpg");
+			$(".voteList li").eq(1).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]._id+".jpg");
+			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[0]._id+".jpg");
+
 		});
 
 
 </script>
-
-
-
-
-
 
 
 

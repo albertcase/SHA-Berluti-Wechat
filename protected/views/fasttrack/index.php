@@ -100,7 +100,13 @@ $(function(){
 	var baseUrl = "/vstyle/fasttrack/img/";
 	//声明资源文件列表
 	var fileList = [
-		baseUrl + 'avater.png', 
+		baseUrl + 'kv-0.jpg',
+		baseUrl + 'kv-1.jpg',
+		baseUrl + 'kv-2.jpg',
+		baseUrl + 'avater-1.jpg', 
+		baseUrl + 'avater-2.jpg', 
+		baseUrl + 'avater-3.jpg', 
+		baseUrl + 'avater.jpg', 
 		baseUrl + 'bg.png', 
 		baseUrl + 'd_arr.png', 
 		baseUrl + 'downArr.png', 
@@ -133,7 +139,14 @@ $(function(){
 		baseUrl + 'submit_btn.png',
 		baseUrl + 'swiperArr_l.png',
 		baseUrl + 'swiperArr_r.png',
-		baseUrl + 'mystyle_btn.png'
+		baseUrl + 'mystyle_btn.png',
+
+		baseUrl + '/pro/s0.jpg',
+		baseUrl + '/pro/s1.jpg',
+		baseUrl + '/pro/s2.jpg',
+		baseUrl + '/pro/v0.jpg',
+		baseUrl + '/pro/v1.jpg',
+		baseUrl + '/pro/v2.jpg',
 
 	];
 
