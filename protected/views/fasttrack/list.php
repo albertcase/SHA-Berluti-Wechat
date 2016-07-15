@@ -77,7 +77,7 @@
 				pfun.formErrorTips(data.msg);
 			}
 			$.map(data.msg, function(v, k){
-				voteNum.push({"_id": k, "_ratio":parseFloat(v)});
+				voteNum.push({"_id": k, "_ratio": parseFloat(v)});
 			});
 
 			voteNum.sort(function(a,b){return (a["_ratio"] < b["_ratio"]) ? 1 : -1});
