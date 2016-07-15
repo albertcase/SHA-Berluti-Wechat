@@ -82,11 +82,6 @@
 
 			voteNum.sort(function(a,b){return (a["_ratio"] < b["_ratio"]) ? 1 : -1});
 
-			console.log(voteNum);
-			console.log(voteNum[1]);
-			console.log(voteNum[1]["_ratio"]);
-			console.log(voteNum[1]["_id"]);
-
 			$(".voteList li").eq(0).find("em").html(voteNum[1]["_ratio"]+"%");
 			$(".voteList li").eq(1).find("em").html(voteNum[0]["_ratio"]+"%");
 			$(".voteList li").eq(2).find("em").html(voteNum[2]["_ratio"]+"%");
