@@ -21,6 +21,16 @@
 	
 	<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/public.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?33a37552e6f0e0fa416c52a226bd4d80";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
 </head>
 <body>
 
