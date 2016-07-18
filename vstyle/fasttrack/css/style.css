@@ -519,7 +519,7 @@
 }
 
 #form .section_foot{
-	bottom: 8%;
+	bottom: 12%;
 }
 
 
@@ -913,6 +913,10 @@
 /* 4s */
 
 @media handheld and (min-height:400px),screen and (max-height:420px) {
+	
+	#form .section_foot{
+		bottom: 8%;
+	}
 
 }
 
