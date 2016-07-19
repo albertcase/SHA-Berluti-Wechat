@@ -93,6 +93,16 @@ $(function(){
     	
     })
 
+
+
+
+    $(".qrcodelink").on("click", function(){
+        $("#qrcode").show();
+    })
+
+    $(".close").on("click", function(){
+        $(this).parents(".pup-con").hide();
+    })
     
 });
 </script>

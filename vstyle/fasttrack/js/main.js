@@ -5,6 +5,10 @@ var mfun = {
 		$(".rulelink").on("click", function(){
 			$(".rulePup").show();
 		})
+		
+		$(".close").on("click", function(){
+            $(this).parents(".pup-con").hide();
+        })
 
 		pfun.init();
     },

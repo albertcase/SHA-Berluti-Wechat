@@ -75,6 +75,7 @@
 
 
 	<div class="section_foot">
+		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/rule.png" width="100%"></a>
 		<img src="/vstyle/fasttrack/img/slogan.png" width="100%">
 		<span class="btn">
 			<a href="/fasttrack/vote"></a>
@@ -93,6 +94,14 @@ $(function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     });
+
+    $(".qrcodelink").on("click", function(){
+        $("#qrcode").show();
+    })
+
+    $(".close").on("click", function(){
+        $(this).parents(".pup-con").hide();
+    })
     
 });
 </script>
