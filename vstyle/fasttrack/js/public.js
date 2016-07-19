@@ -21,7 +21,7 @@ var pfun = {
         })
 
         $(".close").on("click", function(){
-            $(this).parent(".pup-con").hide();
+            $(this).parents(".pup-con").hide();
         })
     },
     loadFn: function(arr , fn , fn2){
