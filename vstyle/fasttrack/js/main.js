@@ -26,7 +26,7 @@ var mfun = {
 	        loadCallback();
 	        
 	    } , function (p){
-	    	$(".loadingProgress").stop().animate({"width": p+"%", "background": "#bfa44c"});
+	    	$(".loadingProgress").stop().animate({"width": p+"%"});
 	        //console.log(p);
 	    });
     }
