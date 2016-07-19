@@ -3,11 +3,11 @@ var mfun = {
     	var self = this;
 
 		$(".rulelink").on("click", function(){
-			$(".rulePup").show("200");
+			$(".rulePup").show();
 		})
 
 		$(".close").on("click", function(){
-			$(".rulePup").hide("100");
+			$(".rulePup").hide();
 		})
     },
     loadingFnDoing: function(allAmg, loadCallback){
