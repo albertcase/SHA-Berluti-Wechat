@@ -884,6 +884,7 @@
 
 .swiper-container.gallery-top{
 	overflow: visible;
+	height: auto;
 }
 
 
