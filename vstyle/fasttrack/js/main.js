@@ -5,7 +5,7 @@ var mfun = {
 		$(".rulelink").on("click", function(){
 			$(".rulePup").show();
 		})
-		
+
 		$(".close").on("click", function(){
             $(this).parents(".pup-con").hide();
         })
@@ -26,7 +26,7 @@ var mfun = {
 	        loadCallback();
 	        
 	    } , function (p){
-	    	$(".loadingProgress").stop().animate({"width": p+"%"});
+	    	$(".loadingProgress").stop().animate({"width": p+"%", "background": "#bfa44c"});
 	        //console.log(p);
 	    });
     }

@@ -74,7 +74,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: #bfa44c;
+	background: #000;
 	font-size: 1rem;
 	text-align: right;
 	color: #fff;
@@ -893,7 +893,7 @@
 	position: fixed;
 	left: 3%;
 	bottom: 0;
-	padding: 40px 0 38px 0;
+	padding: 40px 0 10px 0;
 	background: -webkit-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Safari 5.1 - 6.0 */
     background: -o-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Firefox 3.6 - 15 */
