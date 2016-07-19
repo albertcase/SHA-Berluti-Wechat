@@ -45,7 +45,7 @@
 		</div>	
 		<div id="qrcode" class="pup-con">
 			<a href="javascript:;" class="close">
-				<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
+				<img src="/vstyle/fasttrack/img/close.png" width="100%">
 			</a>
 			<img src="/vstyle/fasttrack/img/qrcode.png" width="100%">
 		</div>
