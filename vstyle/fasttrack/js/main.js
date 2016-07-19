@@ -6,9 +6,7 @@ var mfun = {
 			$(".rulePup").show();
 		})
 
-		$(".close").on("click", function(){
-			$(".rulePup").hide();
-		})
+
     },
     loadingFnDoing: function(allAmg, loadCallback){
     	pfun.loadFn(allAmg , function (){

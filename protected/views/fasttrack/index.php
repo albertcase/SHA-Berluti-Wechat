@@ -9,7 +9,7 @@
 	</div>
 </div>
 
-<div class="rulePup">
+<div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
 		<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
 	</a>

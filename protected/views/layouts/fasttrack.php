@@ -43,7 +43,7 @@
 		<div id="container">
 			<?php echo $content; ?>
 		</div>	
-		<div id="qrcode">
+		<div id="qrcode" class="pup-con">
 			<a href="javascript:;" class="close">
 				<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
 			</a>

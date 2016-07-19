@@ -15,6 +15,14 @@ var pfun = {
         self.ajaxFun("GET", "/weixin/jssdk", {"url": shareArr["_url"]}, "json", function(data){
             self.wechatFun(data.appid, data.time, data.noncestr, data.sign);
         });
+
+        $(".qrcodelink").on("click", function(){
+            $("#qrcode").show();
+        })
+
+        $(".close").on("click", function(){
+            $(this).parent(".pup-con").hide();
+        })
     },
     loadFn: function(arr , fn , fn2){
         var loader = new PxLoader();
