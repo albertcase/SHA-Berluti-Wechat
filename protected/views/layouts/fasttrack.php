@@ -43,6 +43,12 @@
 		<div id="container">
 			<?php echo $content; ?>
 		</div>	
+		<div id="qrcode">
+			<a href="javascript:;" class="close">
+				<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
+			</a>
+			<img src="/vstyle/fasttrack/img/qrcode.png" width="100%">
+		</div>
 	</div>
 	<img src="/vstyle/fasttrack/img/bg.png" width="100%" class="opacity0">
 

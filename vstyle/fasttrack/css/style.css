@@ -887,6 +887,21 @@
 	height: auto;
 }
 
+/* qrcode */
+#qrcode{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* 标准的语法（必须放在最后） */
+    display: inline-block;
+    z-index: 10;
+}
+
+
 
 
 
