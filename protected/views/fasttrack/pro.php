@@ -24,7 +24,7 @@
 							<a href="/fasttrack/prodetailed">
 								<div class="con ycenter">
 										<div class="proInfo">
-											<p><strong>颜色:</strong> 黑色</p>
+											<p><strong>颜色:</strong> Nero（黑色）</p>
 											<p><strong>材质:</strong> 釉面小牛皮</p>
 											<p><strong>价格:</strong> ¥6900.00</p>
 										</div>
@@ -39,7 +39,7 @@
 							<a href="/fasttrack/prodetailed/id/1">
 								<div class="con ycenter">
 										<div class="proInfo">
-											<p><strong>颜色:</strong> 蓝色</p>
+											<p><strong>颜色:</strong> Desert Night(蓝色）</p>
 											<p><strong>材质:</strong> 植鞣小牛皮</p>
 											<p><strong>价格:</strong> ¥7900.00</p>
 										</div>
@@ -54,7 +54,7 @@
 							<a href="/fasttrack/prodetailed/id/2">
 								<div class="con ycenter">
 										<div class="proInfo">
-											<p><strong>颜色:</strong> 棕色</p>
+											<p><strong>颜色:</strong> Tobacco Bis(棕色)</p>
 											<p><strong>材质:</strong> 植鞣小牛皮</p>
 											<p><strong>价格:</strong> ¥7900.00</p>
 										</div>
