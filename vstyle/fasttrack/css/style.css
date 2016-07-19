@@ -266,7 +266,7 @@
 }
 
 .rulelink, .qrcodelink{
-	width: 18%;
+	width: 22%;
     position: absolute;
     right: 4%;
     bottom: -18%;
@@ -908,9 +908,6 @@
 	top: 3%;
 }
 
-.qrcodelink{
-	width: 20%;
-}
 
 
 
