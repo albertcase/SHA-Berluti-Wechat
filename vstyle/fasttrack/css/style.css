@@ -889,9 +889,9 @@
 
 /* qrcode */
 #qrcode{
-	width: 90%;
+	width: 94%;
 	position: fixed;
-	left: 5%;
+	left: 3%;
 	bottom: 0;
 	padding: 40px 0 38px 0;
 	background: -webkit-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Safari 5.1 - 6.0 */
