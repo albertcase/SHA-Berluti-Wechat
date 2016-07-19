@@ -38,7 +38,7 @@
 	</div>
 
 	<div class="section_foot">
-		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/rule.png" width="100%"></a>
+		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
 		<img src="/vstyle/fasttrack/img/slogan.png" width="100%">
 		<span class="btn">
 			<a href="/fasttrack/vote"></a>

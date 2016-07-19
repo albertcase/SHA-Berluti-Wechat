@@ -41,7 +41,7 @@
 	</div>
 
 	<div class="section_foot vote_foot">
-		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/rule.png" width="100%"></a>
+		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
 		<span class="btn voteBtn">
 			<a href="javascript:;"></a>
 			<img src="/vstyle/fasttrack/img/mystyle_btn.png" width="100%">
