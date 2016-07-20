@@ -820,6 +820,7 @@
     left: 0;
     top: 18%;
     z-index: 6;
+    display: inline-block;
 }
 
 .proDetails{
@@ -884,7 +885,7 @@
 
 
 .swiper-container.gallery-top{
-	overflow: visible;
+	/*overflow: visible;*/
 	height: auto;
 }
 
