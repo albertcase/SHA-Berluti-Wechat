@@ -83,16 +83,19 @@
 			nextButton: '.swiper-button-next',
         	prevButton: '.swiper-button-prev',
         	initialSlide : _id,
-        	onInit: function(){
-        		pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
-				pfun.txVideoFun(vArr[_id], vposter[_id], "vplay2");
-        	},
         	onSlideChangeEnd: function(swiper){
         		$("#vplay video")[0].pause();
         		$("#vplay2 video")[0].pause();
         	}
 		});
 
+		var vposterimg = new Image();
+		vposterimg.src="/vstyle/fasttrack/img/poster.jpg";
+		vposterimg.onload=function(){
+		    //图片加载完你想做的事情
+		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+			pfun.txVideoFun(vArr[_id], vposter[_id], "vplay2");
+		}
 		
 
 	});
