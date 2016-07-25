@@ -16,7 +16,7 @@
 				<li class="nopadding">
 					<a href="/fasttrack/koldetailed"></a>
 					<div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/p.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/m0.jpg" width="100%">
 						<div class="pInfo ycenter">
 							<p>
 							   赛车手<br>
@@ -25,14 +25,35 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="nopadding">
 					<a href="/fasttrack/koldetailed/id/1"></a>
-					<i>他才貌双全 <strong>8月8日</strong> 霸道登场</i>
+					<div class="personalInfo">
+						<img src="/vstyle/fasttrack/img/m1.jpg" width="100%">
+						<div class="pInfo ycenter">
+							<p>
+							   企业家<br>
+							   <strong>陈默</strong>
+							</p>
+						</div>
+					</div>
 				</li>
-				<li>
+				<li class="nopadding">
+					<a href="/fasttrack/koldetailed/id/2"></a>
+					<div class="personalInfo">
+						<img src="/vstyle/fasttrack/img/m2.jpg" width="100%">
+						<div class="pInfo ycenter">
+							<p>
+							   艺人<br>
+							   <strong>王博文</strong>
+							</p>
+						</div>
+					</div>
+				</li>
+
+				<!-- <li>
 					<a href="/fasttrack/koldetailed/id/2"></a>
 					<i>他英俊潇洒 <strong>8月15日</strong> 鲜肉来袭</i>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
