@@ -16,7 +16,7 @@
 				<li class="nopadding">
 					<a href="/fasttrack/koldetailed"></a>
 					<div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/m0.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/m0.png" width="100%">
 						<div class="pInfo ycenter">
 							<p>
 							   赛车手<br>
@@ -28,7 +28,7 @@
 				<li class="nopadding">
 					<a href="/fasttrack/koldetailed/id/1"></a>
 					<div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/m1.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/m1.png" width="100%">
 						<div class="pInfo ycenter">
 							<p>
 							   企业家<br>
@@ -40,7 +40,7 @@
 				<li class="nopadding">
 					<a href="/fasttrack/koldetailed/id/2"></a>
 					<div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/m2.jpg" width="100%">
+						<img src="/vstyle/fasttrack/img/m2.png" width="100%">
 						<div class="pInfo ycenter">
 							<p>
 							   艺人<br>
