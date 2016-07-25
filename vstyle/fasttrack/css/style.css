@@ -326,9 +326,9 @@
 	display: inline-block;
 }
 
-#voteSwiper .swiper-slide.hover img{
+/*#voteSwiper .swiper-slide.hover img{
 	opacity: 0.6;
-}
+}*/
 
 #voteSwiper .swiper-slide span{
 	width: 100%;
@@ -347,11 +347,11 @@
 #voteSwiper .swiper-slide.hover span{
 	color: #c1a95e;
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
-	background-size: 12% auto;
+	background-size: 9% auto;
 }
 
 #voteSwiper .swiper-slide.hover img{
-	border: 2px #cbbf9c solid; 
+	border: 3px #cbbf9c solid; 
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
