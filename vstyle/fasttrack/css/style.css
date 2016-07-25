@@ -321,7 +321,7 @@
 #voteSwiper .swiper-slide{
 	position: relative;
 	background: #000;
-	width: 65%;
+	width: 64%;
 	margin: 0 4px 0 0;
 	display: inline-block;
 }
@@ -333,7 +333,7 @@
 #voteSwiper .swiper-slide span{
 	width: 100%;
 	background: #000;
-	padding: 9px 0;
+	padding: 12px 0;
 	color: #fff;
 	text-align: center;
 	display: inline-block;
@@ -348,6 +348,10 @@
 	color: #c1a95e;
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
 	background-size: 12% auto;
+}
+
+#voteSwiper .swiper-slide.hover img{
+	border: 2px #cbbf9c solid; 
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
