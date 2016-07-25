@@ -321,6 +321,9 @@
 #voteSwiper .swiper-slide{
 	position: relative;
 	background: #000;
+	width: 65%;
+	margin: 0 4px 0 0;
+	display: inline-block;
 }
 
 #voteSwiper .swiper-slide.hover img{
@@ -333,11 +336,12 @@
 	padding: 9px 0;
 	color: #fff;
 	text-align: center;
+	display: inline-block;
 	
-	position: absolute;
+	/*position: absolute;
 	left: 0;
 	bottom: 0;
-	z-index: 2;
+	z-index: 2;*/
 }
 
 #voteSwiper .swiper-slide.hover span{
