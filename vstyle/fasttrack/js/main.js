@@ -10,7 +10,7 @@ var mfun = {
             $(this).parents(".pup-con").hide();
         })
 
-		pfun.init();
+		//pfun.init();
     },
     loadingFnDoing: function(allAmg, loadCallback){
     	pfun.loadFn(allAmg , function (){
