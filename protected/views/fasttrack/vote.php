@@ -54,9 +54,9 @@
 $(function(){
 
 	var swiper = new Swiper('#voteSwiper', {
-        slidesPerView: 2,
         paginationClickable: true,
         spaceBetween: 3
+        slidesPerView: 'auto',
     }),voteId,isform = "<?php echo $info ?>";
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
