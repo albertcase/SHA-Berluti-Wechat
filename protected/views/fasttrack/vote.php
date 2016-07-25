@@ -33,8 +33,10 @@
 		        </div>
 
 		        <span class="arrWhite"></span>
-		    </div>
 
+		        <!-- Add Scroll Bar -->
+        		<div class="swiper-scrollbar"></div>
+		    </div>
 
 	    </div>
 
@@ -59,7 +61,7 @@ $(function(){
         slidesPerView: 'auto',
         mousewheelControl: true,
         freeMode: true
-        
+
         // paginationClickable: true,
         // spaceBetween: 3
         // slidesPerView: 'auto',
