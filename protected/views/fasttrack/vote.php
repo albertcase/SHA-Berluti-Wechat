@@ -54,9 +54,15 @@
 $(function(){
 
 	var swiper = new Swiper('#voteSwiper', {
-        paginationClickable: true,
-        spaceBetween: 3
+		scrollbar: '.swiper-scrollbar',
+        direction: 'horizontal',
         slidesPerView: 'auto',
+        mousewheelControl: true,
+        freeMode: true
+        
+        // paginationClickable: true,
+        // spaceBetween: 3
+        // slidesPerView: 'auto',
     }),voteId,isform = "<?php echo $info ?>";
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
