@@ -341,6 +341,7 @@
 	left: 0;
 	top: 0;
 	border: 4px #cbbf9c solid; 
+	content: "";
 	z-index: 2;
 }
 
