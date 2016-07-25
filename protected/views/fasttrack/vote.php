@@ -20,15 +20,15 @@
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide" data-model="1">
 						<p><img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%"></p>
-						<span>邻家暖男</span>
+						<span><i>邻家暖男</i></span>
 		            </div>
 		            <div class="swiper-slide" data-model="2">
 						<p><img src="/vstyle/fasttrack/img/pro/v1.jpg" width="100%"></p>
-						<span>时尚精英</span>
+						<span><i>时尚精英</i></span>
 		            </div>
 		            <div class="swiper-slide" data-model="3">
 						<p><img src="/vstyle/fasttrack/img/pro/v2.jpg" width="100%"></p>
-						<span>阳光才子</span>
+						<span><i>阳光才子</i></span>
 		            </div>
 		        </div>
 

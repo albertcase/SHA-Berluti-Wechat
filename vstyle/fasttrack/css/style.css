@@ -352,7 +352,6 @@
 	color: #fff;
 	text-align: center;
 	display: inline-block;
-	font-weight: bold;
 
 	/*position: absolute;
 	left: 0;
@@ -360,10 +359,19 @@
 	z-index: 2;*/
 }
 
+#voteSwiper .swiper-slide span i{
+	font-style: normal;
+	font-weight: bold;
+}
+
 #voteSwiper .swiper-slide.hover span{
 	/*color: #c1a95e;*/
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
 	background-size: 9% auto;
+	
+}
+
+#voteSwiper .swiper-slide.hover span i{
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c1a95e), to(#a99452));
 	color: transparent;
 	/*-webkit-text-fill-color: transparent;*/
