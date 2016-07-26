@@ -19,28 +19,35 @@
 		    <div class="swiper-container" id="voteSwiper">
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide" data-model="1">
-						<img src="/vstyle/fasttrack/img/pro/v0.jpg" width="100%">
-						<span>花样美男</span>
+						<p><img src="/vstyle/fasttrack/img/pro/m0/v0.jpg" width="100%"></p>
+						<span><i>赛道黑马</i></span>
 		            </div>
 		            <div class="swiper-slide" data-model="2">
-						<img src="/vstyle/fasttrack/img/pro/v1.jpg" width="100%">
-						<span>文艺青年</span>
+						<p><img src="/vstyle/fasttrack/img/pro/m0/v1.jpg" width="100%"></p>
+						<span><i>追风型男</i></span>
 		            </div>
 		            <div class="swiper-slide" data-model="3">
-						<img src="/vstyle/fasttrack/img/pro/v2.jpg" width="100%">
-						<span>文艺青年</span>
+						<p><img src="/vstyle/fasttrack/img/pro/m0/v2.jpg" width="100%"></p>
+						<span><i>霹雳战神</i></span>
 		            </div>
 		        </div>
 
-		        <span class="arrWhite"></span>
-		    </div>
+		        <!-- <span class="arrWhite"></span> -->
 
+		        <!-- Add Scroll Bar 
+        		<div class="swiper-scrollbar"></div>-->
+        		
+		    </div>
+		    <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
 
 	    </div>
 
 	</div>
 
 	<div class="section_foot vote_foot">
+		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
 		<span class="btn voteBtn">
 			<a href="javascript:;"></a>
 			<img src="/vstyle/fasttrack/img/mystyle_btn.png" width="100%">
@@ -53,10 +60,16 @@
 $(function(){
 
 	var swiper = new Swiper('#voteSwiper', {
-        slidesPerView: 2,
-        paginationClickable: true,
-        spaceBetween: 3
-    }),voteId;
+		// scrollbar: '.swiper-scrollbar',
+  //       direction: 'horizontal',
+  //       slidesPerView: 'auto',
+  //       mousewheelControl: true,
+  //       freeMode: true
+  		nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        // spaceBetween: 3
+        
+    }),voteId,isform = "<?php echo $info ?>";
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
 		$("#voteSwiper .swiper-slide").removeClass("hover");
@@ -78,7 +91,11 @@ $(function(){
 
 				pfun.formErrorTips(data.msg);
 				if(data.code == 1){
-					location.href = "/fasttrack/form";
+					if(isform){
+						location.href = "/fasttrack/form";
+					}else{
+						location.href = "/fasttrack/list";
+					}
 				}
 				
 			});
@@ -87,6 +104,7 @@ $(function(){
     	}
     	
     })
+
 
     
 });

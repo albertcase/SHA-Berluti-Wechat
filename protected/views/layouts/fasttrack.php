@@ -21,6 +21,16 @@
 	
 	<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/public.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?33a37552e6f0e0fa416c52a226bd4d80";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
 </head>
 <body>
 
@@ -33,8 +43,26 @@
 		<div id="container">
 			<?php echo $content; ?>
 		</div>	
+		<div id="qrcode" class="pup-con">
+			<a href="javascript:;" class="close">
+				<img src="/vstyle/fasttrack/img/close.png">
+			</a>
+			<img src="/vstyle/fasttrack/img/qrcode.png" width="100%">
+		</div>
 	</div>
 	<img src="/vstyle/fasttrack/img/bg.png" width="100%" class="opacity0">
+
+	<script type="text/javascript">
+	$(function(){
+		$(".qrcodelink").on("click", function(){
+	        $("#qrcode").show();
+	    })
+
+	    $(".close").on("click", function(){
+	        $(this).parents(".pup-con").hide();
+	    })
+	});
+	</script>
 
 </body>
 </html>

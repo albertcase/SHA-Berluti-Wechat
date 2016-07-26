@@ -9,7 +9,7 @@
 	</div>
 </div>
 
-<div class="rulePup">
+<div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
 		<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
 	</a>
@@ -100,7 +100,13 @@ $(function(){
 	var baseUrl = "/vstyle/fasttrack/img/";
 	//声明资源文件列表
 	var fileList = [
-		baseUrl + 'avater.png', 
+		baseUrl + 'kv-0.jpg',
+		baseUrl + 'kv-1.jpg',
+		baseUrl + 'kv-2.jpg',
+		baseUrl + 'avater-1.jpg', 
+		baseUrl + 'avater-2.jpg', 
+		baseUrl + 'avater-3.jpg', 
+		baseUrl + 'avater.jpg', 
 		baseUrl + 'bg.png', 
 		baseUrl + 'd_arr.png', 
 		baseUrl + 'downArr.png', 
@@ -124,7 +130,9 @@ $(function(){
 		baseUrl + 'vote_hover.png',
 		baseUrl + 'vote.png',
 		baseUrl + 'r.png',
-		baseUrl + 'p.jpg',
+		baseUrl + 'm0.png',
+		baseUrl + 'm1.png',
+		baseUrl + 'm2.png',
 		baseUrl + 'place.jpg',
 		baseUrl + 'share.jpg',
 		baseUrl + 'play.png',
@@ -133,7 +141,20 @@ $(function(){
 		baseUrl + 'submit_btn.png',
 		baseUrl + 'swiperArr_l.png',
 		baseUrl + 'swiperArr_r.png',
-		baseUrl + 'mystyle_btn.png'
+		baseUrl + 'mystyle_btn.png',
+
+		baseUrl + '/pro/s0.jpg',
+		baseUrl + '/pro/s1.jpg',
+		baseUrl + '/pro/s2.jpg',
+		baseUrl + '/pro/m0/v0.jpg',
+		baseUrl + '/pro/m0/v1.jpg',
+		baseUrl + '/pro/m0/v2.jpg',
+		baseUrl + '/pro/m1/v0.jpg',
+		baseUrl + '/pro/m1/v1.jpg',
+		baseUrl + '/pro/m1/v2.jpg',
+		baseUrl + '/pro/m2/v0.jpg',
+		baseUrl + '/pro/m2/v1.jpg',
+		baseUrl + '/pro/m2/v2.jpg',
 
 	];
 

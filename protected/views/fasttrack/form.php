@@ -32,6 +32,7 @@
 		</div>
 
 		<div class="section_foot">
+			<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
 			<span class="btn">
 				<a href="javascript:" class="submitBtn"></a>
 				<img src="/vstyle/fasttrack/img/submit_btn.png" width="100%">
@@ -73,7 +74,7 @@
 
 					pfun.formErrorTips(data.msg);
 					if(data.code == 1){
-						//location.href = "/fasttrack/list";
+						location.href = "/fasttrack/list";
 					}
 					
 				});

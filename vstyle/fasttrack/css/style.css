@@ -265,8 +265,8 @@
 	margin: 0;
 }
 
-.rulelink{
-	width: 18%;
+.rulelink, .qrcodelink{
+	width: 24%;
     position: absolute;
     right: 4%;
     bottom: -18%;
@@ -310,51 +310,100 @@
 /* pageCon */
 #vote{
 	text-align: center;
+	overflow: hidden;
 }
 
 .voteSwiperCon{
-	width: 80%;
+	width: 90%;
 	margin: 3% 0 0 0;
+	position: relative;
+	display: inline-block;
+}
+
+#voteSwiper{
+	width: 66%;
 	display: inline-block;
 }
 
 #voteSwiper .swiper-slide{
 	position: relative;
 	background: #000;
+	width: 100%;
+	display: inline-block;
 }
 
-#voteSwiper .swiper-slide.hover img{
+/*#voteSwiper .swiper-slide.hover img{
 	opacity: 0.6;
+}*/
+
+#voteSwiper .swiper-slide p{
+	position: relative;
+}
+
+#voteSwiper .swiper-slide.hover p:after{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 4px #aa9452 solid; 
+	content: "";
+	z-index: 2;
 }
 
 #voteSwiper .swiper-slide span{
 	width: 100%;
 	background: #000;
-	padding: 9px 0;
+	padding: 12px 0;
 	color: #fff;
 	text-align: center;
-	
-	position: absolute;
+	display: inline-block;
+
+	/*position: absolute;
 	left: 0;
 	bottom: 0;
-	z-index: 2;
+	z-index: 2;*/
+}
+
+#voteSwiper .swiper-slide span i{
+	font-style: normal;
+	font-weight: bold;
 }
 
 #voteSwiper .swiper-slide.hover span{
-	color: #c1a95e;
+	/*color: #c1a95e;*/
 	background: #000 url("../img/r.png") 20% 40% no-repeat;
-	background-size: 12% auto;
+	background-size: 9% auto;
+	
+}
+
+#voteSwiper .swiper-slide.hover span i{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c1a95e), to(#a99452));
+	color: transparent;
+	/*-webkit-text-fill-color: transparent;*/
+	-webkit-background-clip: text;
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
 	background: url("../img/swiperArr_r.png") center no-repeat;
-	background-size: 60% auto;
+	background-size: 80% auto;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
 	background: url("../img/swiperArr_l.png") center no-repeat;
-	background-size: 60% auto;
+	background-size: 80% auto;
 }
+
+#vote .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background: url("../img/arr_r.png") center no-repeat;
+	background-size: 80% auto;
+}
+
+#vote .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background: url("../img/arr_l.png") center no-repeat;
+	background-size: 80% auto;
+}
+
 
 .playIcon{
 	width: 100%;
@@ -372,6 +421,8 @@
     height: 70%;
     margin: 5% 0 0 -20%;
 }
+
+
 
 
 /* personal */
@@ -519,7 +570,7 @@
 }
 
 #form .section_foot{
-	bottom: 8%;
+	bottom: 15%;
 }
 
 
@@ -565,7 +616,7 @@
 
 .voteList{
 	width: 100%;
-	padding: 45px 0 10px 0;
+	padding: 36px 0 10px 0;
 	position: relative;
 	display: inline-block;
 }
@@ -674,9 +725,6 @@
 	font-size: 1.2rem;
 }
 
-#voteResult .section_foot{
-	bottom: 15%;
-}
 
 
 
@@ -688,7 +736,7 @@
 .videoArea{
 	width: 100%;
 	position: relative;
-	margin: 6% 0;
+	margin: 12% 0;
 	display: inline-block;
 }
 
@@ -814,16 +862,18 @@
 .proInfoArea{
 	width: 100%;
     height: 82%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: absolute;
     left: 0;
     top: 18%;
     z-index: 6;
+    display: inline-block;
 }
 
 .proDetails{
 	width: 100%;
-	margin: 18px 0;
+	margin: 0 0 18px 0;
 	font-size: 1.2rem;
 	line-height: 1.6rem;
 	text-align: left;
@@ -882,12 +932,58 @@
 }
 
 
+.swiper-container.gallery-top{
+	/*overflow: visible;*/
+	height: auto;
+}
 
+/* qrcode */
+#qrcode{
+	width: 94%;
+	position: fixed;
+	left: 3%;
+	bottom: 0;
+	padding: 40px 0 10px 0;
+	background: -webkit-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(53, 53, 53, .9), rgba(1, 2, 2, .9)); /* 标准的语法（必须放在最后） */
+    display: none;
+    z-index: 10000;
+}
 
+#qrcode .close{
+	left: auto;
+	right: 3%;
+	top: 3%;
+	width: 16%;
+	text-align: right;
+}
 
+#qrcode .close img{
+	width: 38%;
+}
 
+.joinBtn{
+	width: 100%;
+	position: relative;
+	margin: 15px 0 0 0;
+	display: inline-block;
+}
 
+.voteFooter{
+	bottom: 8%;
+}
 
+.joinBtn a{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin: 0 0 0 -25%;
+	z-index: 2;
+}
 
 
 /* 6plus */
@@ -913,6 +1009,10 @@
 /* 4s */
 
 @media handheld and (min-height:400px),screen and (max-height:420px) {
+	
+	#form .section_foot{
+		bottom: 8%;
+	}
 
 }
 
@@ -1082,5 +1182,3 @@
 	    opacity: .2;
 	}
 }
-
-
