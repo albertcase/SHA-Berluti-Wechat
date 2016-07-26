@@ -51,6 +51,14 @@
 		</div>
 	</div>
 	<img src="/vstyle/fasttrack/img/bg.png" width="100%" class="opacity0">
+	
+	<!-- 横屏代码 -->
+	<div id="orientLayer" class="mod-orient-layer">
+	    <div class="mod-orient-layer__content">
+	        <i class="icon mod-orient-layer__icon-orient"></i>
+	        <div class="mod-orient-layer__desc">为了更好的体验，请使用竖屏浏览</div>
+	    </div>
+	</div>
 
 	<script type="text/javascript">
 	$(function(){
