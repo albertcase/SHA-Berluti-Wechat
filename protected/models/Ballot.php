@@ -14,13 +14,13 @@ class Ballot{
 
 	public function check($uid, $pid, $week)
     {
-    	$sql = "SELECT `id` FROM `same_ballot` WHERE uid = :uid and pid = :pid and week = :week";
+    	$sql = "SELECT count(`id`) FROM `same_ballot` WHERE uid = :uid and week = :week";
 		$command=$this->_db->createCommand($sql);
 		$command->bindParam(":uid", $uid, PDO::PARAM_STR);
-		$command->bindParam(":pid", $pid, PDO::PARAM_STR);
+		//$command->bindParam(":pid", $pid, PDO::PARAM_STR);
 		$command->bindParam(":week", $week, PDO::PARAM_STR);
 		$rs = $command->select()->queryScalar();
-		if ( $rs ) {
+		if ( $rs >= 50 ) {
 			return TRUE;
 		} 
 		return FALSE;
