@@ -13,7 +13,7 @@
 	</div>
 	
 	<!-- 默认页面 -->
-	<div class="pageCon infocon" id="infoVideo">
+	<div class="pageCon infocon ycenter" id="infoVideo">
 		<div class="videoArea">
 			<div id="vplay"></div>
 			<img src="/vstyle/fasttrack/img/poster.jpg" class="opacity0" width="100%">
@@ -30,7 +30,13 @@
 		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
 			vArr = ["s0311orkbpr", "x0308hpn9ev"],
 			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/kol_poster_0.jpg"];
-		pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+
+		var vposterimg = new Image();
+		vposterimg.src = vposter[_id];
+		vposterimg.onload=function(){
+		    //图片加载完你想做的事情
+		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+		}
 
 	});
 </script>

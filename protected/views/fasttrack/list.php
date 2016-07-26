@@ -54,13 +54,18 @@
 
 		</div>
 		
-		<div class="section_foot">
-			<img src="/vstyle/fasttrack/img/shareTips.png" width="100%">
-		</div>
+
 
 	</div>
 
-
+	<div class="section_foot voteFooter">
+		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
+		<img src="/vstyle/fasttrack/img/shareTips.png" width="100%">
+		<span class="joinBtn">
+			<a href="/fasttrack"></a>
+			<img src="/vstyle/fasttrack/img/joinBtn.png" width="100%">
+		</span>
+	</div>
 	
 </div>
 
@@ -91,7 +96,6 @@
 			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]["_id"]+".jpg");
 
 		});
-
 
 </script>
 

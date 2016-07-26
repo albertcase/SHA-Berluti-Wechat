@@ -45,12 +45,24 @@
 		</div>	
 		<div id="qrcode" class="pup-con">
 			<a href="javascript:;" class="close">
-				<img src="/vstyle/fasttrack/img/close.png" width="100%">
+				<img src="/vstyle/fasttrack/img/close.png">
 			</a>
 			<img src="/vstyle/fasttrack/img/qrcode.png" width="100%">
 		</div>
 	</div>
 	<img src="/vstyle/fasttrack/img/bg.png" width="100%" class="opacity0">
+
+	<script type="text/javascript">
+	$(function(){
+		$(".qrcodelink").on("click", function(){
+	        $("#qrcode").show();
+	    })
+
+	    $(".close").on("click", function(){
+	        $(this).parents(".pup-con").hide();
+	    })
+	});
+	</script>
 
 </body>
 </html>

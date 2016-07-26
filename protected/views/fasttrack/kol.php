@@ -25,9 +25,10 @@
 						</div>
 					</div>
 				</li>
-				<li class="nopadding">
-					<a href="/fasttrack/koldetailed/id/1"></a>
-					<div class="personalInfo">
+				<li>
+					<!-- <a href="/fasttrack/koldetailed/id/1"></a> -->
+					<i>他才貌双全 <strong>8月8日</strong> 霸道登场</i>
+					<!-- <div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/m1.png" width="100%">
 						<div class="pInfo ycenter">
 							<p>
@@ -35,11 +36,12 @@
 							   <strong>陈默</strong>
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</li>
-				<li class="nopadding">
-					<a href="/fasttrack/koldetailed/id/2"></a>
-					<div class="personalInfo">
+				<li>
+					<!-- <a href="/fasttrack/koldetailed/id/2"></a> -->
+					<i>他英俊潇洒 <strong>8月15日</strong> 鲜肉来袭</i>
+					<!-- <div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/m2.png" width="100%">
 						<div class="pInfo ycenter">
 							<p>
@@ -47,7 +49,7 @@
 							   <strong>王博文</strong>
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</li>
 
 				<!-- <li>
@@ -75,14 +77,6 @@ $(function(){
 	if($(".personalCon li").length > 3){
     	$(".personalCon").removeClass("ycenter");
     };
-
-    $(".qrcodelink").on("click", function(){
-        $("#qrcode").show();
-    })
-
-    $(".close").on("click", function(){
-        $(this).parents(".pup-con").hide();
-    })
 })
 </script>
 

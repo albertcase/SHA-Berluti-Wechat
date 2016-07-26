@@ -94,14 +94,6 @@ $(function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     });
-
-    $(".qrcodelink").on("click", function(){
-        $("#qrcode").show();
-    })
-
-    $(".close").on("click", function(){
-        $(this).parents(".pup-con").hide();
-    })
     
 });
 </script>

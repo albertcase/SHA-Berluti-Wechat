@@ -310,19 +310,25 @@
 /* pageCon */
 #vote{
 	text-align: center;
+	overflow: hidden;
 }
 
 .voteSwiperCon{
-	width: 80%;
+	width: 90%;
 	margin: 3% 0 0 0;
+	position: relative;
+	display: inline-block;
+}
+
+#voteSwiper{
+	width: 66%;
 	display: inline-block;
 }
 
 #voteSwiper .swiper-slide{
 	position: relative;
 	background: #000;
-	width: 64%;
-	margin: 0 4px 0 0;
+	width: 100%;
 	display: inline-block;
 }
 
@@ -380,13 +386,24 @@
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
 	background: url("../img/swiperArr_r.png") center no-repeat;
-	background-size: 60% auto;
+	background-size: 80% auto;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
 	background: url("../img/swiperArr_l.png") center no-repeat;
-	background-size: 60% auto;
+	background-size: 80% auto;
 }
+
+#vote .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background: url("../img/arr_r.png") center no-repeat;
+	background-size: 80% auto;
+}
+
+#vote .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background: url("../img/arr_l.png") center no-repeat;
+	background-size: 80% auto;
+}
+
 
 .playIcon{
 	width: 100%;
@@ -599,7 +616,7 @@
 
 .voteList{
 	width: 100%;
-	padding: 45px 0 10px 0;
+	padding: 36px 0 10px 0;
 	position: relative;
 	display: inline-block;
 }
@@ -708,9 +725,6 @@
 	font-size: 1.2rem;
 }
 
-#voteResult .section_foot{
-	bottom: 15%;
-}
 
 
 
@@ -722,7 +736,7 @@
 .videoArea{
 	width: 100%;
 	position: relative;
-	margin: 6% 0;
+	margin: 12% 0;
 	display: inline-block;
 }
 
@@ -942,11 +956,34 @@
 	left: auto;
 	right: 3%;
 	top: 3%;
+	width: 16%;
+	text-align: right;
 }
 
+#qrcode .close img{
+	width: 38%;
+}
 
+.joinBtn{
+	width: 100%;
+	position: relative;
+	margin: 15px 0 0 0;
+	display: inline-block;
+}
 
+.voteFooter{
+	bottom: 8%;
+}
 
+.joinBtn a{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin: 0 0 0 -25%;
+	z-index: 2;
+}
 
 
 /* 6plus */
@@ -1145,5 +1182,3 @@
 	    opacity: .2;
 	}
 }
-
-

@@ -30,42 +30,6 @@
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 						</div>
 		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed/id/1" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed/id/2" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed/id/3" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed/id/4" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
 		        </div>
 
 		        <!-- Add Arrows -->
@@ -95,15 +59,6 @@ $(function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     });
-
-    $(".qrcodelink").on("click", function(){
-        $("#qrcode").show();
-    })
-
-    $(".close").on("click", function(){
-        $(this).parents(".pup-con").hide();
-    })
-
 });
 </script>
 

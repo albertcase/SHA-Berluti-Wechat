@@ -32,11 +32,15 @@
 		            </div>
 		        </div>
 
-		        <span class="arrWhite"></span>
+		        <!-- <span class="arrWhite"></span> -->
 
-		        <!-- Add Scroll Bar -->
-        		<div class="swiper-scrollbar"></div>
+		        <!-- Add Scroll Bar 
+        		<div class="swiper-scrollbar"></div>-->
+        		
 		    </div>
+		    <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
 
 	    </div>
 
@@ -56,15 +60,15 @@
 $(function(){
 
 	var swiper = new Swiper('#voteSwiper', {
-		scrollbar: '.swiper-scrollbar',
-        direction: 'horizontal',
-        slidesPerView: 'auto',
-        mousewheelControl: true,
-        freeMode: true
-
-        // paginationClickable: true,
+		// scrollbar: '.swiper-scrollbar',
+  //       direction: 'horizontal',
+  //       slidesPerView: 'auto',
+  //       mousewheelControl: true,
+  //       freeMode: true
+  		nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
         // spaceBetween: 3
-        // slidesPerView: 'auto',
+        
     }),voteId,isform = "<?php echo $info ?>";
 
     $("#voteSwiper .swiper-wrapper").delegate(".swiper-slide", "click", function(){
@@ -102,15 +106,6 @@ $(function(){
     })
 
 
-
-
-    $(".qrcodelink").on("click", function(){
-        $("#qrcode").show();
-    })
-
-    $(".close").on("click", function(){
-        $(this).parents(".pup-con").hide();
-    })
     
 });
 </script>
