@@ -569,8 +569,9 @@
 	display: inline-block;
 }
 
-#form .section_foot{
-	bottom: 15%;
+
+.section_foot .btn.form_footer{
+	margin-bottom: 18px; 
 }
 
 
