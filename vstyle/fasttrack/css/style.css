@@ -1005,6 +1005,10 @@
 	.videoModel .con {
 	    height: 89%;
 	}
+
+	.proInfo{
+		bottom: 5%;
+	}
 }
 
 /* 4s */
