@@ -54,13 +54,15 @@ class Ballot{
 		return $per;
     }
 
-    public function setInfo($uid, $name, $mobile, $email)
+    public function setInfo($uid, $name, $mobile, $email, $sex, $city)
     {
-    	$sql = "UPDATE `same_weixin_openid` SET name = :name, mobile = :mobile, email = :email WHERE id = :id";
+    	$sql = "UPDATE `same_weixin_openid` SET name = :name, mobile = :mobile, email = :email, sex = :sex, city = :city WHERE id = :id";
 		$command=$this->_db->createCommand($sql);
 		$command->bindParam(":name", $name, PDO::PARAM_STR);
 		$command->bindParam(":mobile", $mobile, PDO::PARAM_STR);
 		$command->bindParam(":email", $email, PDO::PARAM_STR);
+		$command->bindParam(":sex", $sex, PDO::PARAM_STR);
+		$command->bindParam(":city", $city, PDO::PARAM_STR);
 		$command->bindParam(":id", $uid, PDO::PARAM_STR);
 		$command->execute();
 		return TRUE;

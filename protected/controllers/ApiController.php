@@ -65,12 +65,14 @@ class ApiController extends Controller
 	    $name = isset($_POST['name']) ? $_POST['name'] : $tag = true;
 	    $mobile = isset($_POST['mobile']) ? $_POST['mobile'] : $tag = true;
 	    $email = isset($_POST['email']) ? $_POST['email'] : $tag = true;
+	    $sex = isset($_POST['sex']) ? $_POST['sex'] : $tag = true;
+	    $city = isset($_POST['city']) ? $_POST['city'] : $tag = true;
 	    if ( $tag ) {
 	    	print json_encode(array('code' => 2, 'msg' => '请填写必填项'));
 	    	Yii::app()->end();
 	    }
 	    $ballotObj = new Ballot();
-	    $ballotObj->setInfo($_SESSION['weixin_base_id'], $name, $mobile, $email);
+	    $ballotObj->setInfo($_SESSION['weixin_base_id'], $name, $mobile, $email, $sex, $city);
 	    print json_encode(array('code' => 1, 'msg' => '提交成功'));
 	    Yii::app()->end();
 	}
