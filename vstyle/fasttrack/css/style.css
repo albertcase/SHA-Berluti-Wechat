@@ -315,7 +315,7 @@
 
 .voteSwiperCon{
 	width: 90%;
-	margin: 3% 0 0 0;
+	margin: 2% 0 0 0;
 	position: relative;
 	display: inline-block;
 }
@@ -569,8 +569,9 @@
 	display: inline-block;
 }
 
-#form .section_foot{
-	bottom: 15%;
+
+.section_foot .btn.form_footer{
+	margin-bottom: 18px; 
 }
 
 
