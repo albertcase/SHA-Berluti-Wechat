@@ -28,7 +28,7 @@
 		            </div>
 		            <div class="swiper-slide" data-model="3">
 						<p><img src="/vstyle/fasttrack/img/pro/m0/v2.jpg" width="100%"></p>
-						<span><i>霹雳战神</i></span>
+						<span><i>倜傥绅士</i></span>
 		            </div>
 		        </div>
 

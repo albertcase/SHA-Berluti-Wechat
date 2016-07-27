@@ -212,8 +212,26 @@
 	text-align: center;
 }
 
+.olstyle{
+	width: 90%;
+	margin: 0 0 0 5%;
+	position: relative;
+	display: inline-block;
+}
 
+.olone:before, .oltwo:before{
+	position: absolute;
+	left: -5%;
+	top: 0;
+}
 
+.olone:before{
+	content: "1)	";
+}
+
+.oltwo:before{
+	content: "2)	";
+}
 
 
 
@@ -1006,10 +1024,6 @@
 	.videoModel .con {
 	    height: 89%;
 	}
-
-	/*.proInfo{
-		bottom: 4%;
-	}*/
 }
 
 /* 4s */
