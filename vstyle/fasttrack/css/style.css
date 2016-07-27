@@ -494,6 +494,7 @@
 	position: absolute;
 	left: 5%;
 	bottom: 7%;
+	line-height: 1.4rem;
 	color: #464545;
 }
 
@@ -1007,7 +1008,7 @@
 	}
 
 	.proInfo{
-		bottom: 5%;
+		bottom: 4%;
 	}
 }
 
