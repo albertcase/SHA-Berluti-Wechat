@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+.comingsoon{
+	width: 96%;
+	height: 96%;
+	background: rgba(0,0,0,.8) url("../img/comingsoon.png") center top no-repeat;
+	background-size: 100% auto;
+	position: fixed;
+	left: 2%;
+	top: 1%;
+	z-index: 10000;
+}
+
 .opacity0, #mainer{
 	opacity: 0;
 }
@@ -881,6 +892,11 @@
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
 	opacity: 0;
+}
+
+
+#kolSwiper .videoArea{
+	margin: 6% 0;
 }
 
 

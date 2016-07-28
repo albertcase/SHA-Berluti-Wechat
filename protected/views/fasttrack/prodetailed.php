@@ -8,7 +8,7 @@
 			<li><a href="/fasttrack/vote"></a></li>
 			<li><a href="/fasttrack/video"></a></li>
 			<li><a href="/fasttrack/kol"></a></li>
-			<li class="hover"></li>
+			<li><a href="/fasttrack/pro"></a></li>
 		</ul>
 		<img src="/vstyle/fasttrack/img/micon.png" width="100%" class="opacity0">
 	</div>

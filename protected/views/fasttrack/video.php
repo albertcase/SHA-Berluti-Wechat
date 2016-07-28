@@ -30,6 +30,17 @@
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 						</div>
 		            </div>
+
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<a href="/fasttrack/videoDetailed/id/1" class="playIcon"></a>
+								<img src="/vstyle/fasttrack/img/video/v1_FrontCover.jpg" width="100%">
+							</div>
+							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+
 		        </div>
 
 		        <!-- Add Arrows -->

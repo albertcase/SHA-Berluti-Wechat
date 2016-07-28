@@ -9,6 +9,8 @@
 	</div>
 </div>
 
+<div class="comingsoon"></div>
+
 <div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
 		<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
@@ -68,7 +70,7 @@
 	<div class="pageCon" id="index">
 		<div class="videoModel">
 			<div class="con ycenter">
-				<img src="" sourcesrc="/vstyle/fasttrack/img/kv-1.jpg" width="100%">
+				<img src="" sourcesrc="/vstyle/fasttrack/img/kv-0.jpg" width="100%">
 			</div>
 			<img src="" sourcesrc="/vstyle/fasttrack/img/v_bg.png" width="100%">
 		</div>
