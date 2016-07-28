@@ -1,5 +1,7 @@
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/PxLoader.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
+
+
 <div class="loading ycenter">
 	<div class="loadCon">
 		<img src="/vstyle/fasttrack/img/shoe_loading.png" width="100%">
@@ -10,6 +12,20 @@
 </div>
 
 <div class="comingsoon"></div>
+
+<script type="text/javascript">
+	function GetQueryString(name){
+	var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	var r = window.location.search.substr(1).match(reg);
+	if(r!=null)return unescape(r[2]); return null;
+	}
+
+	var cType = GetQueryString("type");
+
+		if(cType){
+			$(".comingsoon").hide();
+		}
+</script>
 
 <div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
