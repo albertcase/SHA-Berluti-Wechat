@@ -95,6 +95,7 @@ $(function(){
 	var baseUrl = "/vstyle/fasttrack/img/";
 	//声明资源文件列表
 	var fileList = [
+		baseUrl + 'comingsoon.jpg',
 		baseUrl + 'kv-0.jpg',
 		baseUrl + 'kv-1.jpg',
 		baseUrl + 'kv-2.jpg',
