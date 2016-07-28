@@ -248,12 +248,13 @@
 	width: 100%;
 	height: 64%;
 	overflow: auto;
-	margin: 4% 0;
+	margin: 3% 0;
 	display: inline-block;
 }
 
 .section_foot{
 	width: 100%;
+	padding: 0 0 9px 0;
 	position: absolute;
 	left: 0;
 	bottom: 7%;
@@ -536,7 +537,7 @@
 }
 
 .formCon{
-	width: 80%;
+	width: 90%;
 	display: inline-block;
 }
 
@@ -561,7 +562,8 @@
 }
 
 .formul{
-	margin: 12px 0 0 0;
+	width: 86%;
+	margin: 10px 0 0 0;
 }
 
 .formul li{
@@ -588,9 +590,67 @@
 	display: inline-block;
 }
 
+.formul li.address span{
+	width: 30%;
+}
+
+.formul li.address input{
+	width: 65%;
+}
 
 .section_foot .btn.form_footer{
 	margin-bottom: 18px; 
+}
+
+.formul li:nth-child(1) input{
+	width: 31%;
+}
+
+.gender{
+	width: 45%;
+	background: #f2f2f2;
+	height: 37px;
+	float: right;
+	display: inline-block;
+}
+
+.gender em{
+	width: 38%;
+	margin: 0 3% 0 9%;
+	line-height: 37px;
+	text-align: center;
+	position: relative;
+	text-indent: 1.6rem;
+	float: left;
+	display: inline-block;
+}
+
+.gender em:before{
+	width: 16px;
+	height: 16px;
+	content: "";
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin: -9px 0 0 0;
+	border-radius: 100%;
+	border: 4px #fff solid;
+	z-index: 2;
+}
+
+.gender em.hover:before{
+	background: #000;
+}
+
+.gender em input{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 60%;
+	opacity: 0;
+	z-index: 6;
 }
 
 
@@ -636,7 +696,7 @@
 
 .voteList{
 	width: 100%;
-	padding: 36px 0 10px 0;
+	padding: 30px 0 10px 0;
 	position: relative;
 	display: inline-block;
 }
@@ -1024,6 +1084,22 @@
 	.videoModel .con {
 	    height: 89%;
 	}
+
+	#voteResult .formText h3{
+		margin: 6px 0 0 0;
+	}
+
+	.formul li{
+		margin: 5px 0;
+	}
+
+	.formText h2{
+		padding: 0 0 5px 0;
+	}
+
+	#form{
+		margin-top: 0%;
+	}
 }
 
 /* 4s */
@@ -1033,6 +1109,20 @@
 	#form .section_foot{
 		bottom: 8%;
 	}
+
+	.formul li{
+		margin: 5px 0;
+	}
+
+	.formText h2{
+		padding: 0 0 5px 0;
+	}
+
+	#form{
+		margin-top: 0%;
+	}
+	
+	
 
 }
 
