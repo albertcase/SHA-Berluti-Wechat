@@ -68,6 +68,7 @@
 			femail = $("input[name='email']").val(),
 			faddress = $("input[name='address']").val();
 			$(this).addClass("disable");
+			alert(fsex);
 		if(fname == ""){
 			pfun.formErrorTips("姓名不能为空！");
 			$(this).removeClass("disable");
