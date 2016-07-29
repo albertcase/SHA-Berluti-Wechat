@@ -13,19 +13,6 @@
 
 <div class="comingsoon" style="display:<?php if (date('YmdH')>='2016080109') echo 'none'; else echo 'block';?>"></div>
 
-<script type="text/javascript">
-	function GetQueryString(name){
-	var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-	var r = window.location.search.substr(1).match(reg);
-	if(r!=null)return unescape(r[2]); return null;
-	}
-
-	var cType = GetQueryString("type");
-
-		if(cType){
-			$(".comingsoon").hide();
-		}
-</script>
 
 <div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
