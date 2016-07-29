@@ -29,10 +29,10 @@
 					<span>电话</span> <input type="tel" maxlength="11" name="tel">
 				</li>
 				<li>
-					<span>电邮</span> <input type="text" name="email">
+					<span>邮箱</span> <input type="text" name="email">
 				</li>
 				<li class="address">
-					<span>所在城市</span> <input type="text" name="address">
+					<span>地址</span> <input type="text" name="address">
 				</li>
 			</ul>
 
