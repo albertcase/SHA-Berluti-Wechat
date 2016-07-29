@@ -100,7 +100,7 @@ $(function(){
 				
 			});
     	}else{
-    		pfun.formErrorTips("请选择你喜欢的模特并且为他投票<br>赢取你的 BERLUTI FAST TRACK 专属鞋履");
+    		pfun.formErrorTips("请选择你喜欢的造型并点击投票<br>赢取你的Fast Track专属鞋履");
     	}
     	
     })

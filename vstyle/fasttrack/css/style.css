@@ -220,7 +220,7 @@
 
 .ruleCon p.ruleCopyright{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 .olstyle{
@@ -351,7 +351,7 @@
 }
 
 #voteSwiper{
-	width: 66%;
+	width: 63%;
 	display: inline-block;
 }
 

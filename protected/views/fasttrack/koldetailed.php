@@ -40,7 +40,7 @@
 							<p>For Dong Hebin, he was destined to be a racer when he drove a kart at the age of 14. Dong Hebin’s energy comes from the desire for speed. Sticking to his dream for 15 years, he came to know that when a person tries his best to do one thing, accumulates piece by piece, and improves step by step, he will finally make a different, just like a carbon turning to a diamond. Racing is the only sport that cannot get trained, because the racing cars are rarely used for daily practice. That’s why the only thing racers can do is to build up their health, and develop their physical ability to adjust the speed and challenges. So fashion to Dong Hebin is not just a beautiful and healthy equipment, but a thing that can keep its quality forever.</p>
 							<p>Berluti, with hundred-year craftsmanship, brings Fast Track Sport Shoes with extraordinary comfort and elegance. It is made from patina-look calfskin or glazed calf, and the traditional patina craft equips the shoes with an attractive texture, at the same time the non-slip sole shares the similar beauty with the sport spirit of the shoes. So the pair of shoes is so magic that can attract the owner to a fashion sport world.</p>
 							<p>Many people think it is the most exciting moment to pass the destination, but Dong Hebin prefers to enjoy in each track. Thanks to this consistent pursuit to the dream, it combines with the transcendent and innovative spirit of Berluti Fast Track, and preserves the trendy sport feel on the fashion road as long as possible.</p>
-							<center>拍摄花絮</center>
+							<center><strong>他眼中的 Fast Track</strong></center>
 							 <div class="videoArea">
 								<div id="vplay"></div>
 								<img src="/vstyle/fasttrack/img/poster.jpg" class="opacity0" width="100%">

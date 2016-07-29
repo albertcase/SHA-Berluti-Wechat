@@ -36,7 +36,7 @@
 		<p>本次活动“Fast Track”（“活动”）由Berluti（“主办方”）主办。通过参与该活动，即代表您（“参与者”）同意并接受以下条款与细则的约束：</p>
 		<img src="" sourcesrc="/vstyle/fasttrack/img/line.png" class="line">
 		<h3>一般规则</h3>
-		<p>活动时间：2016年8月1日至2016年8月21日23:59:00（北京时间）<br>
+		<p>活动时间：2016年8月1日至2016年8月21日23:59（北京时间）<br>
 		参与办法：<br>
 		</p>
 		<p class="olstyle olone">
