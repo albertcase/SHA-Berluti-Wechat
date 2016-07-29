@@ -11,7 +11,7 @@
 	</div>
 </div>
 
-<div class="comingsoon" style="display:<?php if (date('YmdH')>='2016080109') echo 'none'; else echo 'block';?>"></div>
+<div class="comingsoon"></div>
 
 <script type="text/javascript">
 	function GetQueryString(name){
