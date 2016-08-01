@@ -341,6 +341,7 @@
 #vote{
 	text-align: center;
 	overflow: hidden;
+	opacity: 0;
 }
 
 .voteSwiperCon{

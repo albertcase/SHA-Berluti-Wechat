@@ -67,6 +67,9 @@ $(function(){
   //       freeMode: true
   		nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
+        onInit: function(){
+        	$("#vote").css({"opacity": 1});
+        }
         // spaceBetween: 3
         
     }),voteId,isform = "<?php echo $info ?>";
@@ -96,8 +99,7 @@ $(function(){
 					}else{
 						setTimeout(function(){
 						   location.href = "/fasttrack/list";
-						}, 300)
-						
+						}, 500)
 					}
 				}
 				
