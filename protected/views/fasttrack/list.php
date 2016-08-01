@@ -96,7 +96,7 @@
 			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]["_id"]+".png");
 
 
-			$("#voteResult").fadeIn();
+			$("#voteResult").show();
 		});
 
 </script>
