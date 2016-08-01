@@ -94,7 +94,10 @@ $(function(){
 					if(isform == "0"){
 						location.href = "/fasttrack/form";
 					}else{
-						location.href = "/fasttrack/list";
+						setTimeout(function(){
+						   location.href = "/fasttrack/list";
+						}, 300)
+						
 					}
 				}
 				
