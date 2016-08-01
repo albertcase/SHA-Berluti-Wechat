@@ -97,7 +97,7 @@
 
 					pfun.formErrorTips(data.msg);
 					if(data.code == 1){
-						//location.href = "/fasttrack/list";
+						location.href = "/fasttrack/list";
 					}
 					
 				});
