@@ -90,7 +90,7 @@ $(function(){
 			pfun.ajaxFun("POST", "/api/ballot", jssdkPushData, "json", function(data){
 
 				pfun.formErrorTips(data.msg);
-				if(data.code == 1){
+				if(data.code == "1"){
 					if(isform == "0"){
 						location.href = "/fasttrack/form";
 					}else{
