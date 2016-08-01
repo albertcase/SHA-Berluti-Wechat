@@ -99,7 +99,7 @@ $(function(){
 					}else{
 						setTimeout(function(){
 						   location.href = "/fasttrack/list";
-						}, 500)
+						}, 300)
 					}
 				}
 				
