@@ -1071,6 +1071,10 @@
 	bottom: 8%;
 }
 
+.voteFooter .qrcodelink{
+	bottom: -11%;
+}
+
 .joinBtn a{
 	width: 50%;
 	height: 100%;
