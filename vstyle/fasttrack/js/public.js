@@ -94,7 +94,7 @@ var pfun = {
                     //  alert('用户点击发送给朋友');
                 },
                 success: function (res) {
-
+                    _hmt.push(['_trackEvent', 'share', 'ShareAppMessage']);
                     //  alert('已分享');
                 },
                 cancel: function (res) {
@@ -113,6 +113,7 @@ var pfun = {
                 link: shareArr._link,
                 imgUrl: shareArr._imgUrl,
                 trigger: function (res) {
+                    _hmt.push(['_trackEvent', 'share', 'ShareTimeline']);
                     //   alert('用户点击分享到朋友圈');
                 },
                 success: function (res) {
