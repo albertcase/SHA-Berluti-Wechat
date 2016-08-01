@@ -11,7 +11,7 @@
 	</div>
 </div>
 
-<div class="comingsoon"></div>
+<!-- <div class="comingsoon"></div>
 
 <script type="text/javascript">
 	function GetQueryString(name){
@@ -26,7 +26,7 @@
 			$(".comingsoon").hide();
 		}
 </script>
-
+ -->
 <div class="pup-con rulePup">
 	<a href="javascript:;" class="close">
 		<img src="" sourcesrc="/vstyle/fasttrack/img/close.png" width="100%">
