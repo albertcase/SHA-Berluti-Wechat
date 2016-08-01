@@ -91,7 +91,7 @@ $(function(){
 
 				pfun.formErrorTips(data.msg);
 				if(data.code == 1){
-					if(isform){
+					if(!isform){
 						location.href = "/fasttrack/form";
 					}else{
 						location.href = "/fasttrack/list";
