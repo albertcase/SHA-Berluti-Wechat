@@ -145,6 +145,10 @@ var pfun = {
               pic: _vposter,
               modId: _vid, //mod_player是刚刚在页面添加的div容器 autoplay:true
                 oninited: function () {
+                    $(".tvp_overlay_play").on("click", function(){
+                        _hmt.push(['_trackEvent', 'click', 'video', _vid]);
+                        console.log("监测视频播放状态!");
+                    })
                     //播放器在视频载入完毕触发
                 },
                 onplaying: function () {
