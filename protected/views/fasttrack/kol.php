@@ -27,7 +27,7 @@
 				</li>
 				<li>
 					<!-- <a href="/fasttrack/koldetailed/id/1"></a> -->
-					<i>他才貌双全 <strong>8月8日</strong> 霸道登场</i>
+					<i>他机智超群 <strong>8月8日</strong> 温暖登场</i>
 					<!-- <div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/m1.png" width="100%">
 						<div class="pInfo ycenter">
@@ -40,7 +40,7 @@
 				</li>
 				<li>
 					<!-- <a href="/fasttrack/koldetailed/id/2"></a> -->
-					<i>他英俊潇洒 <strong>8月15日</strong> 鲜肉来袭</i>
+					<i>他才华俊逸 <strong>8月15日</strong> 翩然来袭</i>
 					<!-- <div class="personalInfo">
 						<img src="/vstyle/fasttrack/img/m2.png" width="100%">
 						<div class="pInfo ycenter">

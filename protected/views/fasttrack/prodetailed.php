@@ -8,7 +8,7 @@
 			<li><a href="/fasttrack/vote"></a></li>
 			<li><a href="/fasttrack/video"></a></li>
 			<li><a href="/fasttrack/kol"></a></li>
-			<li class="hover"></li>
+			<li><a href="/fasttrack/pro"></a></li>
 		</ul>
 		<img src="/vstyle/fasttrack/img/micon.png" width="100%" class="opacity0">
 	</div>
@@ -61,22 +61,22 @@
 				"size": 1,
 				"type": "运动鞋",
 				"name": "FAST TRACK",
-				"style": "2016 - 2017年秋/冬系列",
-				"description": "该款运动鞋从跑鞋上汲取灵感，采用了轻便防滑、适宜运动的橡胶鞋底。你一定会在跑步的时候爱上它的。"
+				"style": "2016年秋冬系列",
+				"description": "该款运动鞋从跑鞋上汲取灵感, 采用尼龙搭配釉光的皮革表面，三孔系带，配上轻便、防滑的鞋底，让你在任何场合都能轻松驾驭。"
 			},
 			{
 				"size": 1,
 				"type": "运动鞋",
 				"name": "FAST TRACK",
-				"style": "2016 - 2017年秋/冬系列",
-				"description": "该款运动鞋从跑鞋上汲取灵感，采用了轻便防滑、适宜运动的橡胶鞋底。你一定会在跑步的时候爱上它的。"
+				"style": "2016年秋冬系列",
+				"description": "该款运动鞋从跑鞋上汲取灵感, 采用“Vitello Unico”皮革表面，三孔系带搭配压花细节，配上轻便、防滑的鞋底，让你在任何场合都能轻松驾驭。"
 			},
 			{
 				"size": 1,
 				"type": "运动鞋",
 				"name": "FAST TRACK",
-				"style": "2016 - 2017年秋/冬系列",
-				"description": "该款运动鞋从跑鞋上汲取灵感，采用了轻便防滑、适宜运动的橡胶鞋底。你一定会在跑步的时候爱上它的。"
+				"style": "2016年秋冬系列",
+				"description": "该款运动鞋从跑鞋上汲取灵感, 采用“Vitello Unico”皮革表面，三孔系带搭配压花细节，配上轻便、防滑的鞋底，让你在任何场合都能轻松驾驭。"
 			}
 		]
 

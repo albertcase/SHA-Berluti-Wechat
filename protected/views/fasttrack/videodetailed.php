@@ -5,7 +5,7 @@
 	<div class="menu">
 		<ul>
 			<li><a href="/fasttrack/vote"></a></li>
-			<li class="hover"></li>
+			<li><a href="/fasttrack/video"></a></li>
 			<li><a href="/fasttrack/kol"></a></li>
 			<li><a href="/fasttrack/pro"></a></li>
 		</ul>
@@ -28,8 +28,8 @@
 	$(function(){
 		
 		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
-			vArr = ["s0311orkbpr", "x0308hpn9ev"],
-			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/kol_poster_0.jpg"];
+			vArr = ["s0311orkbpr", "g03161xq4d1"],
+			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/video/v1_poster.jpg"];
 
 		var vposterimg = new Image();
 		vposterimg.src = vposter[_id];

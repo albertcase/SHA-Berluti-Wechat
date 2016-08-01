@@ -86,7 +86,7 @@ var pfun = {
             // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
 
             wx.onMenuShareAppMessage({
-                title: shareArr._title,
+                title: " ",
                 desc: shareArr._desc_friend,
                 link: shareArr._link,
                 imgUrl: shareArr._imgUrl,

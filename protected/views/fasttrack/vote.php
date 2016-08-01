@@ -28,7 +28,7 @@
 		            </div>
 		            <div class="swiper-slide" data-model="3">
 						<p><img src="/vstyle/fasttrack/img/pro/m0/v2.jpg" width="100%"></p>
-						<span><i>霹雳战神</i></span>
+						<span><i>倜傥绅士</i></span>
 		            </div>
 		        </div>
 
@@ -91,7 +91,7 @@ $(function(){
 
 				pfun.formErrorTips(data.msg);
 				if(data.code == 1){
-					if(isform){
+					if(isform == "0"){
 						location.href = "/fasttrack/form";
 					}else{
 						location.href = "/fasttrack/list";
@@ -100,7 +100,7 @@ $(function(){
 				
 			});
     	}else{
-    		pfun.formErrorTips("请选择你喜欢的模特并且为他投票<br>赢取你的 BERLUTI FAST TRACK 专属鞋履");
+    		pfun.formErrorTips("请选择你喜欢的造型并点击投票<br>赢取你的Fast Track专属鞋履");
     	}
     	
     })

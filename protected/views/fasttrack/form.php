@@ -8,24 +8,29 @@
 			<div class="formText">
 				<h2>感谢您的参与！</h2>
 				<p>
-					已经选好你最喜爱的款式了吗？<br>
-					也许你就是它的主人哟！
-				</p>
-				<p>
-					马上留下您的联系方式吧，<br>
-					获奖名单公布后，我们的工作人员会第一时间联系您！
+					马上留下您的联系方式，<br>
+					就有机会快人一步赢取您的Berluti最新款鞋履，<br>
+					获奖名单公布后，工作人员将会第一时间与您联络<br>
+					<br>
 				</p>
 			</div>
 
 			<ul class="formul">
 				<li>
 					<span>姓名</span> <input type="text" name="name">
+					<div class="gender">
+						<em><input type="radio" name="sex" value="先生">先生</em>
+						<em><input type="radio" name="sex" value="女士">女士</em>
+					</div>
 				</li>
 				<li>
 					<span>电话</span> <input type="tel" maxlength="11" name="tel">
 				</li>
 				<li>
-					<span>电邮</span> <input type="text" name="email">
+					<span>邮箱</span> <input type="text" name="email">
+				</li>
+				<li class="address">
+					<span>地址</span> <input type="text" name="address">
 				</li>
 			</ul>
 
@@ -49,13 +54,24 @@
 
 <script type="text/javascript">
 	
+	$(".gender").delegate("em", "click", function(){
+		$(".gender em").removeClass("hover");
+		$(this).addClass("hover");
+	})
+
 	$(".submitBtn").on("click", function(){
 		var fname = $("input[name='name']").val(),
+			fsex = $("input[name='sex']:checked").val(),
 			ftel = $("input[name='tel']").val(),
-			femail = $("input[name='email']").val();
+			femail = $("input[name='email']").val(),
+			faddress = $("input[name='address']").val();
 			$(this).addClass("disable");
+
 		if(fname == ""){
 			pfun.formErrorTips("姓名不能为空！");
+			$(this).removeClass("disable");
+		}else if(!fsex){
+			pfun.formErrorTips("请选择您的性别！");
 			$(this).removeClass("disable");
 		}else if(!pfun.isPhoneNum(ftel)){
 			pfun.formErrorTips("手机号码输入有误！");
@@ -63,13 +79,18 @@
 		}else if(!pfun.isEmailNum(femail)){
 			pfun.formErrorTips("邮件地址输入有误！");
 			$(this).removeClass("disable");
+		}else if(!faddress){
+			pfun.formErrorTips("请输入您的所在城市！");
+			$(this).removeClass("disable");
 		}else{
 			
 
 			var jssdkPushData = {
 					"name": fname,
+					"sex": fsex,
 				    "mobile": ftel,
-				    "email": femail
+				    "email": femail,
+				    "city": faddress
 				}
 
 				pfun.ajaxFun("POST", "/api/submit", jssdkPushData, "json", function(data){

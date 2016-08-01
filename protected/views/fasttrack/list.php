@@ -3,7 +3,7 @@
 	
 
 	<!-- 投票结果页面 -->
-	<div class="pageCon pageSection" id="voteResult" style="display: inline-block;">
+	<div class="pageCon pageSection" id="voteResult">
 		<div class="formCon">
 			
 			<div class="formText">
@@ -91,10 +91,12 @@
 			$(".voteList li").eq(1).find("em").html(voteNum[0]["_ratio"]+"%");
 			$(".voteList li").eq(2).find("em").html(voteNum[2]["_ratio"]+"%");
 
-			$(".voteList li").eq(0).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[1]["_id"]+".jpg");
-			$(".voteList li").eq(1).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[0]["_id"]+".jpg");
-			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]["_id"]+".jpg");
+			$(".voteList li").eq(0).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[1]["_id"]+".png");
+			$(".voteList li").eq(1).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[0]["_id"]+".png");
+			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]["_id"]+".png");
 
+
+			$("#voteResult").show();
 		});
 
 </script>
