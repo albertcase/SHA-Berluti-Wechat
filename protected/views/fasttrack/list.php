@@ -62,7 +62,7 @@
 		<a href="javascript:;" class="qrcodelink"><img src="/vstyle/fasttrack/img/attention.png" width="100%"></a>
 		<img src="/vstyle/fasttrack/img/shareTips.png" width="100%">
 		<span class="joinBtn">
-			<a href="/fasttrack"></a>
+			<a href="/fasttrack/vote"></a>
 			<img src="/vstyle/fasttrack/img/joinBtn.png" width="100%">
 		</span>
 	</div>
