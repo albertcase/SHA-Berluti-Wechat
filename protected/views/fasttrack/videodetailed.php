@@ -15,7 +15,7 @@
 	<!-- 默认页面 -->
 	<div class="pageCon infocon ycenter" id="infoVideo">
 		<div class="videoArea">
-			<div id="vplay"></div>
+			<div class="videoTab" id="vplay-info"></div>
 			<img src="/vstyle/fasttrack/img/poster.jpg" class="opacity0" width="100%">
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 		vposterimg.src = vposter[_id];
 		vposterimg.onload=function(){
 		    //图片加载完你想做的事情
-		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay-info");
 		}
 
 	});

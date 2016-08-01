@@ -37,7 +37,7 @@
 							<p>许多人认为冲破终点的瞬间最热血，但董荷斌却喜欢在每一段赛道中享受超越极限带来的快感。正是这种从一而终的追求，才能和Berluti Fast Track的超越创新融为一体，在长途奔袭的赛道上延续运动风尚。</p>
 							<center><strong>他眼中的 Fast Track</strong></center>
 							 <div class="videoArea">
-								<div id="vplay"></div>
+								<div class="videoTab" id="vplay-kol"></div>
 								<img src="/vstyle/fasttrack/img/poster.jpg" class="opacity0" width="100%">
 							</div> 
 						</div>
@@ -114,7 +114,7 @@
         	prevButton: '.swiper-button-prev',
         	initialSlide : _id,
         	onSlideChangeEnd: function(swiper){
-        		$("#vplay video")[0].pause();
+        		$("#vplay-kol video")[0].pause();
         		// $("#vplay2 video")[0].pause();
         	}
 		});
@@ -123,7 +123,7 @@
 		vposterimg.src = vposter[_id];
 		vposterimg.onload=function(){
 		    //图片加载完你想做的事情
-		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay");
+		    pfun.txVideoFun(vArr[_id], vposter[_id], "vplay-kol");
 			//pfun.txVideoFun(vArr[_id], vposter[_id], "vplay2");
 		}
 		
