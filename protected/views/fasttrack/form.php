@@ -24,7 +24,7 @@
 					</div>
 				</li>
 				<li>
-					<span>电话</span> <input type="tel" maxlength="11" name="tel">
+					<span>电话</span> <input type="tel" name="tel">
 				</li>
 				<li>
 					<span>邮箱</span> <input type="text" name="email">
@@ -73,7 +73,7 @@
 		}else if(!fsex){
 			pfun.formErrorTips("请选择您的性别！");
 			$(this).removeClass("disable");
-		}else if(!pfun.isPhoneNum(ftel)){
+		}else if(ftel == ""){    //if(!pfun.isPhoneNum(ftel)){
 			pfun.formErrorTips("手机号码输入有误！");
 			$(this).removeClass("disable");
 		}else if(!pfun.isEmailNum(femail)){
