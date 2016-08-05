@@ -4,7 +4,6 @@
 	<!-- 默认页面 -->
 	<div class="pageCon pageSection" id="form" style="display: inline-block;">
 		<div class="formCon">
-			
 			<div class="formText">
 				<h2>感谢您的参与！</h2>
 				<p>
