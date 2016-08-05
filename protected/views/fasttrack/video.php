@@ -41,19 +41,9 @@
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 							</div>
 			            </div>
-
-			            <div class="swiper-slide">
-							<div class="videoModel">
-								<div class="con ycenter">
-									<a href="/fasttrack/videoDetailed/id/3" class="playIcon"></a>
-									<img src="/vstyle/fasttrack/img/video/v2_FrontCover.jpg" width="100%">
-								</div>
-								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-							</div>
-			            </div>
-					<?php
+			        <?php
 					}?>
-
+					
 		            <div class="swiper-slide">
 						<div class="videoModel">
 							<div class="con ycenter">
@@ -73,6 +63,20 @@
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 						</div>
 		            </div>
+
+		            <?php if($version >= "2") {
+					?>
+			            <div class="swiper-slide">
+							<div class="videoModel">
+								<div class="con ycenter">
+									<a href="/fasttrack/videoDetailed/id/3" class="playIcon"></a>
+									<img src="/vstyle/fasttrack/img/video/v2_FrontCover.jpg" width="100%">
+								</div>
+								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+							</div>
+			            </div>
+					<?php
+					}?>
 
 		        </div>
 
