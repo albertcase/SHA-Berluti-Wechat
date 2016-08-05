@@ -18,7 +18,6 @@
 			
 			<div class="formText">
 				<h2>再次感谢您的参与！</h2>
-				
 				<h3>投票结果</h3>
 			</div>
 
