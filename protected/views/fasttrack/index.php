@@ -1,5 +1,14 @@
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/PxLoader.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
+<script type="text/javascript">
+	<?php
+		if (isset($_GET['v'])) 
+			$version = intval($_GET['v']);
+		else 
+			$version = $this->v;
+	?>
+	var weekId = "<?php echo $version; ?>";
+</script>
 
 
 <div class="loading ycenter">
@@ -72,6 +81,7 @@
 </div>
 
 <div class="section" id="mainer">
+	<!-- <button action="submit" class="submit-button" data-text="Send Message"><span>S</span><span>e</span><span>n</span><span>d</span><span>&nbsp;</span><span>M</span><span>e</span><span>s</span><span>s</span><span>a</span><span>g</span><span>e</span></button> -->
 	<div class="menu">
 		<ul>
 			<li><a href="/fasttrack/vote"></a></li>
@@ -86,7 +96,19 @@
 	<div class="pageCon" id="index">
 		<div class="videoModel">
 			<div class="con ycenter">
-				<img src="" sourcesrc="/vstyle/fasttrack/img/kv-0.jpg" width="100%">
+				<?php if($version == "1") {
+				?>
+					<img src="" sourcesrc="/vstyle/fasttrack/img/kv-0.jpg" width="100%">
+				<?php 
+				} else if($version == "2") {
+				?>
+					<img src="" sourcesrc="/vstyle/fasttrack/img/kv-1.jpg" width="100%">
+				<?php 
+				} else {
+				?>
+					<img src="" sourcesrc="/vstyle/fasttrack/img/kv-2.jpg" width="100%">
+				<?php
+				}?>
 			</div>
 			<img src="" sourcesrc="/vstyle/fasttrack/img/v_bg.png" width="100%">
 		</div>
@@ -115,9 +137,9 @@ $(function(){
 		baseUrl + 'kv-0.jpg',
 		baseUrl + 'kv-1.jpg',
 		baseUrl + 'kv-2.jpg',
-		baseUrl + 'avater-1.png', 
-		baseUrl + 'avater-2.png', 
-		baseUrl + 'avater-3.png', 
+		baseUrl + 'v1/avater-1.png', 
+		baseUrl + 'v1/avater-2.png', 
+		baseUrl + 'v1/avater-3.png', 
 		baseUrl + 'avater.jpg', 
 		baseUrl + 'bg.png', 
 		baseUrl + 'd_arr.png', 

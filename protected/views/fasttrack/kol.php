@@ -1,3 +1,13 @@
+<script type="text/javascript">
+	<?php
+		if (isset($_GET['v'])) 
+			$version = intval($_GET['v']);
+		else 
+			$version = $this->v;
+	?>
+	var weekId = "<?php echo $version; ?>";
+</script>
+
 <div class="section">
 	<div class="menu">
 		<ul>
@@ -25,19 +35,31 @@
 						</div>
 					</div>
 				</li>
-				<li>
-					<!-- <a href="/fasttrack/koldetailed/id/1"></a> -->
-					<i>他机智超群 <strong>8月8日</strong> 温暖登场</i>
-					<!-- <div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/m1.png" width="100%">
-						<div class="pInfo ycenter">
-							<p>
-							   企业家<br>
-							   <strong>陈默</strong>
-							</p>
-						</div>
-					</div> -->
-				</li>
+				
+					<?php if($version == "1") {
+					?>
+						<li>
+							<i>他机智超群 <strong>8月8日</strong> 温暖登场</i>
+						</li>
+					<?php 
+					} else {
+					?>
+						<li class="nopadding">
+							<a href="/fasttrack/koldetailed/id/1"></a>
+							<div class="personalInfo">
+								<img src="/vstyle/fasttrack/img/m1.png" width="100%">
+								<div class="pInfo ycenter">
+									<p>
+									   企业家<br>
+									   <strong>陈默</strong>
+									</p>
+								</div>
+							</div>
+						</li>
+					<?php
+					}?>
+					
+				
 				<li>
 					<!-- <a href="/fasttrack/koldetailed/id/2"></a> -->
 					<i>他才华俊逸 <strong>8月15日</strong> 翩然来袭</i>

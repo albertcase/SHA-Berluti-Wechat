@@ -1,4 +1,12 @@
-
+<script type="text/javascript">
+	<?php
+		if (isset($_GET['v'])) 
+			$version = intval($_GET['v']);
+		else 
+			$version = $this->v;
+	?>
+	var weekId = "<?php echo $version; ?>";
+</script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
 
 
@@ -40,6 +48,30 @@
 							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
 						</div>
 		            </div>
+
+		            <?php if($version >= "2") {
+					?>
+						<div class="swiper-slide">
+							<div class="videoModel">
+								<div class="con ycenter">
+									<a href="/fasttrack/videoDetailed/id/2" class="playIcon"></a>
+									<img src="/vstyle/fasttrack/img/video/v2_FrontCover-2.jpg" width="100%">
+								</div>
+								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+							</div>
+			            </div>
+
+			            <div class="swiper-slide">
+							<div class="videoModel">
+								<div class="con ycenter">
+									<a href="/fasttrack/videoDetailed/id/3" class="playIcon"></a>
+									<img src="/vstyle/fasttrack/img/video/v2_FrontCover.jpg" width="100%">
+								</div>
+								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+							</div>
+			            </div>
+					<?php
+					}?>
 
 		        </div>
 

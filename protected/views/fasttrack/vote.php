@@ -1,5 +1,13 @@
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
-
+<script type="text/javascript">
+	<?php
+		if (isset($_GET['v'])) 
+			$version = intval($_GET['v']);
+		else 
+			$version = $this->v;
+	?>
+	var weekId = "<?php echo $version; ?>";
+</script>
 <div class="section">
 	<div class="menu">
 		<ul>
@@ -18,18 +26,53 @@
 			<!-- Swiper -->
 		    <div class="swiper-container" id="voteSwiper">
 		        <div class="swiper-wrapper">
-		            <div class="swiper-slide" data-model="1">
-						<p><img src="/vstyle/fasttrack/img/pro/m0/v0.jpg" width="100%"></p>
-						<span><i>赛道黑马</i></span>
-		            </div>
-		            <div class="swiper-slide" data-model="2">
-						<p><img src="/vstyle/fasttrack/img/pro/m0/v1.jpg" width="100%"></p>
-						<span><i>追风型男</i></span>
-		            </div>
-		            <div class="swiper-slide" data-model="3">
-						<p><img src="/vstyle/fasttrack/img/pro/m0/v2.jpg" width="100%"></p>
-						<span><i>倜傥绅士</i></span>
-		            </div>
+		        	<?php if($version == "1") {
+					?>
+						<div class="swiper-slide" data-model="1">
+							<p><img src="/vstyle/fasttrack/img/pro/m0/v0.jpg" width="100%"></p>
+							<span><i>赛道黑马</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="2">
+							<p><img src="/vstyle/fasttrack/img/pro/m0/v1.jpg" width="100%"></p>
+							<span><i>追风型男</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="3">
+							<p><img src="/vstyle/fasttrack/img/pro/m0/v2.jpg" width="100%"></p>
+							<span><i>倜傥绅士</i></span>
+			            </div>
+					<?php 
+					} else if($version == "2") {
+					?>
+						<div class="swiper-slide" data-model="1">
+							<p><img src="/vstyle/fasttrack/img/pro/m1/v0.jpg" width="100%"></p>
+							<span><i>邻家暖男</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="2">
+							<p><img src="/vstyle/fasttrack/img/pro/m1/v1.jpg" width="100%"></p>
+							<span><i>时尚精英</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="3">
+							<p><img src="/vstyle/fasttrack/img/pro/m1/v2.jpg" width="100%"></p>
+							<span><i>阳光才子</i></span>
+			            </div>
+					<?php 
+					} else {
+					?>
+						<div class="swiper-slide" data-model="1">
+							<p><img src="/vstyle/fasttrack/img/pro/m2/v0.jpg" width="100%"></p>
+							<span><i>邻家暖男</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="2">
+							<p><img src="/vstyle/fasttrack/img/pro/m2/v1.jpg" width="100%"></p>
+							<span><i>时尚精英</i></span>
+			            </div>
+			            <div class="swiper-slide" data-model="3">
+							<p><img src="/vstyle/fasttrack/img/pro/m2/v2.jpg" width="100%"></p>
+							<span><i>阳光才子</i></span>
+			            </div>
+					<?php
+					}?>
+		            
 		        </div>
 
 		        <!-- <span class="arrWhite"></span> -->

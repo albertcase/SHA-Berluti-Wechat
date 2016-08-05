@@ -1,6 +1,4 @@
-
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/fasttrack/js/swiper.min.js"></script>
-
 
 <div class="section">
 	<div class="menu">

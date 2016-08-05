@@ -1,3 +1,13 @@
+<script type="text/javascript">
+	<?php
+		if (isset($_GET['v'])) 
+			$version = intval($_GET['v']);
+		else 
+			$version = $this->v;
+	?>
+	var weekId = "<?php echo $version; ?>";
+</script>
+
 
 <div class="section">
 	
@@ -71,6 +81,21 @@
 
 
 <script type="text/javascript">
+	var cv;
+	<?php if($version == "1") {
+	?>
+		cv = "v1";
+	<?php 
+	} else if($version == "2") {
+	?>
+		cv = "v2";
+	<?php 
+	} else {
+	?>
+		cv = "v3";
+	<?php
+	}?>
+
 	var jssdkPushData = {
 			"week": weekId,
 		},
@@ -91,10 +116,9 @@
 			$(".voteList li").eq(1).find("em").html(voteNum[0]["_ratio"]+"%");
 			$(".voteList li").eq(2).find("em").html(voteNum[2]["_ratio"]+"%");
 
-			$(".voteList li").eq(0).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[1]["_id"]+".png");
-			$(".voteList li").eq(1).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[0]["_id"]+".png");
-			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/avater-"+voteNum[2]["_id"]+".png");
-
+			$(".voteList li").eq(0).find("a img").attr("src", "/vstyle/fasttrack/img/"+cv+"/avater-"+voteNum[1]["_id"]+".png");
+			$(".voteList li").eq(1).find("a img").attr("src", "/vstyle/fasttrack/img/"+cv+"/avater-"+voteNum[0]["_id"]+".png");
+			$(".voteList li").eq(2).find("a img").attr("src", "/vstyle/fasttrack/img/"+cv+"/avater-"+voteNum[2]["_id"]+".png");
 
 			$("#voteResult").show();
 		});
