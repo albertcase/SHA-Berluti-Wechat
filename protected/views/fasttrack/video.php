@@ -29,27 +29,8 @@
 			<!-- Swiper -->
 		    <div class="swiper-container" id="videoSwiper">
 		        <div class="swiper-wrapper">
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
-
-		            <div class="swiper-slide">
-						<div class="videoModel">
-							<div class="con ycenter">
-								<a href="/fasttrack/videoDetailed/id/1" class="playIcon"></a>
-								<img src="/vstyle/fasttrack/img/video/v1_FrontCover.jpg" width="100%">
-							</div>
-							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
-						</div>
-		            </div>
-
-		            <?php if($version >= "2") {
+					
+					<?php if($version >= "2") {
 					?>
 						<div class="swiper-slide">
 							<div class="videoModel">
@@ -72,6 +53,26 @@
 			            </div>
 					<?php
 					}?>
+
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<a href="/fasttrack/videoDetailed" class="playIcon"></a>
+								<img src="/vstyle/fasttrack/img/place.jpg" width="100%">
+							</div>
+							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+						</div>
+		            </div>
+
+		            <div class="swiper-slide">
+						<div class="videoModel">
+							<div class="con ycenter">
+								<a href="/fasttrack/videoDetailed/id/1" class="playIcon"></a>
+								<img src="/vstyle/fasttrack/img/video/v1_FrontCover.jpg" width="100%">
+							</div>
+							<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
+						</div>
+		            </div>
 
 		        </div>
 
