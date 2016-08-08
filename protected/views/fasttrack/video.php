@@ -30,7 +30,7 @@
 		    <div class="swiper-container" id="videoSwiper">
 		        <div class="swiper-wrapper">
 					
-					<?php if($version >= "2") {
+					<?php if($version >= "3") {
 					?>
 						<div class="swiper-slide">
 							<div class="videoModel">
