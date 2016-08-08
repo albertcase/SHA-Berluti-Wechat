@@ -6,7 +6,7 @@ class FasttrackController extends Controller
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
-	public $v='1';
+	public $v='2';
 
 	/*<?php echo $this->v; ?>*/
 
@@ -76,3 +76,20 @@ class FasttrackController extends Controller
 
 
 }
+
+
+// http://berluti.samesamechina.com/fasttrack?v=2
+
+// http://berluti.samesamechina.com/fasttrack/vote?v=2
+
+// http://berluti.samesamechina.com/fasttrack/video?v=2
+
+// http://berluti.samesamechina.com/fasttrack/kol?v=2
+
+// http://berluti.samesamechina.com/fasttrack/koldetailed/id/1?v=2
+
+// http://berluti.samesamechina.com/fasttrack/list?v=2
+
+
+
+
