@@ -28,8 +28,8 @@
 	$(function(){
 		
 		var _id = !"<?php echo $id ?>" ? "0" : "<?php echo $id ?>",
-			vArr = ["s0311orkbpr", "g03161xq4d1", "z0318a004gf", "a03187advye"],
-			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/video/v1_poster.jpg", "/vstyle/fasttrack/img/video/v2_poster-2.jpg", "/vstyle/fasttrack/img/video/v2_poster.jpg"];
+			vArr = ["s0311orkbpr", "g03161xq4d1", "z0318a004gf", "a03187advye", "k0320a78m4k"],
+			vposter = ["/vstyle/fasttrack/img/poster.jpg", "/vstyle/fasttrack/img/video/v1_poster.jpg", "/vstyle/fasttrack/img/video/v2_poster-2.jpg", "/vstyle/fasttrack/img/video/v2_poster.jpg", "/vstyle/fasttrack/img/video/v3_poster.jpg"];
 
 		var vposterimg = new Image();
 		vposterimg.src = vposter[_id];

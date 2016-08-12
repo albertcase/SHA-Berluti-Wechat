@@ -60,15 +60,15 @@
 					?>
 						<div class="swiper-slide" data-model="1">
 							<p><img src="/vstyle/fasttrack/img/pro/m2/v0.jpg" width="100%"></p>
-							<span><i>邻家暖男</i></span>
+							<span><i>歌坛才俊</i></span>
 			            </div>
 			            <div class="swiper-slide" data-model="2">
 							<p><img src="/vstyle/fasttrack/img/pro/m2/v1.jpg" width="100%"></p>
-							<span><i>时尚精英</i></span>
+							<span><i>花样美男</i></span>
 			            </div>
 			            <div class="swiper-slide" data-model="3">
 							<p><img src="/vstyle/fasttrack/img/pro/m2/v2.jpg" width="100%"></p>
-							<span><i>阳光才子</i></span>
+							<span><i>率真男孩</i></span>
 			            </div>
 					<?php
 					}?>

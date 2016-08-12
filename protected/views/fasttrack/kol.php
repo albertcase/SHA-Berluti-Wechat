@@ -60,20 +60,30 @@
 					}?>
 					
 				
-				<li>
-					<!-- <a href="/fasttrack/koldetailed/id/2"></a> -->
-					<i>他才华俊逸 <strong>8月15日</strong> 翩然来袭</i>
-					<!-- <div class="personalInfo">
-						<img src="/vstyle/fasttrack/img/m2.png" width="100%">
-						<div class="pInfo ycenter">
-							<p>
-							   艺人<br>
-							   <strong>王博文</strong>
-							</p>
-						</div>
-					</div> -->
-				</li>
+				
 
+				<?php if($version >= "3") {
+				?>
+					<li class="nopadding">
+						<a href="/fasttrack/koldetailed/id/2?v=3"></a>
+						<div class="personalInfo">
+							<img src="/vstyle/fasttrack/img/m2.png" width="100%">
+							<div class="pInfo ycenter">
+								<p>
+								   艺人<br>
+								   <strong>王博文</strong>
+								</p>
+							</div>
+						</div>
+					</li>
+		        <?php
+				} else {
+				?>
+					<li>
+						<i>他才华俊逸 <strong>8月15日</strong> 翩然来袭</i>
+					</li>
+				<?php
+				}?>
 				<!-- <li>
 					<a href="/fasttrack/koldetailed/id/2"></a>
 					<i>他英俊潇洒 <strong>8月15日</strong> 鲜肉来袭</i>
