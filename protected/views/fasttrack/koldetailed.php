@@ -103,7 +103,7 @@
 								</div>
 							</div>
 							<div class="con">
-								<img src="/vstyle/fasttrack/img/pro/m2/v1.jpg" width="100%">
+								<img src="/vstyle/fasttrack/img/pro/m2/v2.jpg" width="100%">
 								<p>男士的魅力随历练的累积而散发，从13年的乒乓训练与3年的星途，我们看到的不仅是他如何以球技征服对手, 以歌声打动观众，更是如何从国家一级运动员成功蜕变为现在这位敢于突破自我且善于展现个人独特风格的全能艺人。他，就是魅力风发的王博文。</p>
 								<p>君士不器，男士都必须为自己走出一条专属的道路。2013年，这位青春大男孩王博文毅然放弃了熟悉的乒乓生涯，转战到截然不同的音乐世界。3年后，他以充满热诚与希望的音符向我们证明了只要有梦想，没有不能实现的可能。这份超人的勇气, 你也有吗？</p>
 								<center><strong>他眼中的 Fast Track</strong></center>
@@ -113,7 +113,7 @@
 								</div> 
 								<p>想要摆脱无趣的生活，就必须创新突破。这是王博文的时尚觉悟，亦是Berluti Fast Track运动鞋的设计初衷。Fast Track分为植鞣小牛皮和釉面小牛皮两种：植鞣小牛皮的鞋款分为蓝色和棕色两种款式，鞋头印有对称的点面花纹，鞋面上的古法染色修饰得恰到好处，鞋舌则回归庄严的牛津鞋设计，既有英伦的高贵，又有运动的活泼；釉面小牛皮的鞋款则在鞋舌上采用了交叉鞋带的创意，凭添青春趣味。</p>
 								<p>王博文用自己的梦想诠释了青春的意义，将Fast Track的率真和无畏，载入步履之间。无论是成长挑战，还是拼搏狂欢，Berluti始终如影随形，助你加速前行。</p>
-								<p><img src="/vstyle/fasttrack/img/pro/m2/v2.jpg" width="100%"></p>
+								<p><img src="/vstyle/fasttrack/img/pro/m2/v1.jpg" width="100%"></p>
 								<img src="/vstyle/fasttrack/img/pro/m2/v0.jpg" width="100%">
 							</div>
 							<span class="arr"></span>
