@@ -35,7 +35,7 @@
 						<div class="swiper-slide">
 							<div class="videoModel">
 								<div class="con ycenter">
-									<a href="/fasttrack/videoDetailed/id/2" class="playIcon"></a>
+									<a href="/fasttrack/videoDetailed/id/2?v=3" class="playIcon"></a>
 									<img src="/vstyle/fasttrack/img/video/v2_FrontCover-2.jpg" width="100%">
 								</div>
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
@@ -59,7 +59,7 @@
 						<div class="swiper-slide">
 							<div class="videoModel">
 								<div class="con ycenter">
-									<a href="/fasttrack/videoDetailed/id/4" class="playIcon"></a>
+									<a href="/fasttrack/videoDetailed/id/4?v=3" class="playIcon"></a>
 									<img src="/vstyle/fasttrack/img/video/v3_FrontCover.jpg" width="100%">
 								</div>
 								<img src="/vstyle/fasttrack/img/v_bg.png" width="100%">
