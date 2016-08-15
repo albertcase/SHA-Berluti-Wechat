@@ -6957,3 +6957,510 @@ REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.95%3A9108%2Ffasttrack%2Fkol
 in /vagrant/protected/models/Weixin.php (330)
 in /vagrant/protected/controllers/WeixinController.php (100)
 in /vagrant/index.php (19)
+2016/08/15 15:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index.html" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('index.html')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('index.html')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/index.html')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/index.html
+---
+2016/08/15 15:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://10.22.149.197:9108/api/index.html
+---
+2016/08/15 15:06:39 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:18 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:19 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:21 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:22 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvote
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:25 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvideo
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:29 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fkol
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:31 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fkoldetailed%2Fid%2F2%3Fv%3D3
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:34 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fkol
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:36 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fkoldetailed%2Fid%2F2%3Fv%3D3
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:37 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fpro
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:41 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvote
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:08:48 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Flist
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:09:53 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Flist
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:09:56 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:09:59 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:09:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:10:01 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvote
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:10:02 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvideo
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:10:03 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fkol
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:03 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fpro
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:10:04 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2Fvideo
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---
+2016/08/15 15:10:10 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:330)
+Stack trace:
+#0 unknown(0): WeixinController->actionJssdk()
+#1 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /vagrant/protected/framework/web/CController.php(286): WeixinController->runAction()
+#5 /vagrant/protected/framework/web/CController.php(265): WeixinController->runActionWithFilters()
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): WeixinController->run()
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/weixin/jssdk?url=http%3A%2F%2F10.22.149.197%3A9108%2Ffasttrack%2FvideoDetailed%2Fid%2F4
+in /vagrant/protected/models/Weixin.php (330)
+in /vagrant/protected/controllers/WeixinController.php (100)
+in /vagrant/index.php (19)
+2016/08/15 15:10:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/fasttrack/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/fasttrac...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/fasttrack/js/maps/swiper.min.js.map
+---

@@ -65,7 +65,7 @@
 				<?php if($version >= "3") {
 				?>
 					<li class="nopadding">
-						<a href="/fasttrack/koldetailed/id/2?v=3"></a>
+						<a href="/fasttrack/koldetailed/id/2"></a>
 						<div class="personalInfo">
 							<img src="/vstyle/fasttrack/img/m2.png" width="100%">
 							<div class="pInfo ycenter">
