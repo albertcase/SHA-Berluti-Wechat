@@ -126,30 +126,30 @@ $(function(){
 
 
     $(".voteBtn a").on("click", function(){
+    	pfun.formErrorTips("此次活动已经圆满结束<br>Berluti感谢您的支持与参与！");
+   //  	if(voteId){
+   //  		var jssdkPushData = {
+	  //   		"week": weekId,
+			//     "id": voteId
+			// }
 
-    	if(voteId){
-    		var jssdkPushData = {
-	    		"week": weekId,
-			    "id": voteId
-			}
+			// pfun.ajaxFun("POST", "/api/ballot", jssdkPushData, "json", function(data){
 
-			pfun.ajaxFun("POST", "/api/ballot", jssdkPushData, "json", function(data){
-
-				pfun.formErrorTips(data.msg);
-				if(data.code == "1"){
-					if(isform == "0"){
-						location.href = "/fasttrack/form";
-					}else{
-						setTimeout(function(){
-						   location.href = "/fasttrack/list";
-						}, 300)
-					}
-				}
+			// 	pfun.formErrorTips(data.msg);
+			// 	if(data.code == "1"){
+			// 		if(isform == "0"){
+			// 			location.href = "/fasttrack/form";
+			// 		}else{
+			// 			setTimeout(function(){
+			// 			   location.href = "/fasttrack/list";
+			// 			}, 300)
+			// 		}
+			// 	}
 				
-			});
-    	}else{
-    		pfun.formErrorTips("请选择你喜欢的造型并点击投票<br>赢取你的Fast Track专属鞋履");
-    	}
+			// });
+   //  	}else{
+   //  		pfun.formErrorTips("请选择你喜欢的造型并点击投票<br>赢取你的Fast Track专属鞋履");
+   //  	}
     	
     })
 
